@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSL Champion Browser - Alucare.fr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗡️ RSL Champion Browser 🗡️</h1>
+            <p class="subtitle">Find easily your champions - Database In Progress</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher un champion..." autocomplete="off">
+                <span class="search-icon">⚔️</span>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="Mythique">Mythique</button>
+            <button class="filter-btn" data-filter="Légendaire">Légendaire</button>
+            <button class="filter-btn" data-filter="S">Rang S</button>
+            <button class="filter-btn" data-filter="A">Rang A</button>
+            <button class="filter-btn" data-filter="B">Rang B</button>
+            <button class="filter-btn" data-filter="C">Rang C</button>
+            <button class="filter-btn" data-filter="D">Rang D</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalChampions">0</div>
+                <div class="stat-label">Champions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="filteredCount">0</div>
+                <div class="stat-label">Affichés</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="mythicCount">0</div>
+                <div class="stat-label">Mythiques</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="legendaryCount">0</div>
+                <div class="stat-label">Légendaires</div>
+            </div>
+        </div>
+
+        <div id="championsContainer"></div>
+    </div>
+
+    <script src="championData.js"></script>
+    <script src="fonctionnement.js"></script>
+</body>
+</html>
