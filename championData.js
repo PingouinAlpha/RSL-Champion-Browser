@@ -397,3 +397,5 @@ const champions = [
     // Légendaires Rang D (1 champion)
     { name: "Jingwon", rank: "D", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jingwon-artefact-et-maitrise/" }
 ];
+
+module.exports = champions;
