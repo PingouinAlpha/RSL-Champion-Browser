@@ -13,6 +13,7 @@ const champions = [
     { name: "Polara Cœur-de-feu", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-polara-coeur-de-feu-artefact-et-maitrise/" },
     { name: "Siegfrund le Nephel", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-siegfrund-le-nephel-artefact-et-maitrise/" },
     { name: "Théodosia Disgraciée", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-theodosia-disgraciee-artefact-et-maitrise/" },
+    { name: "Jeanne la Lumineuse", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jeanne-la-lumineuse-artefact-et-maitrise/" },
 
     // Mythique Rang A (Excellent) - 11 champions
     { name: "Ash'nar Âme-dragon", rarity: "Mythique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ashnar-ame-dragon-artefact-et-maitrise/" },
@@ -28,7 +29,7 @@ const champions = [
     { name: "Toshiro le sanglant", rarity: "Mythique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-toshiro-le-sanglant-artefact-et-maitrise/" },
 
     // Mythique Rang B (Bon) - 5 champions
-    { name: "Galeuss Crête-sang", rarity: "Mythique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-galeuss-crete-sang-artefact-et-maitrise/" },
+    { name: "Galleuss Crête-sang", rarity: "Mythique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-galeuss-crete-sang-artefact-et-maitrise/" },
     { name: "Karnage l'Anarque", rarity: "Mythique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-karnage-lanarque-artefact-et-maitrise/" },
     { name: "Komidus Rictus", rarity: "Mythique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-komidus-rictus-artefact-et-maitrise/" },
     { name: "Le calamitus", rarity: "Mythique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-le-calamitus-artefact-et-maitrise/" },
@@ -39,14 +40,12 @@ const champions = [
     { name: "Aphidus Maître-ruche", rarity: "Mythique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-aphidus-maitre-ruche-attaque-artefact-et-maitrise/" },
     { name: "Frolni le Mécanicien", rarity: "Mythique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-frolni-le-mecanicien-artefact-et-maitrise/" },
 
+    // Mythique Rang Aucun
+    { name: "Anaxia la Réincarnée", rarity: "Mythique", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-anaxia-la-reincarnee-artefact-et-maitrise/" },
+
     // ==================== LÉGENDAIRES ====================
 
     // Légendaire Rang S (God Tier) - 87 champions
-    { name: "Xenomorphe", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-xenomorphe-artefact-et-maitrise/" },
-    { name: "Predator", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-predator-artefact-et-maitrise/" },
-    { name: "Gaellut Fils du Pacte", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gaellut-fils-du-pacte-et-maitrise/" },
-    { name: "Jeanne la Lumineuse", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jeanne-la-lumineuse-artefact-et-maitrise/" },
-    { name: "Kroz Casse-murs", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kroz-casse-murs-artefact-et-maitrise/" },
     { name: "Acrizia", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-acrizia-artefact-et-maitrise/" },
     { name: "Amiral Défense-noire", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-amiral-defense-noire-artefact-et-maitrise/" },
     { name: "Arbitre", rarity: "Légendaire", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-arbitre-equipement-et-maitrise/" },
@@ -194,7 +193,7 @@ const champions = [
     { name: "Fu-Shan", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-fu-shan-artefact-et-maitrise/" },
     { name: "Fyna, lame d'Aravia", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-fyna-lame-daravia-artefact-et-maitrise/" },
     { name: "Gamuran", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gamuran-artefact-et-maitrise/" },
-    { name: "Garde-Caveau", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-wixwell-garde-caveau-artefact-et-maitrise/" },
+    { name: "Wixwell Garde-Caveau", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-wixwell-garde-caveau-artefact-et-maitrise/" },
     { name: "Garde-bière Jéroboam", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-garde-biere-jeroboam-artefact-et-maitrise/" },
     { name: "Genzin", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-genzin-artefact-et-maitrise/" },
     { name: "Giath Écu de vérité", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-giath-ecu-de-verite-artefact-et-maitrise/" },
@@ -215,7 +214,7 @@ const champions = [
     { name: "Ignatius", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ignatius-artefact-et-maitrise/" },
     { name: "Inithwe Doublesang", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-inithwe-doublesang-artefact-et-maitrise/" },
     { name: "Ithos", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ithos-artefact-et-maitrise/" },
-    { name: "Iudex Artor", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-iudex-artor-artefact-et-maitrise/" },
+    { name: "Ludex Artor", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-iudex-artor-artefact-et-maitrise/" },
     { name: "Jagg Scie d'os", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jagg-scie-dos-artefact-et-maitrise/" },
     { name: "Jetni la Géante", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jetni-la-geante-artefact-et-maitrise/" },
     { name: "Kaja l'Ironique", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kaja-lironique-artefact-et-maitrise/" },
@@ -291,7 +290,7 @@ const champions = [
     { name: "Tribun Héraklétès", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tribun-herakletes-artefact-et-maitrise/" },
     { name: "Truath", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-truath-artefact-et-maitrise/" },
     { name: "Tuhanarak", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tuhanarak-artefact-et-maitrise/" },
-    { name: "Tusskor Prime-hache", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tusskor-prime-hache-equipement-et-maitrise/" },
+    { name: "Tuskkor Prime-hache", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tusskor-prime-hache-equipement-et-maitrise/" },
     { name: "Tyran Ixlimor", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tyran-ixlimor-artefact-et-maitrise/" },
     { name: "Ugir Mange-dragon", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ugir-mange-dragon-artefact-et-maitrise/" },
     { name: "Uzol du Jade", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-uzol-du-jade-artefact-et-maitrise/" },
@@ -316,7 +315,7 @@ const champions = [
     { name: "April O'Neil", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-april-oneil-artefact-et-maitrise/" },
     { name: "Arix", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-arix-artefact-et-maitrise/" },
     { name: "Astralithe", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-astralithe-artefact-et-maitrise/" },
-    { name: "Athel Suprême", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-athel-supreme-artefact-et-maitrise/" },
+    { name: "Athel Ultime", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-athel-supreme-artefact-et-maitrise/" },
     { name: "Bambus Trèfle", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-bambus-trefle-artefact-et-maitrise/" },
     { name: "Basileus Roanas", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-basileus-roanas-artefact-et-maitrise/" },
     { name: "Bystophus", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-bystophus-artefact-et-maitrise/" },
@@ -395,7 +394,16 @@ const champions = [
     { name: "Vergumkaar", rank: "C", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vergumkaar-artefact-et-maitrise/" },
 
     // Légendaires Rang D (1 champion)
-    { name: "Jingwon", rank: "D", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jingwon-artefact-et-maitrise/" }
+    { name: "Jingwon", rank: "D", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jingwon-artefact-et-maitrise/" },
+
+    // Légendaires Rang Aucun
+    { name: "Xenomorphe", rarity: "Légendaire", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-xenomorphe-artefact-et-maitrise/" },
+    { name: "Predator", rarity: "Légendaire", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-predator-artefact-et-maitrise/" },
+    { name: "Gaellut Fils du Pacte", rarity: "Légendaire", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gaellut-fils-du-pacte-et-maitrise/" },
+    { name: "Kroz Casse-murs", rarity: "Légendaire", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kroz-casse-murs-artefact-et-maitrise/" },
+    { name: "Gronjarr", rarity: "Légendaire", rank: " ", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gronjarr-artefact-et-maitrise/" },
+    { name: "Ishiyama le Tenace", rarity: "Légendaire", rank: " ", url: " " },
+
 ];
 
 module.exports = champions;
