@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSL Champion Browser</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <span class="brand-text">RSL Champion Browser</span>
+            </div>
+            
+            <!-- SEARCH IN NAVBAR -->
+            <div class="navbar-search">
+                <input type="text" id="searchInput" placeholder="Rechercher un champion..." autocomplete="off">
+                <span class="search-results-count" id="navSearchCount">0 résultats</span>
+            </div>
+
+            <!-- FILTERS IN NAVBAR -->
+            <div class="navbar-filters">
+                <select id="rarityFilter" class="filter-select">
+                    <option value="all">Toutes les raretés</option>
+                    <option value="Mythique">Mythique</option>
+                    <option value="Légendaire">Légendaire</option>
+                    <option value="Épique">Épique</option>
+                </select>
+            </div>
+
+            <div class="navbar-links">
+                <a href="#ranks" class="nav-link" data-section="ranks">Rangs</a>
+                <a href="#champions" class="nav-link active" data-section="champions">Champions</a>
+                <a href="https://www.alucare.fr" target="_blank" class="nav-link external">Alucare.fr</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1>RSL Champion Browser</h1>
+            <p class="subtitle">Trouvez facilement vos champions - Base de données en cours</p>
+        </header>
+
+        <!-- RANK EXPLANATION -->
+        <div class="rank-explanation" id="ranks">
+            <h3>Classification des Champions</h3>
+            <div class="rank-details">
+                <div class="rank-item rank-S">
+                    <span class="rank-badge-large">S</span>
+                    <div class="rank-info">
+                        <strong>God Tier</strong>
+                        <p>Champions exceptionnels, dominants dans tous les modes de jeu</p>
+                    </div>
+                </div>
+                <div class="rank-item rank-A">
+                    <span class="rank-badge-large">A</span>
+                    <div class="rank-info">
+                        <strong>Excellent</strong>
+                        <p>Champions très performants, excellents dans la plupart des situations</p>
+                    </div>
+                </div>
+                <div class="rank-item rank-B">
+                    <span class="rank-badge-large">B</span>
+                    <div class="rank-info">
+                        <strong>Bon</strong>
+                        <p>Champions solides, utiles dans des situations spécifiques</p>
+                    </div>
+                </div>
+                <div class="rank-item rank-C">
+                    <span class="rank-badge-large">C</span>
+                    <div class="rank-info">
+                        <strong>Mauvais</strong>
+                        <p>Champions situationnels, il est mieux de ne pas sacrifier mais pas prioritaires</p>
+                    </div>
+                </div>
+                <div class="rank-item rank-D">
+                    <span class="rank-badge-large">D</span>
+                    <div class="rank-info">
+                        <strong>Terriblement nul</strong>
+                        <p>Champions peu performants, pas obligé d'être gardé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHAMPIONS CONTAINER -->
+        <div id="championsContainer"></div>
+
+        <!-- STATS FOOTER -->
+        <div class="stats-footer" id="champions">
+            <div class="stat-card">
+                <div class="stat-number" id="totalChampions">0</div>
+                <div class="stat-label">Champions Total</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="mythicCount">0</div>
+                <div class="stat-label">Mythiques</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="legendaryCount">0</div>
+                <div class="stat-label">Légendaires</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="epicCount">0</div>
+                <div class="stat-label">Épiques</div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>Données issues de <a href="https://www.alucare.fr" target="_blank">Alucare.fr</a> - Avril 2026</p>
+            <p>Base de données : Mythiques, Légendaires et Épiques</p>
+        </footer>
+    </div>
+
+    <script src="championData.js"></script>
+    <script src="fonctionnement.js"></script>
+</body>
+</html>
