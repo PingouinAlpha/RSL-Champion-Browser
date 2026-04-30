@@ -181,7 +181,14 @@ async function manualDownload() {
             skippedCount++;
             continue;
         }
-        
+
+        const existingFile = path.join(OUTPUT_DIR, `${sanitizeFilename(championName)}.jpg`);
+        if (fs.existsSync(existingFile)) {
+            console.log(`\n✅ [${i + 1}/${errors.length}] ${championName} - Icône déjà présente, skip`);
+            skippedCount++;
+            continue;
+        }
+
         console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
         console.log(`🎮 [${i + 1}/${errors.length}] ${championName}`);
         console.log(`🔗 ${championUrl}`);

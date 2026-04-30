@@ -523,6 +523,8 @@ const champions = [
     { name: "Vrask", rarity: "Épique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vrask-artefact-et-maitrise/" },
     { name: "Zargala", rarity: "Épique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zargala-artefact-et-maitrise/" },
     { name: "Zelotah", rarity: "Épique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zelotah-artefact-et-maitrise/" },
+    { name: "Suwaï l'Aînée", rarity: "Épique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-suwai-lainee-artefact-et-maitrise/" },
+    { name: "Yaga l'Insatiable", rarity: "Épique", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yaga-linsatiable-artefact-et-maitrise/" },
 
     // Épique Rang B (Bon)
     { name: "Adriel", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-adriel-artefact-et-maitrise/" },
@@ -666,6 +668,22 @@ const champions = [
     { name: "Wysteri Garde-vigne", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-wysteri-garde-vigne-artefact-et-maitrise/" },
     { name: "Yelagirna", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yelagirna-artefact-et-maitrise/" },
     { name: "Yuzan le Naufragé", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yuzan-le-naufrage-artefact-et-maitrise/" },
+    { name: "Aina", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-aina-artefact-et-maitrise/" },
+    { name: "Alika", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-alika-artefact-et-maitrise/" },
+    { name: "Bushi", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-bushi-artefact-et-maitrise/" },
+    { name: "Chanoinesse", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-chanoinesse-artefact-et-maitrise/" },
+    { name: "Drake", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-drake-artefact-et-maitrise/" },
+    { name: "Jotun", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jotun-artefact-et-maitrise/" },
+    { name: "Maève", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-maeve-artefact-et-maitrise/" },
+    { name: "Mirenfer", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-mirenfer-artefact-et-maitrise/" },
+    { name: "Missionnaire", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-missionnaire-artefact-et-maitrise/" },
+    { name: "Perceneige", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-perceneige-artefact-et-maitrise/" },
+    { name: "Phranox", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-phranox-artefact-et-maitrise/" },
+    { name: "Prundar", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-prundar-artefact-et-maitrise/" },
+    { name: "Seigneur de Nichée", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-seigneur-de-nichee-artefact-et-maitrise/" },
+    { name: "Taurus", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-taurus-artefact-et-maitrise/" },
+    { name: "Thisbe de Pierre", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thisbe-de-pierre-artefact-et-maitrise/" },
+    { name: "Zii Ixchi", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zii-ixchi-artefact-et-maitrise/" },
 
     // Épique Rang C (Mauvais - ne pas food)
     { name: "Anchorite", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-anchorite-artefact-et-maitrise/" },
@@ -694,6 +712,14 @@ const champions = [
     { name: "Nogoryo", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-nogoryo-artefact-et-maitrise/" },
     { name: "Ours Brise-glace", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ours-brise-glace-artefact-et-maitrise/" },
     { name: "Peaulivide", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-peaulivide-artefact-et-maitrise/" },
+    { name: "Brute Bougonne", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-brute-bougonne-artefact-et-maitrise/" },
+    { name: "Eventreur", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-eventreur-artefact-et-maitrise/" },
+    { name: "Guède-Peinte", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-guede-peinte-artefact-et-maitrise/" },
+    { name: "Heaumetorture", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-heaumetorture-artefact-et-maitrise/" },
+    { name: "Peausombre", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-peausombre-artefact-et-maitrise/" },
+    { name: "Scion", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-scion-artefact-et-maitrise/" },
+    { name: "Teshada", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-teshada-artefact-et-maitrise/" },
+    { name: "Tolf l'Estropié", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tolf-lestropie-artefact-et-maitrise/" },
 
 ];
 
