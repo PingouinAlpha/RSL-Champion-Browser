@@ -1,6 +1,124 @@
 // effectIcons.js - Icônes des buffs/debuffs RSL, partagées par tous les champions.
 // Clé = nom exact du buff/debuff tel qu'il apparaît entre crochets dans les descriptions
 // (ex: "Bouclier" pour "[Bouclier]"). Valeur = chemin de l'icône.
-// Rempli au fur et à mesure des captures d'écran du glossaire envoyées par l'utilisateur.
+// Rempli à partir des captures du glossaire des effets de statut du jeu.
+//
+// Alucare (source des textes de compétences) phrase parfois un buff/debuff
+// différemment du glossaire du jeu (ex: "Augmentation de DEF" vs "Augmente la
+// DÉF"). Les alias ci-dessous font le lien ; à compléter au fil des champions.
 
-const effectIcons = {};
+const effectIcons = {
+    "Affaiblir": "buff_icons/Affaiblir.png",
+    "Annuler": "buff_icons/Annuler.png",
+    "Armure d'os": "buff_icons/Armure d'os.png",
+    "Augmente l'ATQ": "buff_icons/Augmente l'ATQ.png",
+    "Augmente la DÉF": "buff_icons/Augmente la DÉF.png",
+    "Augmente la PRÉ": "buff_icons/Augmente la PRÉ.png",
+    "Augmente la RÉS": "buff_icons/Augmente la RÉS.png",
+    "Augmente la VIT": "buff_icons/Augmente la VIT.png",
+    "Augmente le TAUX DE C.": "buff_icons/Augmente le TAUX DE C..png",
+    "Augmente les DÉG C.": "buff_icons/Augmente les DÉG C..png",
+    "Barrière de Vie": "buff_icons/Barrière de Vie.png",
+    "Blocage des Compétences Actives": "buff_icons/Blocage des Compétences Actives.png",
+    "Blocage des Compétences Passives": "buff_icons/Blocage des Compétences Passives.png",
+    "Bloquer la réanimation": "buff_icons/Bloquer la réanimation.png",
+    "Bloquer les Buffs": "buff_icons/Bloquer les Buffs.png",
+    "Bloquer les Débuffs": "buff_icons/Bloquer les Débuffs.png",
+    "Bloquer les Dégâts": "buff_icons/Bloquer les Dégâts.png",
+    "Bombe": "buff_icons/Bombe.png",
+    "Bouclier": "buff_icons/Bouclier.png",
+    "Bouclier de magma": "buff_icons/Bouclier de magma.png",
+    "Brûle PV": "buff_icons/Brûle PV.png",
+    "Châtiment": "buff_icons/Châtiment.png",
+    "Contre-attaque": "buff_icons/Contre-attaque.png",
+    "Décapité": "buff_icons/Décapité.png",
+    "Déliquescence": "buff_icons/Déliquescence.png",
+    "Enchevêtrer": "buff_icons/Enchevêtrer.png",
+    "Fatigue": "buff_icons/Fatigue.png",
+    "Ferveur": "buff_icons/Ferveur.png",
+    "Fortification": "buff_icons/Fortification.png",
+    "Fou furieux": "buff_icons/Fou furieux.png",
+    "Fracas": "buff_icons/Fracas.png",
+    "Garde totale": "buff_icons/Garde totale.png",
+    "Gel": "buff_icons/Gel.png",
+    "Hébétement": "buff_icons/Hébétement.png",
+    "Immuable": "buff_icons/Immuable.png",
+    "Infester": "buff_icons/Infester.png",
+    "Interception": "buff_icons/Interception.png",
+    "Invincible": "buff_icons/Invincible.png",
+    "Invoque-orage": "buff_icons/Invoque-orage.png",
+    "Lien Douloureux": "buff_icons/Lien Douloureux.png",
+    "Malédiction": "buff_icons/Malédiction.png",
+    "Marque de Fer": "buff_icons/Marque de Fer.png",
+    "Marque de mort": "buff_icons/Marque de mort.png",
+    "Mouton": "buff_icons/Mouton.png",
+    "Nuage de Poison": "buff_icons/Nuage de Poison.png",
+    "Nécrose": "buff_icons/Nécrose.png",
+    "Orbe lumineuse": "buff_icons/Orbe lumineuse.png",
+    "Peau de Pierre": "buff_icons/Peau de Pierre.png",
+    "Peur": "buff_icons/Peur.png",
+    "Piège": "buff_icons/Piège.png",
+    "Plaqué or": "buff_icons/Plaqué or.png",
+    "Poison": "buff_icons/Poison.png",
+    "Protection d'allié": "buff_icons/Protection d'allié.png",
+    "Provocation": "buff_icons/Provocation.png",
+    "Pétrification": "buff_icons/Pétrification.png",
+    "Rage": "buff_icons/Rage.png",
+    "Rage Éternelle": "buff_icons/Rage Éternelle.png",
+    "Raillerie": "buff_icons/Raillerie.png",
+    "Ranimer après la Mort": "buff_icons/Ranimer après la Mort.png",
+    "Regard du chasseur": "buff_icons/Regard du chasseur.png",
+    "Renforcer": "buff_icons/Renforcer.png",
+    "Renvoi de Dégâts": "buff_icons/Renvoi de Dégâts.png",
+    "Réduction de DÉF": "buff_icons/Réduction de DÉF.png",
+    "Réduction des Soins": "buff_icons/Réduction des Soins.png",
+    "Réduit l'ATQ": "buff_icons/Réduit l'ATQ.png",
+    "Réduit la PRÉ": "buff_icons/Réduit la PRÉ.png",
+    "Réduit la RÉS": "buff_icons/Réduit la RÉS.png",
+    "Réduit la VIT": "buff_icons/Réduit la VIT.png",
+    "Réduit le TAUX DE C.": "buff_icons/Réduit le TAUX DE C..png",
+    "Réduit les DÉG C.": "buff_icons/Réduit les DÉG C..png",
+    "Sangsue": "buff_icons/Sangsue.png",
+    "Sceau": "buff_icons/Sceau.png",
+    "Sensibilité au Poison": "buff_icons/Sensibilité au Poison.png",
+    "Siphon": "buff_icons/Siphon.png",
+    "Soins continus": "buff_icons/Soins continus.png",
+    "Sommeil": "buff_icons/Sommeil.png",
+    "Vengeance": "buff_icons/Vengeance.png",
+    "Voile": "buff_icons/Voile.png",
+    "Volonté de Serpent": "buff_icons/Volonté de Serpent.png",
+    "Vue perçante": "buff_icons/Vue perçante.png",
+    "Éclipse": "buff_icons/Éclipse.png",
+    "Étourdissement": "buff_icons/Étourdissement.png",
+};
+
+// Alias de phrasing (pointent vers la même icône qu'une entrée ci-dessus)
+const effectIconAliases = {
+    "Augmentation de DEF": "Augmente la DÉF",
+    "Augmentation de DÉF": "Augmente la DÉF",
+    "Augmentation d'ATQ": "Augmente l'ATQ",
+    "Augmentation de ATQ": "Augmente l'ATQ",
+    "Augmentation de VIT": "Augmente la VIT",
+    "Augmentation de PRÉ": "Augmente la PRÉ",
+    "Augmentation du TAUX DE C.": "Augmente le TAUX DE C.",
+    "Augmentation des DÉG C.": "Augmente les DÉG C.",
+    "Augmentation de RES": "Augmente la RÉS",
+    "Augmentation de RÉS": "Augmente la RÉS",
+    "Réduction d'ATQ": "Réduit l'ATQ",
+    "Réduction de VIT": "Réduit la VIT",
+    "Réduction de PRÉ": "Réduit la PRÉ",
+    "Réduction du TAUX DE C.": "Réduit le TAUX DE C.",
+    "Réduction des DÉG C.": "Réduit les DÉG C.",
+    "Réduction de RES": "Réduit la RÉS",
+    "Réduction de RÉS": "Réduit la RÉS",
+    "Brûlure de PV": "Brûle PV",
+    "Peur Absolue": "Peur",
+    "Blocage des Dégâts": "Bloquer les Dégâts",
+};
+
+Object.keys(effectIconAliases).forEach(alias => {
+    const canonical = effectIconAliases[alias];
+    if (effectIcons[canonical] && !effectIcons[alias]) {
+        effectIcons[alias] = effectIcons[canonical];
+    }
+});
