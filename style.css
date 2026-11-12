@@ -621,6 +621,14 @@ h1 {
     font-weight: 700;
 }
 
+.fx-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+    border-radius: 4px;
+    margin-right: 2px;
+}
+
 .skill-tt-upgrades {
     margin-top: 8px;
     padding-top: 8px;

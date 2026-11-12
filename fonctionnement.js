@@ -23,6 +23,15 @@ function typeSlug(type) {
     return 'default';
 }
 
+function injectEffectIcons(html) {
+    if (!html || typeof effectIcons === 'undefined') return html || '';
+    return html.replace(/<span class="(fx-buff|fx-debuff)">\[([^\]]+)\]<\/span>/g, (match, cls, name) => {
+        const icon = effectIcons[name.trim()];
+        if (!icon) return match;
+        return `<img class="fx-icon" src="${icon}" alt="${name}" onerror="this.style.display='none';">${match}`;
+    });
+}
+
 function buildTooltipHtml(type, skill) {
     const slug = typeSlug(type);
     const upgradesHtml = skill.upgrades && skill.upgrades.length
@@ -37,7 +46,7 @@ function buildTooltipHtml(type, skill) {
             <span class="skill-tt-name">${skill.name || 'Compétence'}</span>
             ${skill.cooldown ? `<span class="skill-tt-cd">⏱ ${skill.cooldown} tours</span>` : ''}
         </div>
-        <div class="skill-tt-desc">${skill.description || ''}</div>
+        <div class="skill-tt-desc">${injectEffectIcons(skill.description)}</div>
         ${upgradesHtml}
         ${damageHtml}
     `;
