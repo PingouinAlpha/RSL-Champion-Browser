@@ -1,4412 +1,3026 @@
 [
-  {
-    "name": "Alaz Porte-soleil",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "done"
-  },
-  {
-    "name": "Arne le Blanc",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Mikage",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Hiérophante Lazarius",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Nell Dents-noires",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Polara Cœur-de-feu",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sabraël la Distante",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Siegfrund le Nephel",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Théodosia Disgraciée",
-    "rarity": "Mythique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Anaxia la Réincarnée",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arachoa Tourne-lune",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arbais Pierrépine",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ash'nar Âme-dragon",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cinda Forgecœur",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Embrys l'Anomalie",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fjorad Cœur-de-loup",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Galathir Sage-astral",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gharol Masse-Sang",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gizmak le Terrible",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Heinrik Tue-démons",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Jeanne la Lumineuse",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Krixia Reine de Nuit",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kurosa l'Envieuse",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Mina Marquise de sang",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Naïs Voleur d'Ombres",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Toshiro le sanglant",
-    "rarity": "Mythique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Galleuss Crête-sang",
-    "rarity": "Mythique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Karnage l'Anarque",
-    "rarity": "Mythique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Komidus Rictus",
-    "rarity": "Mythique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Le calamitus",
-    "rarity": "Mythique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Mezomel Croc-Loup",
-    "rarity": "Mythique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Androc le Glorieux",
-    "rarity": "Mythique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Aphidus Maître-ruche",
-    "rarity": "Mythique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Frolni le Mécanicien",
-    "rarity": "Mythique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Impassible",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Lance-côte Fionn",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Miyoko Fleur de Yakai",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Owein Flamme d'hiver",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Thayla Corne-marteau",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Theimios l'Alcoolique",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Thraila la Résistante",
-    "rarity": "Mythique",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Acrizia",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Amiral Défense-noire",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Arbitre",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Artak",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Authoratrix Lamasu",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ba Satha",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Bad-el-Kazar",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Bûcheron en fer-blanc",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Candraphon",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Cardiel",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Cécilia Rouge espoir",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Celendiel Garde-opale",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Choriste-lame Caldor",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Kimi",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Diacre Brogni",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Donatello",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Dracomorphe",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Duchesse Lilitu",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Elva l'Automnale",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Énorme Ukko",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ezio Auditore",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Firrol le Cornécorce",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gaellut Fils du Pacte",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gaïus le joyeux",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gaspard le maudit",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Georgid le Casseur",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Glaicad l'Eau-fondue",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Glorieuse Pallas",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gnut",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Graazur ventrefer",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gracchos Viré-drake",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Helicath",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Héphraak",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Héraut-orage Hekaton",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Hilvi la Givrée",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Hurndig",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Jintoro",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Kael Suprême",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Kalvalax",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Klaazag Géants-clés",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Krisk l'Éternel",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Kro'khad Coupe-gorge",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Kyoku",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Légat Téox",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Leonardo",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Léorius le fier",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Lydia Sirène de Mort",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ma'Shalled",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Marichka la Robuste",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Marius le Vaillant",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Martyre",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Mavara la Voyante",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Mère supérieure Maud",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Mithrala Fléaudevie",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Nekhret le Terrible",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Nekmo Thaar",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Nergigante l'Archère",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Nethril",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Niamhe, Lance de Nyresa",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ninja",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Othorion le Maître",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Pheidi Crête-Bleue",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Prince Kymar",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Pythion",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Quintus le Triomphal",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ragash",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Raglin",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ramantu Sang-Drake",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Reine de Cœur",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Rotos le Marié Egaré",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Scyl des Drakes",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Seigneur de guerre",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Seigneur Tombeau",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Senna Cœur d'ambre",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sicia Languefeu",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sieur Nicolas",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Siphi Mariée Égarée",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sire amuseur Fabian",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Solanar l'étincelant",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Staltus Fléau-dragon",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sulfuryion",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sydax Tueur-de-roi",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Talenna Divine-âme",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Taras le Farouche",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Tektéon Chair-fendue",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Téodor le Savant",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Tetsuya le Sauveur",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Teumesia",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Titus Plume-noire",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Tormin le Froid",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Trunda MailletDoré",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Turvold",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Urost Capturâme",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Ursuga Hurleguerre",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Valkyrie",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Vénus",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Vulkanos Fumor",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Yncensa Porte-graal",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Yumeko",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Zavia",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Abbesse",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Acelin le Vaillant",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ailil",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Alatreon l'Epeiste",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Alice la Flâneuse",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Alsgor Corne-Pourpre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Altan",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Amoch la Satrape",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Angar",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Aragaz Roi-sauvage",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arashi le Ressac",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arathéia Fleur-corps",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Archevêque Pinthroy",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Armanz le Sublime",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arnorn l'Éclatant",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Astralon",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Baerd le Trapu",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Balar le Perdu",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Baron",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Basim Ibn Ishaq",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Bayek",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Bélanor",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Belletar Tue-mages",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Belz le Vengeur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Bivald de l'Épine",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Blizaar le Braillard",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Bolint l'Affranchi",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Boragar l'Ancien",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Brago d'Acier",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Brakus le métamorphe",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Caoilte Flèchecendre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chaagur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chalco l'Aveugle",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chantre-dune Zaharis",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chapelier fou",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chasseur Royal",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chat du Cheshire",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chevalier Suprême",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Claidna",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cléoptérix",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Comtesse Lix",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Corvis Le Corrupteur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Crohnam",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cruetraxa",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cupidon",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Ireth",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Noëlle",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Danag Fauchecrâne",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Diamant Pièce-cuivre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Dorothy Gale",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Dreng La Tombe",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Drexthar Doublesang",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Edward Kenway",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Elhain Suprême",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Emic Coeur-Tronc",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Eostrid chant-rêve",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Esmé la Danseuse",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Falmond Lamedeuil",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Folan Cerf-argent",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Foli",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fortus",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Freyja du Destin",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fu-Shan",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fyna, lame d'Aravia",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gamuran",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Garde-bière Jéroboam",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gardien Prysma",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Genzin",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Giath Écu de vérité",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gliseah Guidâme",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gnishak Roi-souris",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Goffred Porte-cuivre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gorgédesang",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Granyt Garde-porte",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gretel Fléau-Harpie",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gros Bill",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gurgoth l'Augure",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Gwyndolin la Muette",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Hansel le Chasseur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Harima",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Hégémon",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Helior",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ignatius",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Inithwe Doublesang",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ishiyama le Tenace",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ithos",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Iudex Artor",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Jagg Scie d'os",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Jetni la Géante",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kaja l'Ironique",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kantra le Cyclone",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Karato le Chasseur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Karilon le Sonneur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kassandra",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Keberon le Sous-flamme",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Keeyra L'Observateur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kerin le Moissonneur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Khamir Oeil-brûlé",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Khoronar",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Konstantin le Diurne",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Korugar Clochemort",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kosk Deux Peaux",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Krok'mar le Dévoreur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kroz Casse-murs",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "L'Épouvantail",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lanakis l'Élue",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lion Poltron",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Loki le Trompeur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Longuebarbe",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Losan K'Leth",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ludex Artor",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lysanthir Tue-bêtes",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lyssandra",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Maranix",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Matriarche Zarguna",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Maulie Chope",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Mère Cybèle",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Michelangelo",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Michinaki",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Modo du Carillon",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Morrigaine",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Musclor",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Nari le chanceux",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Narma la ressuscitée",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Narses Roi Spectre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Néspectre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Noldua du Crépuscule",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Odin Patriarche",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Oella",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Onryo leyasu",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Osgrun le Corrupteur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ozilda la méchante",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Padraig Grand Chène",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Phemo le Pâtre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Pontife Augustin",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Predator",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Prophétesse Aveugle",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Raé",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Raf-Matab",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rakka Vilevague",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Raphael",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rathalos l'Epeiste",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rhaïa la Pleurée",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rhazin Peaumarquée",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Riho Lance d'Os",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Robar",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Roi Gallcobar",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ronda",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Roshcard la tour",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Roxam",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ruarc Gardienvert",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ruel Maître-Chasseur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Saito",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sanguine Maria",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sans âme",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Searsha la Calcinée",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Septimus",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Séthallia",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Shemnath",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Shredder",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Shu-Zhen la Brave",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sigmund le bouclier",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sniktraak",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Stokk le Brisé",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Strategos Islin",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sun Wukong",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Suzerain Katonn",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tatura Peau de Givre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tholin Barbe-infâme",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Thor au Marteau",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Togron le Siamois",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tribun Héraklétès",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Truath",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tuhanarak",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tuskkor Prime-hache",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tusskor Prime-hache",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Tyran Ixlimor",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ugir Mange-dragon",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Uzol du Jade",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Valkanen",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vallaryn le Niveleur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Varkos Fend-têtes",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vasal du sceau",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Venalicia Mère-serfs",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Versulf Le Lugubre",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vestele épine-fleuve",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vitrius l'Oint",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vizir Ovelis",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vizug le Toxique",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vlad le nocturne",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Wixwell Garde-Caveau",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Wythir la couronnée",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Xalgaze Mur-de-crocs",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Xena: Princesse Guerrière",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Xenomorphe",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Xiloco l'Incrusté",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Yakarl le Fléau",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Yannica",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Yukimasa Démon glacé",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Zinogre l'Epeiste",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Aleksandr Tireur d'élite",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ankora Reine Spectre",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Annaliste Adelyn",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "April O'Neil",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Aria l'Espoir doré",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Arix",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Astralithe",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Athel Suprême",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Bambus Trèfle",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Basileus Roanas",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Bystophus",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chef de meute Shy'ek",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chefdeguerre",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chevalier noir",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Cillian le Chanceux",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Craklin le Noirci",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Cromax Sanglune",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Damoiselle Annie",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Déliana",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Drokgul le Hâvre",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Elegaius",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Elénaril",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Errol",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Fatalis l'Epeiste",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Galek Ultime",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ginro la Cigogne",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Graal Roi de Crypte",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Greggor Lord de lune",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Grugtha Sombre médium",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gurptuk Barbe-Mousse",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Haggibah Fille-nid",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Hakkorhn Fracapacha",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Holguk Vues-saintes",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Holsring",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Jack le Moissonneur",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Kawn Brise-branche",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Knosson Taureau de Bronze",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Kreela Bras-Sorcière",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "L'Incarnée",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Leminisi Aile-dorée",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lonatharil",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lord champfort",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lord Shazar",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Loriaca Beau-Sabot",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lugan l'Inébranlable",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Masahiro Moine-cloche",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Mathias Fléau-noir",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Mère de Guerre",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Minaya",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Nobel",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Noct le Paralyseur",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Norog",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Opardin chef de clan",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Parle-nuées Zyclic",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pelops le vainqueur",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Praeva l'Ondulante",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pyxniel",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Razelvarg",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Reine éva",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Richtoff l'Effronté",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Roi de la montagne",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Roi Garog",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Roric Poison-dragon",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Samar Maudigemme",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Samson le Pilon",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Shirimani",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skarg l'Ancien",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skartorsis",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skeletor",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skorid Semi-engendré",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tatsu",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Teela Toisongore",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Théa Ange Tombal",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Timit le Bouffon",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tramaria",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Trèfle",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ultan la Carapace",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Valet de Cœur",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Varl le destructeur",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Visix l'Insoumise",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Wurlim Roi du Gel",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Xanthé Fleur-marine",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Yoshi l'ivrogne",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gomlok Peau Céleste",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Grohak l'Ensanglanté",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Guurda Brassemarais",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Lord crâne var-Gall",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Mortu-Macaab",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Nogdar Chasse-têtes",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Pelagus Marchevagues",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Vergumkaar",
-    "rarity": "Légendaire",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Jingwon",
-    "rarity": "Légendaire",
-    "rank": "D",
-    "status": "pending"
-  },
-  {
-    "name": "Orynyx Ronge-esprit",
-    "rarity": "Légendaire",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Tartarus le Rameur",
-    "rarity": "Légendaire",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Vott Tranche-têtes",
-    "rarity": "Légendaire",
-    "rank": "Non classé",
-    "status": "pending"
-  },
-  {
-    "name": "Chevalier Cerf",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "CouronneCrâne",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Dhukk le Percé",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Diacre Armstrong",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "ÉcraseCrâne",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Géomancien",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Gorgorab",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Madame Serris",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Mage de Mausolée",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Mangeur d'Homme",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Monstre Mal créé",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Prophétesse",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Rian l'illusionniste",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Sombre Kael",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Tayrel",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Urogrim",
-    "rarity": "Épique",
-    "rank": "S",
-    "status": "pending"
-  },
-  {
-    "name": "Achak le Wendarin",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Akemtum",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Akoth le Brûlé",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Aniri Prie-Dieu",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Aothar",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Aox le mémorieux",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Archimage Hellmut",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Armina",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arndulf",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Arrière-garde",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Bowf le Rance",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cardinale",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ceez",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cerbère Sépulcral",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Charme",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chercheur",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Chonoru",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Cogneur",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Crânedacier",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Criodan Bleu",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Daithi le Brumeux",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Démytha",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Dévot de Lumière",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Djamarsa",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fahrakin le Gras",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Faucheuse Dorée",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fayne",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fenshi",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Fodbor le Barde",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Galek Suprême",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Garde Royal",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Genbo le déshonoré",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ghomm Main-jaune",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Giscard au Sceau",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Grush le Massacreur",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Hoskarul",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Inquisiteur Shamaêl",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Isbeil le Fusyl",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Jareg",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kaiden",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kinagashi",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Klodd Gave-Bêtes",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Kunoichi",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Largegueule",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lodric Cœur-Faucon",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Long-crochet Nagis",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Lua",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Magnarr",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Malabar de Siège",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Melga Gainacier",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Mordecaï",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Nazana",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Neldor Lamegelée",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Nia Dryade blanche",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Orn Prêtre Mycélium",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ostrox Glaive d'os",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Peydma",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Prêtresse de ruine",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Psylar",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rectrice Drath",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Renne Bestial",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Roméro",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ruella",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Rugnor Orluisant",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sabitha de l'Aube",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sachi",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sageguerre",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sinesha",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Skathix",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Skraank",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sombre Elhain",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Sombre Enchanteresse",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Suwaï l'Aînée",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Thénasil",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Thylessia",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Ursala la Pleureuse",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Uugo",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vieil Ermite Jorrg",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vieux Ghrukkus",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Visionnaire",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vogoth",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Vrask",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Yaga l'Insatiable",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Zargala",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Zelotah",
-    "rarity": "Épique",
-    "rank": "A",
-    "status": "pending"
-  },
-  {
-    "name": "Adriel",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Aeila Tressevie",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Aeshma",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Aina",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Alaric l'Encagoulé",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Alika",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Alure",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ambassadeur Lethelin",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Anax",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Andryssia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Antigone la Tueuse",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Araignée",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Archétype",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Azur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Baerdal Marteaucruel",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Balthus Drauglord",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Baronne Infernale",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Basilic",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Bergoth le Malformé",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Bovos Cornevive",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Brise-pierre",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Brisecage",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Brisos",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Burangiri",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Bushi",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Buveur d'âme",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Capitaine Témila",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Carlinia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chamane Cieltouché",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chancelière Jasmine",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chani",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chanoinesse",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chasse-Grelot",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Chevalier Errant",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Conellia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Cormac le Hautpic",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Cosse",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Annabelle",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Quilen",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Dazdurk Garderunes",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Déchire-Chair",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Delaaja",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Dexikos des Marées",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Drake",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Duedan le Runique",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Duhr l'affameur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Dyana Perce-pénombre",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Enda Rayon-lune",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Endalia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Eolfrig",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Épouvanteur Masqué",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Erinye",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ethlen le Doré",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Fenax",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Fren'zi la Ricaneuse",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Fylja",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gala Longuenattes",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Galatée Garde-Lion",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Galkut",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Garderelique",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gardien",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gnarox Corne-noire",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Golem Epines",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gore",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gorlos Gouffrenfer",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gronjarr",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Gwynneth",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Haarken Terriblelame",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Haute Khatun",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Heaume incarnat",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Hilda Arnorndottr",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Hoforées la Défense",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Hordin",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Hotatsu",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ilysinya",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Immense Titan",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Immortelle",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Jarang",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Jarl Grisonnant",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Jotun",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Juliana",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Jurojin",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Kallia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Karam",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Kellan la Pie",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Khafru le Garde-mort",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Krakarth",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lance-guerre",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Liburga",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Liche",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lié par serment",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Locwain",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Lorn le Mutilateur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Luria",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Luthiéa",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Maddak Yeux de fer céleste",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Maève",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Maîtresse des Hymnes",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Malkith Afflux-Sang",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Masamoto",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Merouka",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Mirenfer",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Missionnaire",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Nécrochasseur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Oboro",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ours Peaudefer",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pann le Corne-arc",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pécheur Souillé",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Perceneige",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pestilus",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Pharsalas Terretombe",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Phranox",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Plumesang",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Prêtre Croc",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Prundar",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Quargan le Couronné",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Ramasse-Cadavres",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Rowan",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sanguinia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Scabrius",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Seigneur de Nichée",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sénéchal",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Siendra la Pupille",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Signy du Bouclier",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sikara",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sir Artimage",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skeuramis",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Skimfos le Ravagé",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Slixus Peau-zébrée",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sombre Athel",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Sorcière de Crypte",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Suiren",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Survivante au Sable",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tagoar",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tainix Haïfleur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tallia",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tarshon",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Taurus",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Taya",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Théresc",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Thisbe de Pierre",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tomoe",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Toragi la Grenouille",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tortureur",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Trumborr",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Tuhak le vagabond",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Umetogi",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Urticata",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Valla",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Venimage",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Vergis",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Vildrax",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Weregren le Maudit",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Wuji",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Wuzgar",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Wyrennon la Soyeuse",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Wysteri Garde-vigne",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Yelagirna",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Yuzan le Naufragé",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Zii Ixchi",
-    "rarity": "Épique",
-    "rank": "B",
-    "status": "pending"
-  },
-  {
-    "name": "Anchorite",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Archer d'élite",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Arwydd des herbes",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Atur",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Baroth l'Ensanglanté",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Bêteffroyable",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Brute Bougonne",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Castagneur Occulte",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Chamane",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Conseiller Catacombe",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Eresh",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Dame Etessa",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Dirandil",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Espoir",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Eventreur",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Fouilleuse",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Galapo le Reclus",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Gardiendos",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Gerhard la Pierre",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Grunch Rabat-joie",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Guède-Peinte",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Heaumetorture",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Hexia",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Impitoyable",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Jizoh",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Kytis",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Morag Bouclairin",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Murmure",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Noble Légionnaire",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Nogoryo",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Ours Pile-Glace",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Peaulivide",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Peausombre",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Scion",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Teshada",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Tolf l'Estropié",
-    "rarity": "Épique",
-    "rank": "C",
-    "status": "pending"
-  },
-  {
-    "name": "Sans visage",
-    "rarity": "Épique",
-    "rank": "D",
-    "status": "pending"
-  },
-  {
-    "name": "Primat Atalact",
-    "rarity": "Épique",
-    "rank": "Non classé",
-    "status": "pending"
-  }
+ {
+  "name": "Jeanne la Lumineuse",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Androc le Glorieux",
+  "rarity": "Mythique",
+  "rank": "C",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Lord champfort",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Séthallia",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Cillian le Chanceux",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Sigmund le bouclier",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Ronda",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Bûcheron en fer-blanc",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Vott Tranche-têtes",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Chevalier noir",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Staltus Fléau-dragon",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Minaya",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Helior",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Timit le Bouffon",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Rathalos l'Epeiste",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Annaliste Adelyn",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Edward Kenway",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Lugan l'Inébranlable",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Septimus",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Richtoff l'Effronté",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Kaja l'Ironique",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Acelin le Vaillant",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Michelangelo",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Dorothy Gale",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Raglin",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Baron",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Taras le Farouche",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Marichka la Robuste",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Quintus le Triomphal",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Titus Plume-noire",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Cécilia Rouge espoir",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Seigneurs",
+  "status": "pending"
+ },
+ {
+  "name": "Galathir Sage-astral",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Sabraël la Distante",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Elénaril",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Pyxniel",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Aleksandr Tireur d'élite",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Strategos Islin",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Fyna, lame d'Aravia",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Othorion le Maître",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Shirimani",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Lonatharil",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Basileus Roanas",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Déliana",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "L'Incarnée",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Lyssandra",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Chasseur Royal",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Yannica",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Tatura Peau de Givre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Gardien Prysma",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Lysanthir Tue-bêtes",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Talenna Divine-âme",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Ithos",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Bélanor",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Arbitre",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Elhain Suprême",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Solanar l'étincelant",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Celendiel Garde-opale",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hauts Elfes",
+  "status": "pending"
+ },
+ {
+  "name": "Siegfrund le Nephel",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Polara Cœur-de-feu",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Heinrik Tue-démons",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Roshcard la tour",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Corvis Le Corrupteur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Astralon",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Holsring",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Hansel le Chasseur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Musclor",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Alice la Flâneuse",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "April O'Neil",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Errol",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Abbesse",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Gliseah Guidâme",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Mère supérieure Maud",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Wixwell Garde-Caveau",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Mathias Fléau-noir",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Gretel Fléau-Harpie",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Basim Ibn Ishaq",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Martyre",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Cupidon",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Archevêque Pinthroy",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Bivald de l'Épine",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Falmond Lamedeuil",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Iudex Artor",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Ezio Auditore",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Sieur Nicolas",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Vénus",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Cardiel",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Konstantin le Diurne",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Athel Suprême",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Vitrius l'Oint",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Dame Noëlle",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "L'Ordre Sacré",
+  "status": "pending"
+ },
+ {
+  "name": "Arne le Blanc",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Alaz Porte-soleil",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "done"
+ },
+ {
+  "name": "Altan",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Scyl des Drakes",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Opardin chef de clan",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Crohnam",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Armanz le Sublime",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Thor au Marteau",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Kantra le Cyclone",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Skarg l'Ancien",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Alsgor Corne-Pourpre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Xena: Princesse Guerrière",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Greggor Lord de lune",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Freyja du Destin",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Esmé la Danseuse",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Chantre-dune Zaharis",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Raphael",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Valkyrie",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Roric Poison-dragon",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Raf-Matab",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Jetni la Géante",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Nergigante l'Archère",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Loki le Trompeur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Turvold",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Ursuga Hurleguerre",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Yakarl le Fléau",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Tuhanarak",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Odin Patriarche",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Bayek",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Barbares",
+  "status": "pending"
+ },
+ {
+  "name": "Gizmak le Terrible",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Gros Bill",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Mère de Guerre",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Ignatius",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Vizug le Toxique",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Grugtha Sombre médium",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Khamir Oeil-brûlé",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Gurptuk Barbe-Mousse",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Guurda Brassemarais",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Korugar Clochemort",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Garde-bière Jéroboam",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Craklin le Noirci",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Modo du Carillon",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Tusskor Prime-hache",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Trèfle",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Drokgul le Hâvre",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Ugir Mange-dragon",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Blizaar le Braillard",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Stokk le Brisé",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Kroz Casse-murs",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Gurgoth l'Augure",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Graazur ventrefer",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Togron le Siamois",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Belletar Tue-mages",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Diamant Pièce-cuivre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Klaazag Géants-clés",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Tribus Ogryn",
+  "status": "pending"
+ },
+ {
+  "name": "Hiérophante Lazarius",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Anaxia la Réincarnée",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Dracomorphe",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Roxam",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Ba Satha",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Kerin le Moissonneur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Amoch la Satrape",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Donatello",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Xiloco l'Incrusté",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Fu-Shan",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Rhazin Peaumarquée",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Lord crâne var-Gall",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Pythion",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Predator",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Kosk Deux Peaux",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Vergumkaar",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Nekmo Thaar",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Krok'mar le Dévoreur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Légat Téox",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Krisk l'Éternel",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Ramantu Sang-Drake",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Chaagur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Sulfuryion",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Pheidi Crête-Bleue",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Hommes Lézards",
+  "status": "pending"
+ },
+ {
+  "name": "Galleuss Crête-sang",
+  "rarity": "Mythique",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Mezomel Croc-Loup",
+  "rarity": "Mythique",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Norog",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Longuebarbe",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Hakkorhn Fracapacha",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Razelvarg",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Bambus Trèfle",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Lion Poltron",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Thayla Corne-marteau",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Chefdeguerre",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Énorme Ukko",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Brakus le métamorphe",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Gnishak Roi-souris",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Gwyndolin la Muette",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Bolint l'Affranchi",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Sniktraak",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Samson le Pilon",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Cléoptérix",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Ragash",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Loriaca Beau-Sabot",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Sun Wukong",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Khoronar",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Teumesia",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Léorius le fier",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Marius le Vaillant",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Marcheurs de Peau",
+  "status": "pending"
+ },
+ {
+  "name": "Ash'nar Âme-dragon",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Gharol Masse-Sang",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Grohak l'Ensanglanté",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Kreela Bras-Sorcière",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Teela Toisongore",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Danag Fauchecrâne",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Artak",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Kro'khad Coupe-gorge",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Robar",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Gomlok Peau Céleste",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Roi Garog",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Chef de meute Shy'ek",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Aragaz Roi-sauvage",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Matriarche Zarguna",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Nogdar Chasse-têtes",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Brago d'Acier",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Varl le destructeur",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Jagg Scie d'os",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Belz le Vengeur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Holguk Vues-saintes",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Seigneur de guerre",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Angar",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Rakka Vilevague",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Galek Ultime",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Kawn Brise-branche",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Gaellut Fils du Pacte",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Orcs",
+  "status": "pending"
+ },
+ {
+  "name": "Komidus Rictus",
+  "rarity": "Mythique",
+  "rank": "B",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Kurosa l'Envieuse",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Karnage l'Anarque",
+  "rarity": "Mythique",
+  "rank": "B",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Prince Kymar",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Tyran Ixlimor",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Comtesse Lix",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Héphraak",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Skorid Semi-engendré",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Xalgaze Mur-de-crocs",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Drexthar Doublesang",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Candraphon",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Sicia Languefeu",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Vasal du sceau",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Wythir la couronnée",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Vulkanos Fumor",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Praeva l'Ondulante",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Mortu-Macaab",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Lord Shazar",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Duchesse Lilitu",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Helicath",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Chat du Cheshire",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Gracchos Viré-drake",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Cruetraxa",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Inithwe Doublesang",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Authoratrix Lamasu",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Chalco l'Aveugle",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Rejetons Démons",
+  "status": "pending"
+ },
+ {
+  "name": "Mina Marquise de sang",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Théodosia Disgraciée",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Le calamitus",
+  "rarity": "Mythique",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Graal Roi de Crypte",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Rotos le Marié Egaré",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Saito",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Elegaius",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Morrigaine",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Vallaryn le Niveleur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Skartorsis",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Bad-el-Kazar",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Gorgédesang",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Chevalier Suprême",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Valet de Cœur",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Sanguine Maria",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Ma'Shalled",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Nethril",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Suzerain Katonn",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Jack le Moissonneur",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Tribun Héraklétès",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Sire amuseur Fabian",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "L'Épouvantail",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Siphi Mariée Égarée",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Nekhret le Terrible",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Urost Capturâme",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Damoiselle Annie",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Vlad le nocturne",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Valkanen",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Gaspard le maudit",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Morts-Vivants",
+  "status": "pending"
+ },
+ {
+  "name": "Aphidus Maître-ruche",
+  "rarity": "Mythique",
+  "rank": "C",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Arachoa Tourne-lune",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Raé",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Lanakis l'Élue",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Foli",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Noct le Paralyseur",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Truath",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Xenomorphe",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Mavara la Voyante",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Orynyx Ronge-esprit",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Zavia",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Maranix",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Vizir Ovelis",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Cromax Sanglune",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Parle-nuées Zyclic",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Noldua du Crépuscule",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Varkos Fend-têtes",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Haggibah Fille-nid",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Astralithe",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Reine éva",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Néspectre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Ruel Maître-Chasseur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Ultan la Carapace",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Sydax Tueur-de-roi",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Prophétesse Aveugle",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Lydia Sirène de Mort",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Visix l'Insoumise",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Mithrala Fléaudevie",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Tramaria",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Kael Suprême",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Fatalis l'Epeiste",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Ozilda la méchante",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Elfes Noirs",
+  "status": "pending"
+ },
+ {
+  "name": "Embrys l'Anomalie",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Krixia Reine de Nuit",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Narma la ressuscitée",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Gaïus le joyeux",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Shemnath",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Arix",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Ankora Reine Spectre",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Giath Écu de vérité",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Bystophus",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Théa Ange Tombal",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Versulf Le Lugubre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Mère Cybèle",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Losan K'Leth",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Chapelier fou",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Venalicia Mère-serfs",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Seigneur Tombeau",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Téodor le Savant",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Kalvalax",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Dreng La Tombe",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Alatreon l'Epeiste",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Skeletor",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Sans âme",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Hégémon",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Wurlim Roi du Gel",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Fortus",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Georgid le Casseur",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Karilon le Sonneur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Narses Roi Spectre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Reine de Cœur",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Pontife Augustin",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Revenants Chevaliers",
+  "status": "pending"
+ },
+ {
+  "name": "Frolni le Mécanicien",
+  "rarity": "Mythique",
+  "rank": "C",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Cinda Forgecœur",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Fjorad Cœur-de-loup",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Trunda MailletDoré",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Diacre Brogni",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Hurndig",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Goffred Porte-cuivre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Osgrun le Corrupteur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Thraila la Résistante",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Roi de la montagne",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Boragar l'Ancien",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Gronjarr",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Nari le chanceux",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Tholin Barbe-infâme",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Hilvi la Givrée",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Maulie Chope",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Samar Maudigemme",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Keeyra L'Observateur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Gnut",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Amiral Défense-noire",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Uzol du Jade",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Granyt Garde-porte",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Tormin le Froid",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Acrizia",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Senna Cœur d'ambre",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Arnorn l'Éclatant",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Nains",
+  "status": "pending"
+ },
+ {
+  "name": "Toshiro le sanglant",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Dame Mikage",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Jintoro",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Dame Kimi",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Ninja",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Michinaki",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Zinogre l'Epeiste",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Tetsuya le Sauveur",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Harima",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Yoshi l'ivrogne",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Nobel",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Tatsu",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Yukimasa Démon glacé",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Masahiro Moine-cloche",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Genzin",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Kyoku",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Gamuran",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Karato le Chasseur",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Arashi le Ressac",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Ishiyama le Tenace",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Riho Lance d'Os",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Jingwon",
+  "rarity": "Légendaire",
+  "rank": "D",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Yumeko",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Ginro la Cigogne",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Shu-Zhen la Brave",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Onryo leyasu",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Leonardo",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Shredder",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Miyoko Fleur de Yakai",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Clan de l'Ombre",
+  "status": "pending"
+ },
+ {
+  "name": "Naïs Voleur d'Ombres",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Nell Dents-noires",
+  "rarity": "Mythique",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Arbais Pierrépine",
+  "rarity": "Mythique",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Elva l'Automnale",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Roi Gallcobar",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Oella",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Caoilte Flèchecendre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Vestele épine-fleuve",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Baerd le Trapu",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Ruarc Gardienvert",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Searsha la Calcinée",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Eostrid chant-rêve",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Glaicad l'Eau-fondue",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Leminisi Aile-dorée",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Dame Ireth",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Firrol le Cornécorce",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Padraig Grand Chène",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Choriste-lame Caldor",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Balar le Perdu",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Folan Cerf-argent",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Owein Flamme d'hiver",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Ailil",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Claidna",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Emic Coeur-Tronc",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Yncensa Porte-graal",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Arathéia Fleur-corps",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Niamhe, Lance de Nyresa",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Rhaïa la Pleurée",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Gardes Sylvains",
+  "status": "pending"
+ },
+ {
+  "name": "Kassandra",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Glorieuse Pallas",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Phemo le Pâtre",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Keberon le Sous-flamme",
+  "rarity": "Légendaire",
+  "rank": "A",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Knosson Taureau de Bronze",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Theimios l'Alcoolique",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Pelops le vainqueur",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Pelagus Marchevagues",
+  "rarity": "Légendaire",
+  "rank": "C",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Aria l'Espoir doré",
+  "rarity": "Légendaire",
+  "rank": "B",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Héraut-orage Hekaton",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Tektéon Chair-fendue",
+  "rarity": "Légendaire",
+  "rank": "S",
+  "faction": "Argonites",
+  "status": "pending"
+ },
+ {
+  "name": "Tartarus le Rameur",
+  "rarity": "Légendaire",
+  "rank": "Non classé",
+  "faction": "Argonites",
+  "status": "pending"
+ }
 ]
