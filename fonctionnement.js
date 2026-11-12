@@ -1,18 +1,79 @@
 let currentFilter = 'all';
 let searchQuery = '';
 
-function escapeAttr(text) {
-    return text
-        .replace(/&/g, '&amp;')
-        .replace(/"/g, '&quot;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
-}
-
 function toggleChampionForm(button) {
     const card = button.closest('.champion-card');
     const showingAlt = card.classList.toggle('showing-alt-form');
     button.textContent = showingAlt ? '🔄 Forme 1' : '🔄 Forme 2';
+}
+
+function encodeTooltip(html) {
+    return btoa(unescape(encodeURIComponent(html)));
+}
+
+function decodeTooltip(encoded) {
+    return decodeURIComponent(escape(atob(encoded)));
+}
+
+function typeSlug(type) {
+    if (!type) return 'default';
+    if (/^A\d/.test(type)) return 'active';
+    if (/passif/i.test(type)) return 'passive';
+    if (/aura/i.test(type)) return 'aura';
+    return 'default';
+}
+
+function buildTooltipHtml(type, skill) {
+    const slug = typeSlug(type);
+    const upgradesHtml = skill.upgrades && skill.upgrades.length
+        ? `<div class="skill-tt-upgrades"><span class="skill-tt-upgrades-label">Montée en niveau</span><ul>${skill.upgrades.map(u => `<li>${u}</li>`).join('')}</ul></div>`
+        : '';
+    const damageHtml = skill.damageBase
+        ? `<div class="skill-tt-damage">Dégâts basés sur : <strong>${skill.damageBase}</strong></div>`
+        : '';
+    return `
+        <div class="skill-tt-header">
+            <span class="skill-tt-type type-${slug}">${type || 'Sort'}</span>
+            <span class="skill-tt-name">${skill.name || 'Compétence'}</span>
+            ${skill.cooldown ? `<span class="skill-tt-cd">⏱ ${skill.cooldown} tours</span>` : ''}
+        </div>
+        <div class="skill-tt-desc">${skill.description || ''}</div>
+        ${upgradesHtml}
+        ${damageHtml}
+    `;
+}
+
+function initSkillTooltip() {
+    const tooltip = document.getElementById('skillTooltip');
+    if (!tooltip) return;
+
+    document.addEventListener('mouseover', (e) => {
+        const img = e.target.closest('.skill-form-img');
+        if (!img || !img.dataset.tooltip) return;
+        tooltip.innerHTML = decodeTooltip(img.dataset.tooltip);
+        tooltip.classList.add('visible');
+        positionTooltip(tooltip, img);
+    });
+
+    document.addEventListener('mouseout', (e) => {
+        if (e.target.closest('.skill-form-img')) {
+            tooltip.classList.remove('visible');
+        }
+    });
+
+    window.addEventListener('scroll', () => tooltip.classList.remove('visible'), true);
+}
+
+function positionTooltip(tooltip, anchor) {
+    const rect = anchor.getBoundingClientRect();
+    const tw = tooltip.offsetWidth || 280;
+    const th = tooltip.offsetHeight || 150;
+    let left = rect.left + rect.width / 2 - tw / 2;
+    left = Math.max(12, Math.min(left, window.innerWidth - tw - 12));
+    let top = rect.top - th - 10;
+    if (top < 8) top = rect.bottom + 10;
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${top}px`;
 }
 
 function normalizeText(text) {
@@ -120,13 +181,6 @@ function renderChampions() {
             const imagePath = getChampionImagePath(champ.name);
             const hasAltForm = champ.skills && champ.skills.some(s => s.altForm);
 
-            function skillTitle(type, skill) {
-                let t = `${type ? type + ' - ' : ''}${skill.name || 'Compétence'}`;
-                if (skill.cooldown) t += ` (CD: ${skill.cooldown} tours)`;
-                if (skill.description) t += `\n\n${skill.description}`;
-                return escapeAttr(t);
-            }
-
             html += `
                 <div class="champion-card" data-rarity="${champ.rarity}">
                     <div class="champion-icon">
@@ -145,9 +199,9 @@ function renderChampions() {
                     <div class="champion-skills">
                         ${champ.skills && champ.skills.length > 0 ?
                             champ.skills.map(skill => `
-                                <div class="skill-icon">
-                                    ${skill.icon ? `<img class="skill-form-img" data-form="base" src="${skill.icon}" alt="${skill.name || 'Compétence'}" title="${skillTitle(skill.type, skill)}" onerror="this.style.display='none';">` : '<span>S</span>'}
-                                    ${skill.altForm ? `<img class="skill-form-img" data-form="alt" src="${skill.altForm.icon}" alt="${skill.altForm.name || 'Compétence'}" title="${skillTitle(skill.type, skill.altForm)}" onerror="this.style.display='none';">` : ''}
+                                <div class="skill-icon${skill.altForm ? ' has-alt' : ''}">
+                                    ${skill.icon ? `<img class="skill-form-img" data-form="base" src="${skill.icon}" alt="${skill.name || 'Compétence'}" data-tooltip="${encodeTooltip(buildTooltipHtml(skill.type, skill))}" onerror="this.style.display='none';">` : '<span>S</span>'}
+                                    ${skill.altForm ? `<img class="skill-form-img" data-form="alt" src="${skill.altForm.icon}" alt="${skill.altForm.name || 'Compétence'}" data-tooltip="${encodeTooltip(buildTooltipHtml(skill.type, skill.altForm))}" onerror="this.style.display='none';">` : ''}
                                 </div>
                             `).join('')
                             : '<div class="skills-coming">Compétences à venir</div>'
@@ -215,3 +269,4 @@ document.querySelectorAll('.nav-link:not(.external)').forEach(link => {
 // Initial render
 updateStats();
 renderChampions();
+initSkillTooltip();

@@ -499,11 +499,11 @@ h1 {
     display: none;
 }
 
-.champion-card.showing-alt-form .skill-icon img[data-form="base"] {
+.champion-card.showing-alt-form .skill-icon.has-alt img[data-form="base"] {
     display: none;
 }
 
-.champion-card.showing-alt-form .skill-icon img[data-form="alt"] {
+.champion-card.showing-alt-form .skill-icon.has-alt img[data-form="alt"] {
     display: block;
 }
 
@@ -526,6 +526,128 @@ h1 {
 
 .btn-toggle-form:hover {
     background: rgba(124, 77, 255, 0.3);
+}
+
+/* ============================================
+   SKILL TOOLTIP (style "in-game")
+============================================ */
+.skill-tooltip {
+    position: fixed;
+    width: 290px;
+    max-width: calc(100vw - 24px);
+    background: linear-gradient(160deg, #1b1f33 0%, #0e1020 100%);
+    border: 2px solid #caa24a;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 18px rgba(202, 162, 74, 0.25);
+    padding: 12px 14px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity 0.12s ease, transform 0.12s ease;
+    pointer-events: none;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+.skill-tooltip.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.skill-tt-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(202, 162, 74, 0.35);
+}
+
+.skill-tt-type {
+    font-size: 0.75em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    color: #0e1020;
+}
+
+.skill-tt-type.type-active {
+    background: linear-gradient(135deg, #ffb347 0%, #ff7a18 100%);
+}
+
+.skill-tt-type.type-passive {
+    background: linear-gradient(135deg, #5eead4 0%, #2dd4bf 100%);
+}
+
+.skill-tt-type.type-aura {
+    background: linear-gradient(135deg, #7ee787 0%, #2ecc71 100%);
+}
+
+.skill-tt-type.type-default {
+    background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
+}
+
+.skill-tt-name {
+    font-weight: 700;
+    color: #f5d98a;
+    font-size: 1em;
+}
+
+.skill-tt-cd {
+    margin-left: auto;
+    font-size: 0.78em;
+    color: #cbd5e1;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.skill-tt-desc {
+    color: #e5e7eb;
+}
+
+.skill-tt-desc .fx-buff {
+    color: #4ade80;
+    font-weight: 700;
+}
+
+.skill-tt-desc .fx-debuff {
+    color: #f87171;
+    font-weight: 700;
+}
+
+.skill-tt-upgrades {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.skill-tt-upgrades-label {
+    display: block;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #caa24a;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.skill-tt-upgrades ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #cbd5e1;
+    font-size: 0.9em;
+}
+
+.skill-tt-damage {
+    margin-top: 6px;
+    font-size: 0.85em;
+    color: #9ca3af;
 }
 
 .skills-coming {
