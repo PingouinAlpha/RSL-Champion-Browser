@@ -1,6 +1,20 @@
 let currentFilter = 'all';
 let searchQuery = '';
 
+function escapeAttr(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
+
+function toggleChampionForm(button) {
+    const card = button.closest('.champion-card');
+    const showingAlt = card.classList.toggle('showing-alt-form');
+    button.textContent = showingAlt ? '🔄 Forme 1' : '🔄 Forme 2';
+}
+
 function normalizeText(text) {
     return text.toLowerCase()
         .normalize("NFD")
@@ -104,11 +118,19 @@ function renderChampions() {
 
         champs.forEach(champ => {
             const imagePath = getChampionImagePath(champ.name);
-            
+            const hasAltForm = champ.skills && champ.skills.some(s => s.altForm);
+
+            function skillTitle(type, skill) {
+                let t = `${type ? type + ' - ' : ''}${skill.name || 'Compétence'}`;
+                if (skill.cooldown) t += ` (CD: ${skill.cooldown} tours)`;
+                if (skill.description) t += `\n\n${skill.description}`;
+                return escapeAttr(t);
+            }
+
             html += `
                 <div class="champion-card" data-rarity="${champ.rarity}">
                     <div class="champion-icon">
-                        <img src="${imagePath}" 
+                        <img src="${imagePath}"
                              alt="${champ.name}"
                              onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\\'icon-placeholder\\'>?</div>';">
                     </div>
@@ -123,14 +145,16 @@ function renderChampions() {
                     <div class="champion-skills">
                         ${champ.skills && champ.skills.length > 0 ?
                             champ.skills.map(skill => `
-                                <div class="skill-icon" title="${skill.type ? skill.type + ' - ' : ''}${skill.name || 'Compétence'}">
-                                    ${skill.icon ? `<img src="${skill.icon}" alt="${skill.name || 'Compétence'}" onerror="this.style.display='none'; this.parentElement.textContent='S';">` : '<span>S</span>'}
+                                <div class="skill-icon">
+                                    ${skill.icon ? `<img class="skill-form-img" data-form="base" src="${skill.icon}" alt="${skill.name || 'Compétence'}" title="${skillTitle(skill.type, skill)}" onerror="this.style.display='none';">` : '<span>S</span>'}
+                                    ${skill.altForm ? `<img class="skill-form-img" data-form="alt" src="${skill.altForm.icon}" alt="${skill.altForm.name || 'Compétence'}" title="${skillTitle(skill.type, skill.altForm)}" onerror="this.style.display='none';">` : ''}
                                 </div>
                             `).join('')
                             : '<div class="skills-coming">Compétences à venir</div>'
                         }
                     </div>
                     <div class="champion-actions">
+                        ${hasAltForm ? `<button class="btn-toggle-form" onclick="toggleChampionForm(this)">🔄 Forme 2</button>` : ''}
                         <button class="btn-details" onclick="window.open('${champ.url}', '_blank')">
                             Voir le guide
                         </button>

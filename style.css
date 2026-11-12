@@ -495,9 +495,37 @@ h1 {
     border-radius: 7px;
 }
 
+.skill-icon img[data-form="alt"] {
+    display: none;
+}
+
+.champion-card.showing-alt-form .skill-icon img[data-form="base"] {
+    display: none;
+}
+
+.champion-card.showing-alt-form .skill-icon img[data-form="alt"] {
+    display: block;
+}
+
 .skill-icon:hover {
     background: rgba(255, 255, 255, 0.1);
     transform: scale(1.1);
+}
+
+.btn-toggle-form {
+    background: rgba(124, 77, 255, 0.15);
+    color: var(--text-primary);
+    border: 1px solid rgba(124, 77, 255, 0.4);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-right: 8px;
+}
+
+.btn-toggle-form:hover {
+    background: rgba(124, 77, 255, 0.3);
 }
 
 .skills-coming {
@@ -508,10 +536,11 @@ h1 {
 
 .champion-actions {
     padding: 16px 20px 20px 20px;
+    display: flex;
 }
 
 .btn-details {
-    width: 100%;
+    flex: 1;
     padding: 12px 24px;
     border: none;
     border-radius: 12px;
