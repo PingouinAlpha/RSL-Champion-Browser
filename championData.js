@@ -729,7 +729,7 @@ const champions = [
     { name: "Prundar", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-prundar-artefact-et-maitrise/" },
     { name: "Seigneur de Nichée", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-seigneur-de-nichee-artefact-et-maitrise/" },
     { name: "Sénéchal", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-senechal-artefact-et-maitrise/" },
-    { name: "Alure", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-alure-artefact-et-maitrise/" },
+    { name: "Alure", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-charme-alure-artefact-et-maitrise/" },
     { name: "Taurus", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-taurus-artefact-et-maitrise/" },
     { name: "Thisbe de Pierre", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thisbe-de-pierre-artefact-et-maitrise/" },
     { name: "Zii Ixchi", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zii-ixchi-artefact-et-maitrise/" },
