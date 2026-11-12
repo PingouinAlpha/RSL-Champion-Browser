@@ -76,14 +76,10 @@ const champions = [
     { name: "Aphidus Maître-ruche", rarity: "Mythique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-aphidus-maitre-ruche-attaque-artefact-et-maitrise/" },
     { name: "Frolni le Mécanicien", rarity: "Mythique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-frolni-le-mecanicien-artefact-et-maitrise/" },
 
-    // Mythique - Nouveaux (pas encore classés par Alucare)
-    { name: "Theimios l'Alcoolique", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-theimios-lalcoolique-artefact-et-maitrise/" },
-    { name: "Impassible", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-impassible-artefact-et-maitrise/" },
-    { name: "Lance-côte Fionn", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-lance-cote-fionn-artefact-et-maitrise/" },
-    { name: "Thayla Corne-marteau", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thayla-corne-marteau-artefact-et-maitrise/" },
-    { name: "Thraila la Résistante", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thraila-la-resistante-artefact-et-maitrise/" },
-    { name: "Miyoko Fleur de Yakai", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-miyoko-fleur-de-yakai-artefact-et-maitrise/" },
-    { name: "Owein Flamme d'hiver", rarity: "Mythique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-owein-flamme-dhiver-artefact-et-maitrise/" },
+    // Note: Theimios l'Alcoolique, Impassible, Lance-côte Fionn, Thayla Corne-marteau,
+    // Thraila la Résistante, Miyoko Fleur de Yakai et Owein Flamme d'hiver étaient listés
+    // ici comme Mythiques "non classés" : en réalité aucun n'est Mythique (vérifié sur leur
+    // page Alucare individuelle + confirmé par les rosters en jeu). Déplacés/retirés plus bas.
 
     // ==================== LÉGENDAIRES ====================
 
@@ -271,7 +267,6 @@ const champions = [
     { name: "Ignatius", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ignatius-artefact-et-maitrise/" },
     { name: "Inithwe Doublesang", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-inithwe-doublesang-artefact-et-maitrise/" },
     { name: "Ithos", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ithos-artefact-et-maitrise/" },
-    { name: "Ludex Artor", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-iudex-artor-artefact-et-maitrise/" },
     { name: "Jagg Scie d'os", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jagg-scie-dos-artefact-et-maitrise/" },
     { name: "Jetni la Géante", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jetni-la-geante-artefact-et-maitrise/" },
     { name: "Kaja l'Ironique", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kaja-lironique-artefact-et-maitrise/" },
@@ -351,7 +346,6 @@ const champions = [
     { name: "Tribun Héraklétès", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tribun-herakletes-artefact-et-maitrise/" },
     { name: "Truath", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-truath-artefact-et-maitrise/" },
     { name: "Tuhanarak", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tuhanarak-artefact-et-maitrise/" },
-    { name: "Tuskkor Prime-hache", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tusskor-prime-hache-equipement-et-maitrise/" },
     { name: "Tyran Ixlimor", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tyran-ixlimor-artefact-et-maitrise/" },
     { name: "Ugir Mange-dragon", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ugir-mange-dragon-artefact-et-maitrise/" },
     { name: "Uzol du Jade", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-uzol-du-jade-artefact-et-maitrise/" },
@@ -468,7 +462,7 @@ const champions = [
     { name: "Holguk Vues-saintes", rank: "B", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-holguk-vues-saintes-artefact-et-maitrise/" },
     { name: "Knosson Taureau de Bronze", rank: "B", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-knosson-taureau-de-bronze-artefact-et-maitrise/" },
     { name: "Masahiro Moine-cloche", rank: "B", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-masahiro-moine-cloche-artefact-et-maitrise/" },
-    { name: "Xanthé Fleur-marine", rank: "B", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-xanthe-fleur-marine-artefact-et-maitrise/" },
+    { name: "Xanthé Fleur-marine", rank: "B", rarity: "Épique", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-xanthe-fleur-marine-artefact-et-maitrise/" },
     { name: "Aria l'Espoir doré", rank: "B", rarity: "Légendaire", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-aria-lespoir-dore-artefact-et-maitrise/" },
 
     // Légendaires Rang C (7 champions)
@@ -494,6 +488,13 @@ const champions = [
     { name: "Orynyx Ronge-esprit", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-orynyx-ronge-esprit-artefact-et-maitrise/" },
     { name: "Vott Tranche-têtes", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vott-tranche-tetes-artefact-et-maitrise/" },
     { name: "Tartarus le Rameur", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tartarus-le-rameur-artefact-et-maitrise/" },
+
+    // Reclassées depuis la section Mythique (étaient mal classées, cf. note plus haut)
+    { name: "Theimios l'Alcoolique", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-theimios-lalcoolique-artefact-et-maitrise/" },
+    { name: "Thayla Corne-marteau", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thayla-corne-marteau-artefact-et-maitrise/" },
+    { name: "Thraila la Résistante", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thraila-la-resistante-artefact-et-maitrise/" },
+    { name: "Miyoko Fleur de Yakai", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-miyoko-fleur-de-yakai-artefact-et-maitrise/" },
+    { name: "Owein Flamme d'hiver", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-owein-flamme-dhiver-artefact-et-maitrise/" },
 
     // ==================== ÉPIQUES ====================
 
@@ -661,7 +662,7 @@ const champions = [
     { name: "Golem Epines", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-golem-epines-artefact-et-maitrise/" },
     { name: "Gore", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gore-artefact-et-maitrise/" },
     { name: "Gorlos Gouffrenfer", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gorlos-gouffrenfer-artefact-et-maitrise/" },
-    { name: "Gronjarr", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gronjarr-artefact-et-maitrise/" },
+    { name: "Gronjarr", rarity: "Légendaire", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gronjarr-artefact-et-maitrise/" },
     { name: "Gwynneth", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gwynneth-artefact-et-maitrise/" },
     { name: "Haarken Terriblelame", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-haarken-terriblelame-artefact-et-maitrise/" },
     { name: "Haute Khatun", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-haute-khatun-equipement-et-maitrise/" },
@@ -758,7 +759,6 @@ const champions = [
     { name: "Prundar", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-prundar-artefact-et-maitrise/" },
     { name: "Seigneur de Nichée", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-seigneur-de-nichee-artefact-et-maitrise/" },
     { name: "Sénéchal", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-senechal-artefact-et-maitrise/" },
-    { name: "Alure", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-charme-alure-artefact-et-maitrise/" },
     { name: "Taurus", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-taurus-artefact-et-maitrise/" },
     { name: "Thisbe de Pierre", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thisbe-de-pierre-artefact-et-maitrise/" },
     { name: "Zii Ixchi", rarity: "Épique", rank: "B", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zii-ixchi-artefact-et-maitrise/" },
@@ -807,6 +807,9 @@ const champions = [
 
     // Épique - Nouveaux (pas encore classés par Alucare, octobre 2026)
     { name: "Primat Atalact", rarity: "Épique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-primat-atalact-artefact-et-maitrise/" },
+
+    // Reclassé depuis la section Mythique (était mal classé, cf. note plus haut)
+    { name: "Impassible", rarity: "Épique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-impassible-artefact-et-maitrise/" },
 
 ];
 
