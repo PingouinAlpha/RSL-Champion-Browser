@@ -121,12 +121,12 @@ function renderChampions() {
                         <span class="champion-rank rank-badge-${champ.rank}">${champ.rank}</span>
                     </div>
                     <div class="champion-skills">
-                        ${champ.skills && champ.skills.length > 0 ? 
+                        ${champ.skills && champ.skills.length > 0 ?
                             champ.skills.map(skill => `
-                                <div class="skill-icon" title="${skill.name || 'Compétence'}">
-                                    <span>${skill.icon || 'S'}</span>
+                                <div class="skill-icon" title="${skill.type ? skill.type + ' - ' : ''}${skill.name || 'Compétence'}">
+                                    ${skill.icon ? `<img src="${skill.icon}" alt="${skill.name || 'Compétence'}" onerror="this.style.display='none'; this.parentElement.textContent='S';">` : '<span>S</span>'}
                                 </div>
-                            `).join('') 
+                            `).join('')
                             : '<div class="skills-coming">Compétences à venir</div>'
                         }
                     </div>

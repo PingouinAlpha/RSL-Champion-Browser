@@ -6,7 +6,14 @@ const champions = [
     // ==================== MYTHIQUES ====================
 
     // Mythique Rang S (God Tier)
-    { name: "Alaz Porte-soleil", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-alaz-artefact-et-maitrise/" },
+    { name: "Alaz Porte-soleil", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-alaz-artefact-et-maitrise/", skills: [
+        { name: "Hache à photons", type: "A1", icon: "skill_icons/Alaz Porte-soleil_A1.png" },
+        { name: "Tonnerre retentissant", type: "A2", icon: "skill_icons/Alaz Porte-soleil_A2.png" },
+        { name: "Regard ardent", type: "A3", icon: "skill_icons/Alaz Porte-soleil_A3.png" },
+        { name: "Métamorphe", type: "A4", icon: "skill_icons/Alaz Porte-soleil_A4.png" },
+        { name: "Cuirasse du soleil", type: "Passif", icon: "skill_icons/Alaz Porte-soleil_P.png" },
+        { name: "Aura de DÉFENSE", type: "Aura", icon: "skill_icons/Alaz Porte-soleil_Aura.png" }
+    ] },
     { name: "Arne le Blanc", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-arne-le-blanc-artefact-et-maitrise/" },
     { name: "Dame Mikage", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-dame-mikage-artefact-et-maitrise/" },
     { name: "Hiérophante Lazarius", rarity: "Mythique", rank: "S", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-hierophante-lazarius-artefact-et-maitrise/" },
