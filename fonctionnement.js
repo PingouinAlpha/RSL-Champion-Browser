@@ -75,8 +75,8 @@ function initSkillTooltip() {
 
 function positionTooltip(tooltip, anchor) {
     const rect = anchor.getBoundingClientRect();
-    const tw = tooltip.offsetWidth || 280;
-    const th = tooltip.offsetHeight || 150;
+    const tw = tooltip.offsetWidth || 360;
+    const th = tooltip.offsetHeight || 180;
     let left = rect.left + rect.width / 2 - tw / 2;
     left = Math.max(12, Math.min(left, window.innerWidth - tw - 12));
     let top = rect.top - th - 10;

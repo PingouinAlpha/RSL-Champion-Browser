@@ -469,23 +469,25 @@ h1 {
     background: rgba(0, 0, 0, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     display: flex;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
     min-height: 56px;
     align-items: center;
 }
 
 .skill-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.2em;
     transition: all 0.2s ease;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .skill-icon img {
@@ -533,21 +535,21 @@ h1 {
 ============================================ */
 .skill-tooltip {
     position: fixed;
-    width: 290px;
+    width: 360px;
     max-width: calc(100vw - 24px);
     background: linear-gradient(160deg, #1b1f33 0%, #0e1020 100%);
     border: 2px solid #caa24a;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 18px rgba(202, 162, 74, 0.25);
-    padding: 12px 14px;
+    padding: 16px 18px;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
     transform: translateY(4px);
     transition: opacity 0.12s ease, transform 0.12s ease;
     pointer-events: none;
-    font-size: 0.85em;
-    line-height: 1.5;
+    font-size: 1.05em;
+    line-height: 1.6;
 }
 
 .skill-tooltip.visible {
@@ -567,10 +569,10 @@ h1 {
 }
 
 .skill-tt-type {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: 800;
     letter-spacing: 0.03em;
-    padding: 2px 8px;
+    padding: 3px 10px;
     border-radius: 999px;
     text-transform: uppercase;
     color: #0e1020;
@@ -595,15 +597,15 @@ h1 {
 .skill-tt-name {
     font-weight: 700;
     color: #f5d98a;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .skill-tt-cd {
     margin-left: auto;
-    font-size: 0.78em;
+    font-size: 0.85em;
     color: #cbd5e1;
     background: rgba(255, 255, 255, 0.08);
-    padding: 2px 8px;
+    padding: 3px 10px;
     border-radius: 999px;
 }
 
@@ -622,39 +624,39 @@ h1 {
 }
 
 .fx-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: -3px;
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
     border-radius: 4px;
-    margin-right: 2px;
+    margin-right: 3px;
 }
 
 .skill-tt-upgrades {
-    margin-top: 8px;
-    padding-top: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
     border-top: 1px dashed rgba(255, 255, 255, 0.15);
 }
 
 .skill-tt-upgrades-label {
     display: block;
-    font-size: 0.75em;
+    font-size: 0.82em;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #caa24a;
     font-weight: 700;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .skill-tt-upgrades ul {
     margin: 0;
-    padding-left: 18px;
+    padding-left: 20px;
     color: #cbd5e1;
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 .skill-tt-damage {
-    margin-top: 6px;
-    font-size: 0.85em;
+    margin-top: 8px;
+    font-size: 0.9em;
     color: #9ca3af;
 }
 
