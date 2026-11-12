@@ -184,8 +184,6 @@ document.querySelectorAll('.nav-link:not(.external)').forEach(link => {
         // Smooth scroll to section
         if (section === 'champions') {
             document.getElementById('champions').scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (section === 'ranks') {
-            document.getElementById('ranks').scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     });
 });

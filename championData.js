@@ -461,6 +461,11 @@ const champions = [
     { name: "Kroz Casse-murs", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kroz-casse-murs-artefact-et-maitrise/" },
     { name: "Ishiyama le Tenace", rarity: "Légendaire", rank: "A", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ishiyama-le-tenace-artefact-et-maitrise/" },
 
+    // Légendaire - Nouveaux (pas encore classés par Alucare, octobre 2026)
+    { name: "Orynyx Ronge-esprit", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-orynyx-ronge-esprit-artefact-et-maitrise/" },
+    { name: "Vott Tranche-têtes", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vott-tranche-tetes-artefact-et-maitrise/" },
+    { name: "Tartarus le Rameur", rarity: "Légendaire", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tartarus-le-rameur-artefact-et-maitrise/" },
+
     // ==================== ÉPIQUES ====================
 
     // Épique Rang S (God Tier)
@@ -751,7 +756,7 @@ const champions = [
     { name: "Impitoyable", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-impitoyable-artefact-et-maitrise/" },
     { name: "Jizoh", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jizoh-artefact-et-maitrise/" },
     { name: "Kytis", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kytis-artefact-et-maitrise/" },
-    { name: "Légionnaire Noble", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-legionnaire-noble-artefact-et-maitrise/" },
+    { name: "Noble Légionnaire", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-noble-legionnaire-artefact-et-maitrise/" },
     { name: "Morag Bouclairin", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-morag-bouclairin-artefact-et-maitrise/" },
     { name: "Murmure", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-murmure-equipement-et-maitrise/" },
     { name: "Nogoryo", rarity: "Épique", rank: "C", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-nogoryo-artefact-et-maitrise/" },
@@ -770,6 +775,9 @@ const champions = [
 
     // Épique Rang D (Terriblement nul - ne pas food)
     { name: "Sans visage", rarity: "Épique", rank: "D", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-sans-visage-artefact-et-maitrise/" },
+
+    // Épique - Nouveaux (pas encore classés par Alucare, octobre 2026)
+    { name: "Primat Atalact", rarity: "Épique", rank: "Non classé", url: "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-primat-atalact-artefact-et-maitrise/" },
 
 ];
 

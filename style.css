@@ -236,105 +236,6 @@ h1 {
 }
 
 /* ============================================
-   RANK EXPLANATION
-============================================ */
-.rank-explanation {
-    background: linear-gradient(135deg, rgba(20, 24, 45, 0.8) 0%, rgba(15, 18, 35, 0.9) 100%);
-    border-radius: 20px;
-    padding: 32px;
-    margin-bottom: 48px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-.rank-explanation h3 {
-    font-size: 1.8em;
-    margin-bottom: 24px;
-    text-align: center;
-    background: linear-gradient(135deg, #dc143c 0%, #ffa500 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.rank-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-.rank-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 20px;
-    background: rgba(20, 24, 45, 0.5);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    transition: all 0.3s ease;
-}
-
-.rank-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-}
-
-.rank-badge-large {
-    width: 48px;
-    height: 48px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-    font-weight: 800;
-    flex-shrink: 0;
-}
-
-.rank-S .rank-badge-large {
-    background: linear-gradient(135deg, #ff4757 0%, #ff6348 100%);
-    color: #fff;
-    box-shadow: 0 4px 16px rgba(255, 71, 87, 0.4);
-}
-
-.rank-A .rank-badge-large {
-    background: linear-gradient(135deg, #ffa502 0%, #ffba00 100%);
-    color: #1a1a1a;
-    box-shadow: 0 4px 16px rgba(255, 165, 2, 0.4);
-}
-
-.rank-B .rank-badge-large {
-    background: linear-gradient(135deg, #26de81 0%, #20bf6b 100%);
-    color: #fff;
-    box-shadow: 0 4px 16px rgba(38, 222, 129, 0.4);
-}
-
-.rank-C .rank-badge-large {
-    background: linear-gradient(135deg, #5f27cd 0%, #7b3ff2 100%);
-    color: #fff;
-    box-shadow: 0 4px 16px rgba(95, 39, 205, 0.4);
-}
-
-.rank-D .rank-badge-large {
-    background: linear-gradient(135deg, #74b9ff 0%, #54a0ff 100%);
-    color: #fff;
-    box-shadow: 0 4px 16px rgba(116, 185, 255, 0.4);
-}
-
-.rank-info strong {
-    display: block;
-    font-size: 1.1em;
-    margin-bottom: 4px;
-    color: var(--text-primary);
-}
-
-.rank-info p {
-    font-size: 0.9em;
-    color: var(--text-secondary);
-    line-height: 1.5;
-}
-
-/* ============================================
    RARITY SECTIONS
 ============================================ */
 .rarity-section {
@@ -782,13 +683,6 @@ h1 {
         grid-template-columns: 1fr;
     }
 
-    .rank-details {
-        grid-template-columns: 1fr;
-    }
-
-    .rank-explanation {
-        padding: 20px;
-    }
 }
 
 @media (max-width: 480px) {
