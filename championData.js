@@ -551,17 +551,6 @@ const champions = [
         ]
       },
       {
-        "name": "Nightmare Spider",
-        "type": "A1",
-        "icon": "skill_icons/Dame Mikage_A1.png",
-        "description": "Attacks 1 enemy. Places a [Sleep] debuff for 1 turn.\n\nAlso decreases the target's Turn Meter by 15%.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Silkensnare",
         "type": "A2",
         "icon": "skill_icons/Dame Mikage_A2.png",
@@ -570,16 +559,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +10%",
           "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
-        "name": "Skittering Death",
-        "type": "A2",
-        "icon": "skill_icons/Dame Mikage_A2.png",
-        "description": "Attacks all enemies. Places a [Stun] debuff for 1 turn.\n\nAlso decreases the Turn Meters of all enemies by 30%.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Ignore RES +20%"
         ]
       },
       {
@@ -593,29 +572,10 @@ const champions = [
         ]
       },
       {
-        "name": "Doom of Yakai",
-        "type": "A3",
-        "icon": "skill_icons/Dame Mikage_A3.png",
-        "description": "Places a 50% [Increase ACC] buff on all allies for 2 turns.\n\nAlso removes all buffs from all enemies, and places a 25% [Weaken] debuff on them for 2 turns.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Ignore RES +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Dame Mikage_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Dame Mikage_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -625,6 +585,46 @@ const champions = [
         "icon": "skill_icons/Dame Mikage_Passif.png",
         "description": "At the start of this Champion's turn, removes all debuffs from the ally with the highest ATK.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Nightmare Spider",
+        "type": "A6",
+        "icon": "skill_icons/Dame Mikage_A6.png",
+        "description": "Attacks 1 enemy. Places a [Sleep] debuff for 1 turn.\n\nAlso decreases the target's Turn Meter by 15%.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Skittering Death",
+        "type": "A7",
+        "icon": "skill_icons/Dame Mikage_A7.png",
+        "description": "Attacks all enemies. Places a [Stun] debuff for 1 turn.\n\nAlso decreases the Turn Meters of all enemies by 30%.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Doom of Yakai",
+        "type": "A8",
+        "icon": "skill_icons/Dame Mikage_A8.png",
+        "description": "Places a 50% [Increase ACC] buff on all allies for 2 turns.\n\nAlso removes all buffs from all enemies, and places a 25% [Weaken] debuff on them for 2 turns.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Ignore RES +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Dame Mikage_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -980,16 +980,6 @@ const champions = [
         ]
       },
       {
-        "name": "Bellyslash",
-        "type": "A1",
-        "icon": "skill_icons/Nell Dents-noires_A1.png",
-        "description": "Attacks 1 enemy 4 times. Each hit will ignore 30% of the target’s DEF. Each hit will also decrease the target’s MAX HP by 25% of the damage inflicted.\n\nIf the target is not a Boss, also places a [Shield] buff on this Champion equal to 25% of the target’s MAX HP.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Soporific Musk",
         "type": "A2",
         "icon": "skill_icons/Nell Dents-noires_A2.png",
@@ -997,17 +987,6 @@ const champions = [
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Cut 'Em Up",
-        "type": "A2",
-        "icon": "skill_icons/Nell Dents-noires_A2.png",
-        "description": "Attacks 1 enemy 2 times. Deals 100% more damage to enemies under a [Stun], [Sleep], [Freeze], [Provoke], [Fear], [True Fear], or [Petrification] debuffs.\n\n If the target is killed, instantly activates the [Feast of Terror] skill.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Damage +20%"
         ]
       },
       {
@@ -1022,28 +1001,10 @@ const champions = [
         ]
       },
       {
-        "name": "Feast of Terror",
-        "type": "A3",
-        "icon": "skill_icons/Nell Dents-noires_A3.png",
-        "description": "Attacks all enemies.\n\nPlaces a [True Fear] debuff for 2 turns. This debuff cannot be resisted or blocked by enemies with 50% HP or less.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Nell Dents-noires_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Nell Dents-noires_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -1053,6 +1014,45 @@ const champions = [
         "icon": "skill_icons/Nell Dents-noires_Passif.png",
         "description": "Whenever an enemy receives a buff, is healed, or has their Turn Meter increased, places a 5% [Poison] debuff on that enemy for 2 turns. Will ignore [Block Debuffs] buffs.\n\n Increases this Champion’s Turn Meter by 5% for each [Poison] debuff placed.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Bellyslash",
+        "type": "A6",
+        "icon": "skill_icons/Nell Dents-noires_A6.png",
+        "description": "Attacks 1 enemy 4 times. Each hit will ignore 30% of the target’s DEF. Each hit will also decrease the target’s MAX HP by 25% of the damage inflicted.\n\nIf the target is not a Boss, also places a [Shield] buff on this Champion equal to 25% of the target’s MAX HP.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Cut 'Em Up",
+        "type": "A7",
+        "icon": "skill_icons/Nell Dents-noires_A7.png",
+        "description": "Attacks 1 enemy 2 times. Deals 100% more damage to enemies under a [Stun], [Sleep], [Freeze], [Provoke], [Fear], [True Fear], or [Petrification] debuffs.\n\n If the target is killed, instantly activates the [Feast of Terror] skill.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Damage +20%"
+        ]
+      },
+      {
+        "name": "Feast of Terror",
+        "type": "A8",
+        "icon": "skill_icons/Nell Dents-noires_A8.png",
+        "description": "Attacks all enemies.\n\nPlaces a [True Fear] debuff for 2 turns. This debuff cannot be resisted or blocked by enemies with 50% HP or less.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Nell Dents-noires_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -1407,16 +1407,6 @@ const champions = [
         ]
       },
       {
-        "name": "Burn It Out",
-        "type": "A1",
-        "icon": "skill_icons/Siegfrund le Nephel_A1.png",
-        "description": "Attacks all enemies. Heals all allies by 20% of the damage inflicted.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%"
-        ]
-      },
-      {
         "name": "Seraphic Wave",
         "type": "A2",
         "icon": "skill_icons/Siegfrund le Nephel_A2.png",
@@ -1425,16 +1415,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Nephilic Ward",
-        "type": "A2",
-        "icon": "skill_icons/Siegfrund le Nephel_A2.png",
-        "description": "Removes all debuffs from all allies.\n\nThen heals all allies by 30% of their MAX HP and places a [Block Debuffs] buff on them for 2 turns.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
         ]
       },
       {
@@ -1449,9 +1429,45 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Siegfrund le Nephel_A4.png",
+        "description": "Transforms this Champion into their Alternate Form, whenever their last living ally is killed.\n\nThen grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Stay the Blade",
+        "type": "Passif",
+        "icon": "skill_icons/Siegfrund le Nephel_Passif.png",
+        "description": "If this Champion is about to get killed by a fatal hit, blocks incoming damage and places a [Block Damage] buff on this Champion for 2 turns.\n\nThen, heals this Champion by 50% of their MAX HP and fills their Turn Meter by 100%.",
+        "cooldown": 3,
+        "upgrades": []
+      },
+      {
+        "name": "Burn It Out",
+        "type": "A6",
+        "icon": "skill_icons/Siegfrund le Nephel_A6.png",
+        "description": "Attacks all enemies. Heals all allies by 20% of the damage inflicted.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%"
+        ]
+      },
+      {
+        "name": "Nephilic Ward",
+        "type": "A7",
+        "icon": "skill_icons/Siegfrund le Nephel_A7.png",
+        "description": "Removes all debuffs from all allies.\n\nThen heals all allies by 30% of their MAX HP and places a [Block Debuffs] buff on them for 2 turns.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1"
+        ]
+      },
+      {
         "name": "Light of the Beyond",
-        "type": "A3",
-        "icon": "skill_icons/Siegfrund le Nephel_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Siegfrund le Nephel_A8.png",
         "description": "Revives all dead allies with 50% HP and 50% Turn Meter, then places a [Block Damage] buff on all allies for 2 turns.",
         "cooldown": 6,
         "upgrades": [
@@ -1461,32 +1477,16 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "Passif",
-        "icon": "skill_icons/Siegfrund le Nephel_Passif.png",
-        "description": "Transforms this Champion into their Alternate Form, whenever their last living ally is killed.\n\nThen grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Siegfrund le Nephel_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Siegfrund le Nephel_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
       {
-        "name": "Stay the Blade",
-        "type": "Passif",
-        "icon": "skill_icons/Siegfrund le Nephel_Passif_formeAlt.png",
-        "description": "If this Champion is about to get killed by a fatal hit, blocks incoming damage and places a [Block Damage] buff on this Champion for 2 turns.\n\nThen, heals this Champion by 50% of their MAX HP and fills their Turn Meter by 100%.",
-        "cooldown": 3,
-        "upgrades": []
-      },
-      {
         "name": "Shield of Defiance",
         "type": "Passif",
-        "icon": "skill_icons/Siegfrund le Nephel_Passif.png",
+        "icon": "skill_icons/Siegfrund le Nephel_Passif_formeAlt.png",
         "description": "Decreases damage taken from skills by 20%.",
         "cooldown": 0,
         "upgrades": []
@@ -1836,16 +1836,6 @@ const champions = [
         ]
       },
       {
-        "name": "Wrath of Superiority",
-        "type": "A1",
-        "icon": "skill_icons/Sabraël la Distante_A1.png",
-        "description": "[Active Effect]\n\nAttacks 1 enemy 3 times. Will ignore [Block Damage] and [Unkillable] buffs.\n\n[Passive Effect]\n\nInstantly activates this skill against an enemy whenever that enemy receives a [Block Damage] or [Unkillable] buff, or have their death prevented by themselves or allies. Occurs once per turn.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Perfection In Motion",
         "type": "A2",
         "icon": "skill_icons/Sabraël la Distante_A2.png",
@@ -1853,17 +1843,6 @@ const champions = [
         "cooldown": 2,
         "upgrades": [
           "Lvl. 2 Ignore RES +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Pinions of Wrath",
-        "type": "A2",
-        "icon": "skill_icons/Sabraël la Distante_A2.png",
-        "description": "Attacks all enemies 2 times. Before attacking, swaps HP with a target enemy.\n\nFor this skill, increases this Champion’s ATK and decreases all enemies’ DEF by a percentage equal to the percentage of HP swapped.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
         ]
       },
@@ -1879,9 +1858,46 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Sabraël la Distante_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Is That... It?",
+        "type": "Passif",
+        "icon": "skill_icons/Sabraël la Distante_Passif.png",
+        "description": "This Champion receives no damage when attacked by enemies, including Bosses and their minions, out of their active turn.\n\nAll allies except this Champion deal 3% more damage for each enemy skill that has had its cooldown increased by this Champion (stacks up to 25%). If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Wrath of Superiority",
+        "type": "A6",
+        "icon": "skill_icons/Sabraël la Distante_A6.png",
+        "description": "[Active Effect]\n\nAttacks 1 enemy 3 times. Will ignore [Block Damage] and [Unkillable] buffs.\n\n[Passive Effect]\n\nInstantly activates this skill against an enemy whenever that enemy receives a [Block Damage] or [Unkillable] buff, or have their death prevented by themselves or allies. Occurs once per turn.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Pinions of Wrath",
+        "type": "A7",
+        "icon": "skill_icons/Sabraël la Distante_A7.png",
+        "description": "Attacks all enemies 2 times. Before attacking, swaps HP with a target enemy.\n\nFor this skill, increases this Champion’s ATK and decreases all enemies’ DEF by a percentage equal to the percentage of HP swapped.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
         "name": "You Will Weep",
-        "type": "A3",
-        "icon": "skill_icons/Sabraël la Distante_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Sabraël la Distante_A8.png",
         "description": "Attacks all enemies 2 times. Will ignore 25% of the target’s DEF.\n\nBefore attacking decreases the value of any [Stone Skin], [Shield], and [Magma Shield] buffs by 75%. This effect cannot be resisted if target has any skill on cooldown.\n\nPlaces a protected [Shield] buff on this Champion for 2 turns. The value of the [Shield] is proportional to this Champion’s ATK.",
         "cooldown": 4,
         "upgrades": [
@@ -1891,25 +1907,9 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Sabraël la Distante_A4.png",
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Sabraël la Distante_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Sabraël la Distante_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
-        "name": "Is That... It?",
-        "type": "Passif",
-        "icon": "skill_icons/Sabraël la Distante_Passif.png",
-        "description": "This Champion receives no damage when attacked by enemies, including Bosses and their minions, out of their active turn.\n\nAll allies except this Champion deal 3% more damage for each enemy skill that has had its cooldown increased by this Champion (stacks up to 25%). If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
         "cooldown": 0,
         "upgrades": []
       },
@@ -2478,16 +2478,6 @@ const champions = [
         ]
       },
       {
-        "name": "Astral Ravage",
-        "type": "A1",
-        "icon": "skill_icons/Arachoa Tourne-lune_A1.png",
-        "description": "Attacks 1 enemy 2 times.\n\nFills this Champion’s Turn Meter by 5% for each critical hit. Fills this Champion’s Turn Meter by additional 5% for each critical hit, if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nIf this attack kills an enemy, grants an Extra Turn instead.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Moon-Spider Maw",
         "type": "A2",
         "icon": "skill_icons/Arachoa Tourne-lune_A2.png",
@@ -2496,16 +2486,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Ignore RES +20%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Deaththread Spin",
-        "type": "A2",
-        "icon": "skill_icons/Arachoa Tourne-lune_A2.png",
-        "description": "Attacks 1 enemy 3 times. Will always use this skill instead of the default skill when counterattacking. This skill cannot be blocked by [Block Active Skills] debuffs.\n\nWill ignore [Shield] and [Block Damage] buffs. Additionally ignores [Unkillable] buffs if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nFills this Champion’s Turn Meter by 15% for each critical hit.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
         ]
       },
       {
@@ -2520,29 +2500,10 @@ const champions = [
         ]
       },
       {
-        "name": "Gossamer Execution",
-        "type": "A3",
-        "icon": "skill_icons/Arachoa Tourne-lune_A3.png",
-        "description": "Attacks 1 enemy 4 times.\n\nEach hit will ignore 15% of the target’s DEF. Each hit will ignore 30% DEF instead if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nFills this Champion’s Turn Meter by 20% for each critical hit.\n\nThen places a [Perfect Veil] buff on this Champion for 2 turns.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Arachoa Tourne-lune_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Arachoa Tourne-lune_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -2552,6 +2513,45 @@ const champions = [
         "icon": "skill_icons/Arachoa Tourne-lune_Passif.png",
         "description": "Increases this Champion’s SPD by 4 for each debuff placed by this Champion and by 2 for each debuff resisted when this Champion attempts to place debuffs (stacks up to 100). Only counts debuffs placed by this Champion’s skills.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Astral Ravage",
+        "type": "A6",
+        "icon": "skill_icons/Arachoa Tourne-lune_A6.png",
+        "description": "Attacks 1 enemy 2 times.\n\nFills this Champion’s Turn Meter by 5% for each critical hit. Fills this Champion’s Turn Meter by additional 5% for each critical hit, if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nIf this attack kills an enemy, grants an Extra Turn instead.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Deaththread Spin",
+        "type": "A7",
+        "icon": "skill_icons/Arachoa Tourne-lune_A7.png",
+        "description": "Attacks 1 enemy 3 times. Will always use this skill instead of the default skill when counterattacking. This skill cannot be blocked by [Block Active Skills] debuffs.\n\nWill ignore [Shield] and [Block Damage] buffs. Additionally ignores [Unkillable] buffs if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nFills this Champion’s Turn Meter by 15% for each critical hit.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Gossamer Execution",
+        "type": "A8",
+        "icon": "skill_icons/Arachoa Tourne-lune_A8.png",
+        "description": "Attacks 1 enemy 4 times.\n\nEach hit will ignore 15% of the target’s DEF. Each hit will ignore 30% DEF instead if the target is under a [Block Active Skills] debuff or a [Decrease DEF] debuff.\n\nFills this Champion’s Turn Meter by 20% for each critical hit.\n\nThen places a [Perfect Veil] buff on this Champion for 2 turns.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Arachoa Tourne-lune_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -2693,17 +2693,6 @@ const champions = [
         ]
       },
       {
-        "name": "Thunderstar",
-        "type": "A1",
-        "icon": "skill_icons/Ash’nar Âme-dragon_A1.png",
-        "description": "Attacks 1 enemy 2 times.\n\nHas a 25% chance of repeating each hit. Places a 60% [Decrease DEF] debuff on the target for 2 turns.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Buff/Debuff Chance +15%",
-          "Lvl. 3 Damage +20%"
-        ]
-      },
-      {
         "name": "Pyroclast Storm",
         "type": "A2",
         "icon": "skill_icons/Ash’nar Âme-dragon_A2.png",
@@ -2712,17 +2701,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Magma Geyser",
-        "type": "A2",
-        "icon": "skill_icons/Ash’nar Âme-dragon_A2.png",
-        "description": "Attacks 1 enemy.\n\nApplies a [Debuff Spread] effect, taking all debuffs from the target and placing them on all enemies.\n\nThen, repeats the attack on all enemies. Increases the duration of all debuffs on all enemies by 1 turn. \n\nBoth attacks will ignore 20% of each target's DEF.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +20%"
         ]
       },
       {
@@ -2736,9 +2714,47 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorphic",
+        "type": "A4",
+        "icon": "skill_icons/Ash’nar Âme-dragon_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "By Fire Be Healed",
+        "type": "Passif",
+        "icon": "skill_icons/Ash’nar Âme-dragon_Passif.png",
+        "description": "Each [HP Burn] debuff placed by this Champion while in their Base Form increases their MAX HP and DEF by 5% (stacks up to 25% across both Forms and will not reset).\n\n[HP Burn] debuffs placed on allies heal them instead of damaging them.\n\nAllies deal 3% more damage for each active [HP Burn] debuff. If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Thunderstar",
+        "type": "A6",
+        "icon": "skill_icons/Ash’nar Âme-dragon_A6.png",
+        "description": "Attacks 1 enemy 2 times.\n\nHas a 25% chance of repeating each hit. Places a 60% [Decrease DEF] debuff on the target for 2 turns.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Buff/Debuff Chance +15%",
+          "Lvl. 3 Damage +20%"
+        ]
+      },
+      {
+        "name": "Magma Geyser",
+        "type": "A7",
+        "icon": "skill_icons/Ash’nar Âme-dragon_A7.png",
+        "description": "Attacks 1 enemy.\n\nApplies a [Debuff Spread] effect, taking all debuffs from the target and placing them on all enemies.\n\nThen, repeats the attack on all enemies. Increases the duration of all debuffs on all enemies by 1 turn. \n\nBoth attacks will ignore 20% of each target's DEF.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Damage +20%"
+        ]
+      },
+      {
         "name": "Cataclysm Smash",
-        "type": "A3",
-        "icon": "skill_icons/Ash’nar Âme-dragon_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Ash’nar Âme-dragon_A8.png",
         "description": "Attacks all enemies. Before attacking, places a 60% [Increase DEF] buff and a 30% [Increase C. DMG] buff on all allies for 2 turns.\n\nPlaces a [Provoke] debuff for 1 turn. If the target of this skill is a Boss, places a [Provoke] debuff for 2 turns instead.\n\nThis attack cannot be a weak hit when hitting enemies under a [HP Burn] debuff.",
         "cooldown": 4,
         "upgrades": [
@@ -2749,26 +2765,10 @@ const champions = [
       },
       {
         "name": "Metamorphic",
-        "type": "A4",
-        "icon": "skill_icons/Ash’nar Âme-dragon_A4.png",
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorphic",
-        "type": "A4",
-        "icon": "skill_icons/Ash’nar Âme-dragon_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Ash’nar Âme-dragon_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "By Fire Be Healed",
-        "type": "Passif",
-        "icon": "skill_icons/Ash’nar Âme-dragon_Passif.png",
-        "description": "Each [HP Burn] debuff placed by this Champion while in their Base Form increases their MAX HP and DEF by 5% (stacks up to 25% across both Forms and will not reset).\n\n[HP Burn] debuffs placed on allies heal them instead of damaging them.\n\nAllies deal 3% more damage for each active [HP Burn] debuff. If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
-        "cooldown": 0,
         "upgrades": []
       },
       {
@@ -2910,17 +2910,6 @@ const champions = [
         ]
       },
       {
-        "name": "Boulder Hurl",
-        "type": "A1",
-        "icon": "skill_icons/Arbais Pierrépine_A1.png",
-        "description": "Attacks 1 enemy.\n\nDecreases the target's Turn Meter by 30%. Then places a 15% [Continuous Heal] buff on this Champion for 1 turn.\n\nAlso places a 15% [Continuous Heal] buff on the ally with the lowest HP except this Champion for 1 turn.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Verdant Rebirth",
         "type": "A2",
         "icon": "skill_icons/Arbais Pierrépine_A2.png",
@@ -2932,31 +2921,10 @@ const champions = [
         ]
       },
       {
-        "name": "Briarburn",
-        "type": "A2",
-        "icon": "skill_icons/Arbais Pierrépine_A2.png",
-        "description": "Attacks all enemies. Places a [Leech] debuff and a [HP Burn] debuff for 2 turns.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Harmonious Whisper",
         "type": "A3",
         "icon": "skill_icons/Arbais Pierrépine_A3.png",
         "description": "Fills the Turn Meters of all allies by 30% and places a 50% [Increase ATK] buff and a 50% [Increase ACC] buff on all allies for 2 turns.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Roar of the Mistwood",
-        "type": "A3",
-        "icon": "skill_icons/Arbais Pierrépine_A3.png",
-        "description": "Places two 15% [Continuous Heal] buffs on all allies for 2 turns.\n\nAlso places a [Taunt] buff on this Champion for 2 turns, as well as a [Stoneskin] buff for 1 turn.",
         "cooldown": 5,
         "upgrades": [
           "Lvl. 2 Cooldown -1"
@@ -2971,19 +2939,51 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Arbais Pierrépine_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
         "name": "Stonethorn's Embrace",
         "type": "Passif",
         "icon": "skill_icons/Arbais Pierrépine_Passif.png",
         "description": "Has a 30% chance of placing a [Petrification] debuff on an attacker for 1 turn, whenever an ally is attacked while under a [Revive On Death] buff placed by this Champion.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Boulder Hurl",
+        "type": "A6",
+        "icon": "skill_icons/Arbais Pierrépine_A6.png",
+        "description": "Attacks 1 enemy.\n\nDecreases the target's Turn Meter by 30%. Then places a 15% [Continuous Heal] buff on this Champion for 1 turn.\n\nAlso places a 15% [Continuous Heal] buff on the ally with the lowest HP except this Champion for 1 turn.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Briarburn",
+        "type": "A7",
+        "icon": "skill_icons/Arbais Pierrépine_A7.png",
+        "description": "Attacks all enemies. Places a [Leech] debuff and a [HP Burn] debuff for 2 turns.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Roar of the Mistwood",
+        "type": "A8",
+        "icon": "skill_icons/Arbais Pierrépine_A8.png",
+        "description": "Places two 15% [Continuous Heal] buffs on all allies for 2 turns.\n\nAlso places a [Taunt] buff on this Champion for 2 turns, as well as a [Stoneskin] buff for 1 turn.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Arbais Pierrépine_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -3126,17 +3126,6 @@ const champions = [
         ]
       },
       {
-        "name": "Unmaker's Blade",
-        "type": "A1",
-        "icon": "skill_icons/Embrys l’Anomalie_A1.png",
-        "description": "Attacks 1 enemy. Places an extra hit if the target has any [Necrosis] stacks.\n\nAlso places a [Block Revive] debuff if this attack kills an enemy.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +20%"
-        ]
-      },
-      {
         "name": "Voidstare",
         "type": "A2",
         "icon": "skill_icons/Embrys l’Anomalie_A2.png",
@@ -3144,17 +3133,6 @@ const champions = [
         "cooldown": 5,
         "upgrades": [
           "Lvl. 2 Ignore RES +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Atomize",
-        "type": "A2",
-        "icon": "skill_icons/Embrys l’Anomalie_A2.png",
-        "description": "Attacks all enemies.\n\nDeals double damage to enemies whose ACC is lower than this Champion’s ACC. Ignores 50% of each enemy’s DEF whose ACC is equal to or higher than this Champion’s ACC.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
         ]
       },
@@ -3170,28 +3148,10 @@ const champions = [
         ]
       },
       {
-        "name": "Your Life Is Forfeit!",
-        "type": "A3",
-        "icon": "skill_icons/Embrys l’Anomalie_A3.png",
-        "description": "Swaps HP with an enemy. If the target is a Boss, fully restores this Champion’s destroyed MAX HP and fully heals this Champion instead.\n\nEach time this skill is used, increases this Champion’s Ignore DEF effect by 10% while in their Alternate Form (stacks up to 50%).\n\nThen grants an Extra Turn.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Embrys l’Anomalie_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Embrys l’Anomalie_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -3201,6 +3161,46 @@ const champions = [
         "icon": "skill_icons/Embrys l’Anomalie_Passif.png",
         "description": "Whenever an enemy is killed, places one [Necrosis] stack on all other enemies. [Necrosis] stacks cannot be resisted or blocked. [Necrosis] stacks can only be removed by reviving dead allies. This effect does not work against Bosses and their minions. If there are multiple Champions on the team with this skill, this effect will only activate once.\n\nAt the start and the end of this Champion's turn, instantly activates any [Necrosis] stacks on all enemies.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Unmaker's Blade",
+        "type": "A6",
+        "icon": "skill_icons/Embrys l’Anomalie_A6.png",
+        "description": "Attacks 1 enemy. Places an extra hit if the target has any [Necrosis] stacks.\n\nAlso places a [Block Revive] debuff if this attack kills an enemy.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Damage +20%"
+        ]
+      },
+      {
+        "name": "Atomize",
+        "type": "A7",
+        "icon": "skill_icons/Embrys l’Anomalie_A7.png",
+        "description": "Attacks all enemies.\n\nDeals double damage to enemies whose ACC is lower than this Champion’s ACC. Ignores 50% of each enemy’s DEF whose ACC is equal to or higher than this Champion’s ACC.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Your Life Is Forfeit!",
+        "type": "A8",
+        "icon": "skill_icons/Embrys l’Anomalie_A8.png",
+        "description": "Swaps HP with an enemy. If the target is a Boss, fully restores this Champion’s destroyed MAX HP and fully heals this Champion instead.\n\nEach time this skill is used, increases this Champion’s Ignore DEF effect by 10% while in their Alternate Form (stacks up to 50%).\n\nThen grants an Extra Turn.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Embrys l’Anomalie_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -3342,16 +3342,6 @@ const champions = [
         ]
       },
       {
-        "name": "Rimecleave",
-        "type": "A1",
-        "icon": "skill_icons/Fjorad Cœur-de-loup_A1.png",
-        "description": "Attacks 1 enemy.\n\nWill ignore 15% of the target's DEF. If the target is under a [Freeze] debuff, ignores 35% of the target's DEF instead.\n\nIf this attack kills an enemy, resets the cooldown of one of this Champion's random skills.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Great Captain",
         "type": "A2",
         "icon": "skill_icons/Fjorad Cœur-de-loup_A2.png",
@@ -3359,17 +3349,6 @@ const champions = [
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Icequake",
-        "type": "A2",
-        "icon": "skill_icons/Fjorad Cœur-de-loup_A2.png",
-        "description": "Attacks all enemies. Places an extra hit on enemies under [Freeze], [Stun], [Fear], [True Fear], [Provoke], or [Petrification] debuffs.\n\nEach hit decreases each target’s MAX HP by 25% of the damage inflicted (stacks up to 50%).\n\nEach hit also decreases each target’s Turn Meter by 25%. This effect cannot be resisted if an enemy is under [Freeze], [Stun], [Fear], [True Fear], [Provoke], or [Petrification] debuffs.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
         ]
       },
       {
@@ -3384,29 +3363,10 @@ const champions = [
         ]
       },
       {
-        "name": "Disciple of Tormin",
-        "type": "A3",
-        "icon": "skill_icons/Fjorad Cœur-de-loup_A3.png",
-        "description": "Attacks 1 enemy.\n\nWill ignore 50% of the target's DEF. If the target is under a [Freeze] debuff, will ignore 100% of the target's DEF and [Block Damage] buffs instead.\n\nIf the target is killed while under a [Freeze] debuff, also places a [Block Revive] debuff on them, and places a [Freeze] debuff on all enemies for 1 turn.\n\nThe [Freeze] debuff cannot be blocked or resisted by enemies from the Gaellen Pact.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Fjorad Cœur-de-loup_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Fjorad Cœur-de-loup_A4.png",
-        "description": "Transforms this Champion into the Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -3416,6 +3376,46 @@ const champions = [
         "icon": "skill_icons/Fjorad Cœur-de-loup_Passif.png",
         "description": "Whenever this Champion or an ally receives a debuff from an enemy, has a 30% chance of placing a [Freeze] debuff on that enemy for 1 turn.\n\nThis chance increases to 100% and the debuff cannot be blocked or resisted if the target is from the Gaellen Pact.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Rimecleave",
+        "type": "A6",
+        "icon": "skill_icons/Fjorad Cœur-de-loup_A6.png",
+        "description": "Attacks 1 enemy.\n\nWill ignore 15% of the target's DEF. If the target is under a [Freeze] debuff, ignores 35% of the target's DEF instead.\n\nIf this attack kills an enemy, resets the cooldown of one of this Champion's random skills.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Icequake",
+        "type": "A7",
+        "icon": "skill_icons/Fjorad Cœur-de-loup_A7.png",
+        "description": "Attacks all enemies. Places an extra hit on enemies under [Freeze], [Stun], [Fear], [True Fear], [Provoke], or [Petrification] debuffs.\n\nEach hit decreases each target’s MAX HP by 25% of the damage inflicted (stacks up to 50%).\n\nEach hit also decreases each target’s Turn Meter by 25%. This effect cannot be resisted if an enemy is under [Freeze], [Stun], [Fear], [True Fear], [Provoke], or [Petrification] debuffs.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Disciple of Tormin",
+        "type": "A8",
+        "icon": "skill_icons/Fjorad Cœur-de-loup_A8.png",
+        "description": "Attacks 1 enemy.\n\nWill ignore 50% of the target's DEF. If the target is under a [Freeze] debuff, will ignore 100% of the target's DEF and [Block Damage] buffs instead.\n\nIf the target is killed while under a [Freeze] debuff, also places a [Block Revive] debuff on them, and places a [Freeze] debuff on all enemies for 1 turn.\n\nThe [Freeze] debuff cannot be blocked or resisted by enemies from the Gaellen Pact.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Fjorad Cœur-de-loup_A9.png",
+        "description": "Transforms this Champion into the Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -3761,7 +3761,7 @@ const champions = [
       {
         "name": "Foecrusher",
         "type": "A1",
-        "icon": "skill_icons/Gharol Masse-sang_A1.png",
+        "icon": "skill_icons/Gharol Masse-Sang_A1.png",
         "description": "Attacks 1 enemy. Before attacking, removes all buffs from the target.\n\nIncreases the cooldown of a random skill on the target by 2 turns.",
         "cooldown": 0,
         "upgrades": [
@@ -3770,20 +3770,9 @@ const champions = [
         ]
       },
       {
-        "name": "Magma Slam",
-        "type": "A1",
-        "icon": "skill_icons/Gharol Masse-sang_A1.png",
-        "description": "Attacks all enemies. Has a 25% chance of repeating the attack. Ignores [Block Damage] buffs.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +10%"
-        ]
-      },
-      {
         "name": "Hammerquake",
         "type": "A2",
-        "icon": "skill_icons/Gharol Masse-sang_A2.png",
+        "icon": "skill_icons/Gharol Masse-Sang_A2.png",
         "description": "Attacks all enemies. Places a [Provoke] debuff on all enemies for 1 turn. This debuff will ignoer [Block Debuffs] and can be placed even if this attack lands as a weak hit.\n\nAlso places a protected [Unkillable] buff and a [Counterattack] buff on this Champion for 3 turns.",
         "cooldown": 4,
         "upgrades": [
@@ -3792,20 +3781,9 @@ const champions = [
         ]
       },
       {
-        "name": "Calamitous Maul",
-        "type": "A2",
-        "icon": "skill_icons/Gharol Masse-sang_A2.png",
-        "description": "Attacks all enemies. Damage of this skill increases by 10% for each buff on this Champion and on the target.\n\nWill ignores 30% of each target's DEF. Will ignore 50% of the  target's DEF instead if this Champion has moer buffs than the target.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +10%"
-        ]
-      },
-      {
         "name": "Bonded by Blood",
         "type": "A3",
-        "icon": "skill_icons/Gharol Masse-sang_A3.png",
+        "icon": "skill_icons/Gharol Masse-Sang_A3.png",
         "description": "Removes all debuffs from all allies. Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns.\n\nPlaces a [Shield] buff equal to 30% of this Champion's MAX HP on all allies for 2 turns. Incerases the value of the [Shield] by an additional  3% of this Champion's MAX HP per each debuff removed by this skill.",
         "cooldown": 5,
         "upgrades": [
@@ -3815,40 +3793,62 @@ const champions = [
       },
       {
         "name": "Metamorphic",
-        "type": "A3",
-        "icon": "skill_icons/Gharol Masse-sang_A3.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "type": "A4",
+        "icon": "skill_icons/Gharol Masse-Sang_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
       {
+        "name": "Kill or Cure",
+        "type": "Passif",
+        "icon": "skill_icons/Gharol Masse-Sang_Passif.png",
+        "description": "When attacked, decreases the duration of all buffs on the attacker by 1 turn. Occurs once per hit.\n\nAlso heals all allies except this Champion by 50% of the damage taken, and heals this Champion by 25% of the damage taken, whenever this Champion is hit. Occurs once per hit.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Magma Slam",
+        "type": "A6",
+        "icon": "skill_icons/Gharol Masse-Sang_A6.png",
+        "description": "Attacks all enemies. Has a 25% chance of repeating the attack. Ignores [Block Damage] buffs.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Damage +10%"
+        ]
+      },
+      {
+        "name": "Calamitous Maul",
+        "type": "A7",
+        "icon": "skill_icons/Gharol Masse-Sang_A7.png",
+        "description": "Attacks all enemies. Damage of this skill increases by 10% for each buff on this Champion and on the target.\n\nWill ignores 30% of each target's DEF. Will ignore 50% of the  target's DEF instead if this Champion has moer buffs than the target.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Damage +10%"
+        ]
+      },
+      {
         "name": "Metamorphic",
-        "type": "A4",
-        "icon": "skill_icons/Gharol Masse-sang_A4.png",
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
+        "type": "A8",
+        "icon": "skill_icons/Gharol Masse-Sang_A8.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
       {
         "name": "Crimson Haze",
         "type": "Passif",
-        "icon": "skill_icons/Gharol Masse-sang_Passif.png",
+        "icon": "skill_icons/Gharol Masse-Sang_Passif_formeAlt.png",
         "description": "Whenever an ally attacks, this Champion has a 50% chance to to team up with them and join thei attack.\n\nThis Champion inflicts more damage as their HP decreases (by 1% for every 1% of HP lost).\n\nThis Champion receives less damage as their HP decreases (by 0.5% fo every 1% of HP lost).",
         "cooldown": 0,
         "upgrades": []
       },
       {
-        "name": "Kill or Cure",
-        "type": "Passif",
-        "icon": "skill_icons/Gharol Masse-sang_Passif_formeAlt.png",
-        "description": "When attacked, decreases the duration of all buffs on the attacker by 1 turn. Occurs once per hit.\n\nAlso heals all allies except this Champion by 50% of the damage taken, and heals this Champion by 25% of the damage taken, whenever this Champion is hit. Occurs once per hit.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
         "name": "Cornered Animal",
-        "type": "A5",
-        "icon": "skill_icons/Gharol Masse-sang_A5.png",
+        "type": "A9",
+        "icon": "skill_icons/Gharol Masse-Sang_A9.png",
         "description": "Removes all debuffs from this Champion.\n\nPlaces a 50% [Increase ATK] buff, a 30% [Increase C. DMG] buff, and a 30% [Increase C. RATE] buff on all allies for 3 turns. \n\nGrants an Extra Turn.\n\n[This skill unlocks when this Champion has 3 o more debuffs, or when this Champion has 50% or less HP.]",
         "cooldown": 2,
         "upgrades": []
@@ -4200,17 +4200,6 @@ const champions = [
         ]
       },
       {
-        "name": "Bladewing",
-        "type": "A1",
-        "icon": "skill_icons/Krixia Reine de Nuit_A1.png",
-        "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of decreasing the duration of all debuffs on a random ally by 1 turn.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Buff/Debuff Chance +10%"
-        ]
-      },
-      {
         "name": "Doom Lantern",
         "type": "A2",
         "icon": "skill_icons/Krixia Reine de Nuit_A2.png",
@@ -4218,17 +4207,6 @@ const champions = [
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Ignore RES +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Rain of Damnation",
-        "type": "A2",
-        "icon": "skill_icons/Krixia Reine de Nuit_A2.png",
-        "description": "Attacks all enemies. Places a [Block Debuffs] buff and a 50% [Increase RES] buff on all allies for 2 turns.\n\nThen, fills the Turn Meters of all allies by 20%.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
           "Lvl. 3 Cooldown -1"
         ]
       },
@@ -4244,28 +4222,10 @@ const champions = [
         ]
       },
       {
-        "name": "Nightpurge",
-        "type": "A3",
-        "icon": "skill_icons/Krixia Reine de Nuit_A3.png",
-        "description": "Removes all debuffs from all allies, then decreases the cooldown of all ally skills, except this Champion's, by 3 turns. This skill's cooldown cannot be reduced or reset.",
-        "cooldown": 6,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Krixia Reine de Nuit_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Krixia Reine de Nuit_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -4275,6 +4235,46 @@ const champions = [
         "icon": "skill_icons/Krixia Reine de Nuit_Passif.png",
         "description": "Immune to [Stun] debuffs. Increases this Champion’s ACC by 1 for every 2 RES they have.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Bladewing",
+        "type": "A6",
+        "icon": "skill_icons/Krixia Reine de Nuit_A6.png",
+        "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of decreasing the duration of all debuffs on a random ally by 1 turn.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Buff/Debuff Chance +10%"
+        ]
+      },
+      {
+        "name": "Rain of Damnation",
+        "type": "A7",
+        "icon": "skill_icons/Krixia Reine de Nuit_A7.png",
+        "description": "Attacks all enemies. Places a [Block Debuffs] buff and a 50% [Increase RES] buff on all allies for 2 turns.\n\nThen, fills the Turn Meters of all allies by 20%.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Nightpurge",
+        "type": "A8",
+        "icon": "skill_icons/Krixia Reine de Nuit_A8.png",
+        "description": "Removes all debuffs from all allies, then decreases the cooldown of all ally skills, except this Champion's, by 3 turns. This skill's cooldown cannot be reduced or reset.",
+        "cooldown": 6,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Krixia Reine de Nuit_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -4626,16 +4626,6 @@ const champions = [
         ]
       },
       {
-        "name": "Fae Talons",
-        "type": "A1",
-        "icon": "skill_icons/Naïs Voleur d’ombres_A1.png",
-        "description": "Attacks 1 enemy 2 times. Each hit heals this Champion by 7.5% of their MAX HP.\n\nIf this Champion’s HP is full, each hit fills this Champion’s Turn Meter by 15% instead.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Blackfeather Barrage",
         "type": "A2",
         "icon": "skill_icons/Naïs Voleur d’ombres_A2.png",
@@ -4644,16 +4634,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +15%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Murder of Crows",
-        "type": "A2",
-        "icon": "skill_icons/Naïs Voleur d’ombres_A2.png",
-        "description": "Attacks all enemies. Places a [Provoke] debuff for 1 turn if this Champion has more than 50% HP. This debuff cannot be resisted if this Champion has more than 75% HP.\n\nIf this Champion has 50% HP or less, places a [Stun] debuff for 1 turn instead. This debuff cannot be resisted.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
         ]
       },
       {
@@ -4667,29 +4647,10 @@ const champions = [
         ]
       },
       {
-        "name": "Feathershield",
-        "type": "A3",
-        "icon": "skill_icons/Naïs Voleur d’ombres_A3.png",
-        "description": "Removes all debuffs from this Champion. Places a number of 15% [Continuous Heal] buffs on this Champion, equal to the amount of debuffs removed by this skill.\n\nAlso places a [Counterattack] buff and a [Block Damage] buff on this Champion for 2 turns. These buffs cannot be removed, stolen or transferred.",
-        "cooldown": 6,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Naïs Voleur d’ombres_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Naïs Voleur d’ombres_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -4699,6 +4660,45 @@ const champions = [
         "icon": "skill_icons/Naïs Voleur d’ombres_Passif.png",
         "description": "Deals 5% more damage for each 10% HP the target has lost.\n\nAlso prevents this Champion’s death and keeps them alive on 1 HP when hit with a fatal hit, then transforms them into their Alternate Form.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Fae Talons",
+        "type": "A6",
+        "icon": "skill_icons/Naïs Voleur d’ombres_A6.png",
+        "description": "Attacks 1 enemy 2 times. Each hit heals this Champion by 7.5% of their MAX HP.\n\nIf this Champion’s HP is full, each hit fills this Champion’s Turn Meter by 15% instead.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Murder of Crows",
+        "type": "A7",
+        "icon": "skill_icons/Naïs Voleur d’ombres_A7.png",
+        "description": "Attacks all enemies. Places a [Provoke] debuff for 1 turn if this Champion has more than 50% HP. This debuff cannot be resisted if this Champion has more than 75% HP.\n\nIf this Champion has 50% HP or less, places a [Stun] debuff for 1 turn instead. This debuff cannot be resisted.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Feathershield",
+        "type": "A8",
+        "icon": "skill_icons/Naïs Voleur d’ombres_A8.png",
+        "description": "Removes all debuffs from this Champion. Places a number of 15% [Continuous Heal] buffs on this Champion, equal to the amount of debuffs removed by this skill.\n\nAlso places a [Counterattack] buff and a [Block Damage] buff on this Champion for 2 turns. These buffs cannot be removed, stolen or transferred.",
+        "cooldown": 6,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Naïs Voleur d’ombres_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -4861,8 +4861,8 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "Passif",
-        "icon": "skill_icons/Mina Marquise de sang_Passif.png",
+        "type": "A4",
+        "icon": "skill_icons/Mina Marquise de sang_A4.png",
         "description": "Transforms this Champion into their Alternate Form whenever this Champion is revived by a skill, effect, or [Revive On Death] buff.\n\nThen grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
@@ -4870,7 +4870,7 @@ const champions = [
       {
         "name": "Engine of Murder",
         "type": "Passif",
-        "icon": "skill_icons/Mina Marquise de sang_Passif_formeAlt.png",
+        "icon": "skill_icons/Mina Marquise de sang_Passif.png",
         "description": "Whenever an enemy has their Turn Meter filled, this Champion inflicts pure damage on that enemy equal to 3% of their MAX HP for every 10% Turn Meter filled. Will inflict 6% of their MAX HP as pure damage instead, if the enemy is under a [Leech] debuff. This damage cannot be critical and will ignore [Stone Skin], [Ally Protection], [Shield], [Strengthen], and [Fervor] buffs, [Bone Armor] stacks, and any damage modifying skills or effects. If the enemy is a Boss, the damage cannot exceed 50,000 HP per hit.\n\nWhenever an enemy has their Turn Meter filled, also destroys their SPD by 3 for every 10% Turn Meter filled (stacks up to 100). Will destroy 6 SPD for every 10% Turn Meter filled instead, if the enemy is under a [Leech] debuff. This effect does not work against Bosses.\n\nRevives this Champion with 100% HP every 2 turns if at least one ally is alive. Once per Round, instantly revives this Champion with 100% HP if all allies are dead.",
         "cooldown": 0,
         "upgrades": []
@@ -4917,7 +4917,7 @@ const champions = [
       {
         "name": "Fueled By Blood",
         "type": "Passif",
-        "icon": "skill_icons/Mina Marquise de sang_Passif.png",
+        "icon": "skill_icons/Mina Marquise de sang_Passif_formeAlt.png",
         "description": "Heals this Champion by 1% of their MAX HP for every 1% of Turn Meter filled by enemies. Will heal this Champion by 2% of their MAX HP for every 1% of Turn Meter filled by enemies instead, if this Champion’s ATK is higher than the enemy’s.\n\nIncreases this Champion’s SPD by 3 for every 1% of Turn Meter filled by enemies (stacks up to 100). Will increase this Champion's SPD by 6 for every 1% of Turn Meter filled by enemies instead, if this Champion’s ATK is higher than the enemy’s.",
         "cooldown": 0,
         "upgrades": []
@@ -5044,18 +5044,8 @@ const champions = [
       {
         "name": "Quick Draw",
         "type": "A1",
-        "icon": "skill_icons/Toshiro le Sanglant_A1.png",
+        "icon": "skill_icons/Toshiro le sanglant_A1.png",
         "description": "Attacks 1 enemy. Has a 50% chance of attacking another enemy if they are under a [Leech] debuff.\n\nPlaces a [Perfect Veil] buff on this Champion for 1 turn.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
-        "name": "Iai Cut",
-        "type": "A1",
-        "icon": "skill_icons/Toshiro le Sanglant_A1.png",
-        "description": "Attacks all enemies. Has a 50% chance of increasing the duration of all enemy debuffs by 1 turn.",
         "cooldown": 0,
         "upgrades": [
           "Lvl. 2 Damage +20%"
@@ -5064,7 +5054,7 @@ const champions = [
       {
         "name": "Sanguine Darts",
         "type": "A2",
-        "icon": "skill_icons/Toshiro le Sanglant_A2.png",
+        "icon": "skill_icons/Toshiro le sanglant_A2.png",
         "description": "Attacks 4 times at random. Each hit increases this Champion’s ATK and HP by 5% while in their Base Form (stacks up to 100%). If a target is under a [Leech] debuff, this Champion’s ATK and HP are increased by 10% instead.\n\nDamage inflicted by this skill increases by 15% for each [Leech] debuff on the enemy team.",
         "cooldown": 3,
         "upgrades": [
@@ -5073,20 +5063,9 @@ const champions = [
         ]
       },
       {
-        "name": "Drawn in Blood",
-        "type": "A2",
-        "icon": "skill_icons/Toshiro le Sanglant_A2.png",
-        "description": "Attacks all enemies.\n\nHeals all allies except this Champion by 10% of the damage inflicted. The value of the heal increases by 5% for each [Leech] debuff on the enemy team.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Bloody Typhoon",
         "type": "A3",
-        "icon": "skill_icons/Toshiro le Sanglant_A3.png",
+        "icon": "skill_icons/Toshiro le sanglant_A3.png",
         "description": "Attacks all enemies.\n\nPlaces a 60% [Decrease DEF] debuff and a [Leech] debuff for 2 turns.\n\nPlaces an extra hit on enemies under 2 or more debuffs.",
         "cooldown": 3,
         "upgrades": [
@@ -5095,9 +5074,46 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Toshiro le sanglant_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Vornspore's Hunger",
+        "type": "Passif",
+        "icon": "skill_icons/Toshiro le sanglant_Passif.png",
+        "description": "Fills this Champion’s Turn Meter by 5% every time they attack a target under a [Leech] debuff.\n\nInflicts 25% more damage to enemies under a [Leech] debuff.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Iai Cut",
+        "type": "A6",
+        "icon": "skill_icons/Toshiro le sanglant_A6.png",
+        "description": "Attacks all enemies. Has a 50% chance of increasing the duration of all enemy debuffs by 1 turn.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Drawn in Blood",
+        "type": "A7",
+        "icon": "skill_icons/Toshiro le sanglant_A7.png",
+        "description": "Attacks all enemies.\n\nHeals all allies except this Champion by 10% of the damage inflicted. The value of the heal increases by 5% for each [Leech] debuff on the enemy team.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
         "name": "Withering Onslaught",
-        "type": "A3",
-        "icon": "skill_icons/Toshiro le Sanglant_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Toshiro le sanglant_A8.png",
         "description": "Attacks all enemies. Places a 30% [Decrease SPD] debuff and a [Leech] debuff for 2 turns.\n\nThen grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": [
@@ -5107,32 +5123,16 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Toshiro le Sanglant_A4.png",
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Toshiro le Sanglant_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Toshiro le sanglant_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
       {
-        "name": "Vornspore's Hunger",
-        "type": "Passif",
-        "icon": "skill_icons/Toshiro le Sanglant_Passif.png",
-        "description": "Fills this Champion’s Turn Meter by 5% every time they attack a target under a [Leech] debuff.\n\nInflicts 25% more damage to enemies under a [Leech] debuff.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
         "name": "Enrobed in Gore",
         "type": "Passif",
-        "icon": "skill_icons/Toshiro le Sanglant_Passif_formeAlt.png",
+        "icon": "skill_icons/Toshiro le sanglant_Passif_formeAlt.png",
         "description": "Doubles the amount of healing this Champion receives when attacking enemies under a [Leech] debuff.\n\nAlso decreases the damage taken from enemies under [Leech] debuffs by 50%.",
         "cooldown": 0,
         "upgrades": []
@@ -5266,17 +5266,6 @@ const champions = [
         ]
       },
       {
-        "name": "Hammerflame",
-        "type": "A1",
-        "icon": "skill_icons/Cinda Forgecœur_A1.png",
-        "description": "Attacks 1 enemy. Will ignore 10% of the target’s DEF. Will ignore an additional 5% of the target’s DEF for each active [HP Burn] debuff on the enemy team (stacks up to 35% total Ignore DEF).\n\nPlaces a 50% [Decrease ATK] debuff on the target for 2 turns.\n\nAttacks all enemies instead if this Champion is under a [Magma Shield] buff. Will ignore 10% of each target’s DEF. Will ignore an additional 5% of each target’s DEF for each active [HP Burn] debuff on the enemy team (stacks up to 35% total Ignore DEF).\n\nPlaces a 50% [Decrease ATK] debuff on all enemies for 2 turns.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Breaker Of Metals",
         "type": "A2",
         "icon": "skill_icons/Cinda Forgecœur_A2.png",
@@ -5285,16 +5274,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Burning Tempest",
-        "type": "A2",
-        "icon": "skill_icons/Cinda Forgecœur_A2.png",
-        "description": "Attacks all enemies 2 times.\n\nEach hit decreases each target’s DEF by 3% (stacks up to 30%). Each hit also deals additional pure damage to each target equal to 2% of their MAX HP for each turn remaining on all [HP Burn] debuffs on all enemies (stacks up to 15%). This additional pure damage is always normal and will ignore 100% of each target’s DEF. Cannot exceed 3% of Boss and minion MAX HP. Does not count as a hit.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
         ]
       },
       {
@@ -5308,29 +5287,10 @@ const champions = [
         ]
       },
       {
-        "name": "Total Incineration",
-        "type": "A3",
-        "icon": "skill_icons/Cinda Forgecœur_A3.png",
-        "description": "Attacks all enemies. Before attacking, places a [HP Burn] debuff on all enemies for 3 turns and instantly activates one tick of all [HP Burn] debuffs on all enemies. Will ignore 25% of each target’s DEF. Will ignore an additional 5% for each active [HP Burn] debuff on the enemy team (stacks up to 50% total Ignore DEF).\n\nPlaces a 60% [Decrease DEF] debuff on all enemies for 2 turns.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Cinda Forgecœur_A4.png",
         "description": "Transforms this Champion into their Alternate Form.\n\nThen grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Cinda Forgecœur_A4.png",
-        "description": "Transforms this Champion into their Base Form.\n\nThen grants an Extra Turn.\n\n",
         "cooldown": 4,
         "upgrades": []
       },
@@ -5340,6 +5300,46 @@ const champions = [
         "icon": "skill_icons/Cinda Forgecœur_Passif.png",
         "description": "At the start of each Round and whenever this Champion is revived, places a [Magma Shield] buff equal to 300% of this Champion’s ATK on this Champion for 1 turn.\n\nThis Champion receives 30% less damage from enemies when under a [Magma Shield] buff. Heals this Champion by 50% of their MAX HP whenever a [Magma Shield] buff on them expires or is removed by damage.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Hammerflame",
+        "type": "A6",
+        "icon": "skill_icons/Cinda Forgecœur_A6.png",
+        "description": "Attacks 1 enemy. Will ignore 10% of the target’s DEF. Will ignore an additional 5% of the target’s DEF for each active [HP Burn] debuff on the enemy team (stacks up to 35% total Ignore DEF).\n\nPlaces a 50% [Decrease ATK] debuff on the target for 2 turns.\n\nAttacks all enemies instead if this Champion is under a [Magma Shield] buff. Will ignore 10% of each target’s DEF. Will ignore an additional 5% of each target’s DEF for each active [HP Burn] debuff on the enemy team (stacks up to 35% total Ignore DEF).\n\nPlaces a 50% [Decrease ATK] debuff on all enemies for 2 turns.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Burning Tempest",
+        "type": "A7",
+        "icon": "skill_icons/Cinda Forgecœur_A7.png",
+        "description": "Attacks all enemies 2 times.\n\nEach hit decreases each target’s DEF by 3% (stacks up to 30%). Each hit also deals additional pure damage to each target equal to 2% of their MAX HP for each turn remaining on all [HP Burn] debuffs on all enemies (stacks up to 15%). This additional pure damage is always normal and will ignore 100% of each target’s DEF. Cannot exceed 3% of Boss and minion MAX HP. Does not count as a hit.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Total Incineration",
+        "type": "A8",
+        "icon": "skill_icons/Cinda Forgecœur_A8.png",
+        "description": "Attacks all enemies. Before attacking, places a [HP Burn] debuff on all enemies for 3 turns and instantly activates one tick of all [HP Burn] debuffs on all enemies. Will ignore 25% of each target’s DEF. Will ignore an additional 5% for each active [HP Burn] debuff on the enemy team (stacks up to 50% total Ignore DEF).\n\nPlaces a 60% [Decrease DEF] debuff on all enemies for 2 turns.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Cinda Forgecœur_A9.png",
+        "description": "Transforms this Champion into their Base Form.\n\nThen grants an Extra Turn.\n\n",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -5479,31 +5479,10 @@ const champions = [
         ]
       },
       {
-        "name": " Icon Of Terror",
-        "type": "A1",
-        "icon": "skill_icons/Heinrik Tue-démons_A1.png",
-        "description": "Attacks 1 enemy.\n\nHas a 100% chance of placing a [True Fear] debuff for 1 turn.\n",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Evil Begone!",
         "type": "A2",
         "icon": "skill_icons/Heinrik Tue-démons_A2.png",
         "description": "Attacks all enemies.\n\nPlaces a [Stun] debuff on each enemy for 1 turn, and a 30% [Decrease SPD] debuff on each enemy for 2 turns. If a target’s Turn Meter is equal to or greater than 50%, these debuffs will ignore [Block Debuffs] buffs.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Ignore RES +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Whatever It Takes",
-        "type": "A2",
-        "icon": "skill_icons/Heinrik Tue-démons_A2.png",
-        "description": "Attacks all enemies.\n\nPlaces a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff on all enemies for 2 turns. These debuffs cannot be resisted or blocked by targets under [Stun], [Sleep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuffs.",
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Ignore RES +20%",
@@ -5522,9 +5501,46 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Heinrik Tue-démons_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.\n\n",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Renewed Purpose",
+        "type": "Passif",
+        "icon": "skill_icons/Heinrik Tue-démons_Passif.png",
+        "description": "Whenever an enemy receives a [Stun], [Sleep], [Sheep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuff, fills this Champion’s Turn Meter by 10%.\n\nWhenever an ally attacks an enemy under a [Stun], [Sleep], [Sheep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuff, also fills that ally’s Turn Meter by 10%.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": " Icon Of Terror",
+        "type": "A6",
+        "icon": "skill_icons/Heinrik Tue-démons_A6.png",
+        "description": "Attacks 1 enemy.\n\nHas a 100% chance of placing a [True Fear] debuff for 1 turn.\n",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Whatever It Takes",
+        "type": "A7",
+        "icon": "skill_icons/Heinrik Tue-démons_A7.png",
+        "description": "Attacks all enemies.\n\nPlaces a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff on all enemies for 2 turns. These debuffs cannot be resisted or blocked by targets under [Stun], [Sleep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuffs.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Ignore RES +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
         "name": "Shield Of Faith",
-        "type": "A3",
-        "icon": "skill_icons/Heinrik Tue-démons_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Heinrik Tue-démons_A8.png",
         "description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Also places a 30% [Reflect Damage] buff and a 50% [Increase RES] buff on all allies for 2 turns.\n\nPlaces a [Stone Skin] buff on this Champion for 2 turns.",
         "cooldown": 4,
         "upgrades": [
@@ -5533,32 +5549,16 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A4",
-        "icon": null,
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.\n\n",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Heinrik Tue-démons_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Heinrik Tue-démons_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
       {
-        "name": "Renewed Purpose",
-        "type": "A5",
-        "icon": "skill_icons/Heinrik Tue-démons_A5.png",
-        "description": "Whenever an enemy receives a [Stun], [Sleep], [Sheep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuff, fills this Champion’s Turn Meter by 10%.\n\nWhenever an ally attacks an enemy under a [Stun], [Sleep], [Sheep], [Fear], [True Fear], [Provoke], [Freeze] or [Petrification] debuff, also fills that ally’s Turn Meter by 10%.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
         "name": "Lumaya Sees Us",
         "type": "Passif",
-        "icon": "skill_icons/Heinrik Tue-démons_Passif.png",
+        "icon": "skill_icons/Heinrik Tue-démons_Passif_formeAlt.png",
         "description": "Whenever an ally attacks while under an [Ally Protection] buff, heals this Champion by 10% of his MAX HP.\n\nWhenever an enemy attacks an ally under an [Ally Protection] buff, has a 25% chance of placing a [Stun] debuff on the attacker for 1 turn.",
         "cooldown": 0,
         "upgrades": []
@@ -5695,17 +5695,6 @@ const champions = [
         ]
       },
       {
-        "name": "Demon Stinger",
-        "type": "A1",
-        "icon": "skill_icons/Karnage l’Anarque_A1.png",
-        "description": "Attacks 1 enemy 2 times. Heals this Champion by 20% of the damage inflicted.\n\n[Passive Effect]\n\nWhenever an enemy hits this Champion or an ally, has a 50% chance to counterattack with this skill. This chance increases by 10% for each debuff on the enemy.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +15%",
-          "Lvl. 3 Damage +15%"
-        ]
-      },
-      {
         "name": "Devilish Accord",
         "type": "A2",
         "icon": "skill_icons/Karnage l’Anarque_A2.png",
@@ -5713,17 +5702,6 @@ const champions = [
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Singularity of Pain",
-        "type": "A2",
-        "icon": "skill_icons/Karnage l’Anarque_A2.png",
-        "description": "Attacks all enemies. Will ignore [Shield] buffs.\n\nWill also ignore [Ally Protection] buffs when attacking enemies under 1 or more debuffs, and [Unkillable] buffs when attacking enemies under 2 or more debuffs.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
         ]
       },
       {
@@ -5736,25 +5714,6 @@ const champions = [
           "Lvl. 2 Ignore RES +15%",
           "Lvl. 3 Ignore RES +15%"
         ]
-      },
-      {
-        "name": "Infernal Stars",
-        "type": "A3",
-        "icon": "skill_icons/Karnage l’Anarque_A3.png",
-        "description": "Attacks all enemies 2 times.\n\nIf a target is killed by this skill while under 3 or more different debuffs, places a [Block Revive] debuff on them.\n\nAlso heals this Champion by 30% of the damage dealt.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Karnage l’Anarque_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
-        "cooldown": 0,
-        "upgrades": []
       },
       {
         "name": "metamorph",
@@ -5770,6 +5729,47 @@ const champions = [
         "icon": "skill_icons/Karnage l’Anarque_Passif.png",
         "description": "Each hit this Champion deals from skills has a 50% chance of applying a [Debuff Spread] effect, taking 1 random debuff from the target and placing it on all enemies.\n\nWhenever this Champion kills an enemy, has a 100% chance of applying a [Debuff Spread] effect, taking all debuffs from the target and placing them on all enemies. This effect cannot be resisted.",
         "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Demon Stinger",
+        "type": "A6",
+        "icon": "skill_icons/Karnage l’Anarque_A6.png",
+        "description": "Attacks 1 enemy 2 times. Heals this Champion by 20% of the damage inflicted.\n\n[Passive Effect]\n\nWhenever an enemy hits this Champion or an ally, has a 50% chance to counterattack with this skill. This chance increases by 10% for each debuff on the enemy.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +15%",
+          "Lvl. 3 Damage +15%"
+        ]
+      },
+      {
+        "name": "Singularity of Pain",
+        "type": "A7",
+        "icon": "skill_icons/Karnage l’Anarque_A7.png",
+        "description": "Attacks all enemies. Will ignore [Shield] buffs.\n\nWill also ignore [Ally Protection] buffs when attacking enemies under 1 or more debuffs, and [Unkillable] buffs when attacking enemies under 2 or more debuffs.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Infernal Stars",
+        "type": "A8",
+        "icon": "skill_icons/Karnage l’Anarque_A8.png",
+        "description": "Attacks all enemies 2 times.\n\nIf a target is killed by this skill while under 3 or more different debuffs, places a [Block Revive] debuff on them.\n\nAlso heals this Champion by 30% of the damage dealt.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Karnage l’Anarque_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 0,
         "upgrades": []
       },
       {
@@ -5913,32 +5913,10 @@ const champions = [
         ]
       },
       {
-        "name": "Volatile Performer",
-        "type": "A1",
-        "icon": "skill_icons/Komidus Rictus_A1.png",
-        "description": "Attacks 1 enemy 2 times.\n\nEach hit has a 50% chance of placing a [Bomb] debuff for 2 turns.\n\nHeals this Champion by 10% of their MAX HP for each [Bomb] debuff placed.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Agony Overwhelming",
         "type": "A2",
         "icon": "skill_icons/Komidus Rictus_A2.png",
         "description": "Attacks all enemies. Removes all buffs from all enemies and places a [Block Active Skills] debuff on them for 2 turns.\n\nAlso steals 20% of the Turn Meter from each enemy under a [Block Active Skills] debuff.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
-        "name": "Explosive Showstopper",
-        "type": "A2",
-        "icon": "skill_icons/Komidus Rictus_A2.png",
-        "description": "Attacks all enemies.\n\nPlaces 2 [Bomb] debuffs on all enemies for 2 turns.\n\nInstantly detonates all [Bomb] debuffs on enemies with [Stoneskin] buffs or enemies whose HP is less than this Champion’s HP.\n\nThen, places a [Stun] debuff for 1 turn on all enemies who had their [Bomb] debuffs detonated by this skill.",
         "cooldown": 3,
         "upgrades": [
           "Lvl. 2 Damage +20%",
@@ -5958,28 +5936,10 @@ const champions = [
         ]
       },
       {
-        "name": "Killer Encore",
-        "type": "A3",
-        "icon": "skill_icons/Komidus Rictus_A3.png",
-        "description": "Heals this Champion by 50% of their MAX HP.\n\nAlso places a 25% [Weaken] debuff on all enemies for 2 turns.\n\nThen grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Komidus Rictus_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Komidus Rictus_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -5989,6 +5949,46 @@ const champions = [
         "icon": "skill_icons/Komidus Rictus_Passif.png",
         "description": "Whenever this Champion loses 30% HP or more in a single turn, deals damage to the attacker equal to 30% of this Champion’s MAX HP. Occurs once per turn.\n\nAlso when this Champion loses 30% HP or more in a single turn, places a [Shield] buff on them, equal to 30% of this Champion’s MAX HP, for 2 turns.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Volatile Performer",
+        "type": "A6",
+        "icon": "skill_icons/Komidus Rictus_A6.png",
+        "description": "Attacks 1 enemy 2 times.\n\nEach hit has a 50% chance of placing a [Bomb] debuff for 2 turns.\n\nHeals this Champion by 10% of their MAX HP for each [Bomb] debuff placed.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Explosive Showstopper",
+        "type": "A7",
+        "icon": "skill_icons/Komidus Rictus_A7.png",
+        "description": "Attacks all enemies.\n\nPlaces 2 [Bomb] debuffs on all enemies for 2 turns.\n\nInstantly detonates all [Bomb] debuffs on enemies with [Stoneskin] buffs or enemies whose HP is less than this Champion’s HP.\n\nThen, places a [Stun] debuff for 1 turn on all enemies who had their [Bomb] debuffs detonated by this skill.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Killer Encore",
+        "type": "A8",
+        "icon": "skill_icons/Komidus Rictus_A8.png",
+        "description": "Heals this Champion by 50% of their MAX HP.\n\nAlso places a 25% [Weaken] debuff on all enemies for 2 turns.\n\nThen grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Komidus Rictus_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -6338,17 +6338,6 @@ const champions = [
         ]
       },
       {
-        "name": "Spirit of the Pack",
-        "type": "A1",
-        "icon": "skill_icons/Mezomel Croc-Loup_A1.png",
-        "description": "Attacks all enemies. This attack will not trigger counterattacks.\n\nPlaces an extra hit on enemies under [True Fear] debuffs.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +10%"
-        ]
-      },
-      {
         "name": "Scarlet Crescent",
         "type": "A2",
         "icon": "skill_icons/Mezomel Croc-Loup_A2.png",
@@ -6357,18 +6346,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +20%",
           "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Life Shredder",
-        "type": "A2",
-        "icon": "skill_icons/Mezomel Croc-Loup_A2.png",
-        "description": "Attacks all enemies 2 times. Places a [True Fear] debuff for 2 turns.\n\nThis attack will not trigger counterattacks. Will also ignore [Unkillable] and [Block Damage] buffs.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%",
-          "Lvl. 4 Cooldown -1"
         ]
       },
       {
@@ -6384,14 +6361,6 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A3",
-        "icon": "skill_icons/Mezomel Croc-Loup_A3.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Mezomel Croc-Loup_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
@@ -6399,18 +6368,49 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Embrace the Beast",
+        "name": "Relentless Hunt",
         "type": "Passif",
         "icon": "skill_icons/Mezomel Croc-Loup_Passif.png",
-        "description": "Increases this Champion's ATK and C. DMG by 20% while in their Alternate Form.",
+        "description": "Heals this Champion by 20% of the damage inflicted. Places a [Revive On Death] buff on this Champion for 2 turns every time they kill an enemy.",
         "cooldown": 0,
         "upgrades": []
       },
       {
-        "name": "Relentless Hunt",
+        "name": "Spirit of the Pack",
+        "type": "A6",
+        "icon": "skill_icons/Mezomel Croc-Loup_A6.png",
+        "description": "Attacks all enemies. This attack will not trigger counterattacks.\n\nPlaces an extra hit on enemies under [True Fear] debuffs.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +10%",
+          "Lvl. 3 Damage +10%"
+        ]
+      },
+      {
+        "name": "Life Shredder",
+        "type": "A7",
+        "icon": "skill_icons/Mezomel Croc-Loup_A7.png",
+        "description": "Attacks all enemies 2 times. Places a [True Fear] debuff for 2 turns.\n\nThis attack will not trigger counterattacks. Will also ignore [Unkillable] and [Block Damage] buffs.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%",
+          "Lvl. 4 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A8",
+        "icon": "skill_icons/Mezomel Croc-Loup_A8.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Embrace the Beast",
         "type": "Passif",
         "icon": "skill_icons/Mezomel Croc-Loup_Passif_formeAlt.png",
-        "description": "Heals this Champion by 20% of the damage inflicted. Places a [Revive On Death] buff on this Champion for 2 turns every time they kill an enemy.",
+        "description": "Increases this Champion's ATK and C. DMG by 20% while in their Alternate Form.",
         "cooldown": 0,
         "upgrades": []
       }
@@ -6758,16 +6758,6 @@ const champions = [
         ]
       },
       {
-        "name": "Crushing Pincers",
-        "type": "A1",
-        "icon": "skill_icons/Aphidus Maître-ruche_A1.png",
-        "description": "Attacks 1 enemy. Places a 50% [Increase ACC] buff on the ally with the highest ACC for 2 turns and fills their Turn Meter by 10%.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Umbral Stingers",
         "type": "A2",
         "icon": "skill_icons/Aphidus Maître-ruche_A2.png",
@@ -6776,18 +6766,6 @@ const champions = [
         "upgrades": [
           "Lvl. 2 Damage +20%",
           "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
-        "name": "Putrid Cocoon",
-        "type": "A2",
-        "icon": "skill_icons/Aphidus Maître-ruche_A2.png",
-        "description": "Attacks all enemies. Places a [Stun] debuff on all enemies for 1 turn.\n\nAlso places two 15% [Continuous Heal] buffs on all allies for 2 turns.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%",
-          "Lvl. 4 Cooldown -1"
         ]
       },
       {
@@ -6802,9 +6780,47 @@ const champions = [
         ]
       },
       {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Aphidus Maître-ruche_A4.png",
+        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Fleshsearer",
+        "type": "Passif",
+        "icon": "skill_icons/Aphidus Maître-ruche_Passif.png",
+        "description": "Each time this Champion places a [HP Burn] debuff, decreases the target's DEF by 3% (stacks up to 30%).\n\nFor each [HP Burn] debuff on the enemy team, increase this Champion's C.DMG by 10% (stacks up to 100%).\n\nWhenever an enemy [HP Burn] debuff activates, increase this Champion's ATK by 5% (stacks up to 50%). Resets each Round.",
+        "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Crushing Pincers",
+        "type": "A6",
+        "icon": "skill_icons/Aphidus Maître-ruche_A6.png",
+        "description": "Attacks 1 enemy. Places a 50% [Increase ACC] buff on the ally with the highest ACC for 2 turns and fills their Turn Meter by 10%.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Putrid Cocoon",
+        "type": "A7",
+        "icon": "skill_icons/Aphidus Maître-ruche_A7.png",
+        "description": "Attacks all enemies. Places a [Stun] debuff on all enemies for 1 turn.\n\nAlso places two 15% [Continuous Heal] buffs on all allies for 2 turns.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%",
+          "Lvl. 4 Cooldown -1"
+        ]
+      },
+      {
         "name": "Behold The Beast",
-        "type": "A3",
-        "icon": "skill_icons/Aphidus Maître-ruche_A3.png",
+        "type": "A8",
+        "icon": "skill_icons/Aphidus Maître-ruche_A8.png",
         "description": "Places a [Provoke] debuff on all enemies for 1 turn.\n\nAlso places a 25% [Strengthen] buff and a 60% [Increase DEF] buff on all allies for 2 turns.",
         "cooldown": 5,
         "upgrades": [
@@ -6815,26 +6831,10 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Aphidus Maître-ruche_A4.png",
-        "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Aphidus Maître-ruche_A4.png",
+        "type": "A9",
+        "icon": "skill_icons/Aphidus Maître-ruche_A9.png",
         "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Fleshsearer",
-        "type": "Passif",
-        "icon": "skill_icons/Aphidus Maître-ruche_Passif.png",
-        "description": "Each time this Champion places a [HP Burn] debuff, decreases the target's DEF by 3% (stacks up to 30%).\n\nFor each [HP Burn] debuff on the enemy team, increase this Champion's C.DMG by 10% (stacks up to 100%).\n\nWhenever an enemy [HP Burn] debuff activates, increase this Champion's ATK by 5% (stacks up to 50%). Resets each Round.",
-        "cooldown": 0,
         "upgrades": []
       },
       {
@@ -6975,16 +6975,6 @@ const champions = [
         ]
       },
       {
-        "name": "Arcs of Pain",
-        "type": "A1",
-        "icon": "skill_icons/Frolni le Mécanicien_A1.png",
-        "description": "Attacks 1 enemy 2 times. Each hit increases this Champion's DEF by 5% (stacks up to 100%).",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Bloody Larceny",
         "type": "A2",
         "icon": "skill_icons/Frolni le Mécanicien_A2.png",
@@ -6992,17 +6982,6 @@ const champions = [
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Damage +20%",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Pulverizing Procedure",
-        "type": "A2",
-        "icon": "skill_icons/Frolni le Mécanicien_A2.png",
-        "description": "Attacks 1 enemy. Heals this Champion by 50% of their MAX HP.\n\nBalances the HP of all allies. The HP levels of all allies will be brought up to the level of the ally with the highest HP.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1",
           "Lvl. 3 Cooldown -1"
         ]
       },
@@ -7018,29 +6997,10 @@ const champions = [
         ]
       },
       {
-        "name": "Engine of War",
-        "type": "A3",
-        "icon": "skill_icons/Frolni le Mécanicien_A3.png",
-        "description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion for 2 turns.\n\nPlaces a [Shield] buff on all allies whose current HP is below 50% for 2 turns. The value of the [Shield] is proportional to this Champion's DEF.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
         "name": "Metamorph",
         "type": "A4",
         "icon": "skill_icons/Frolni le Mécanicien_A4.png",
         "description": "Transforms this Champion into their Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A4",
-        "icon": "skill_icons/Frolni le Mécanicien_A4.png",
-        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []
       },
@@ -7050,6 +7010,46 @@ const champions = [
         "icon": "skill_icons/Frolni le Mécanicien_Passif.png",
         "description": "Passive Effect\nThis Champion's C. DMG is increased by 1% for every 1,000 HP they have.\n\nIncreases this Champion's MAX HP by 20% (stacks up to 100%) and SPD by 20 (stacks up to 100) whenever this Champion kills an enemy. Resets each Round.",
         "cooldown": 0,
+        "upgrades": []
+      },
+      {
+        "name": "Arcs of Pain",
+        "type": "A6",
+        "icon": "skill_icons/Frolni le Mécanicien_A6.png",
+        "description": "Attacks 1 enemy 2 times. Each hit increases this Champion's DEF by 5% (stacks up to 100%).",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Pulverizing Procedure",
+        "type": "A7",
+        "icon": "skill_icons/Frolni le Mécanicien_A7.png",
+        "description": "Attacks 1 enemy. Heals this Champion by 50% of their MAX HP.\n\nBalances the HP of all allies. The HP levels of all allies will be brought up to the level of the ally with the highest HP.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Engine of War",
+        "type": "A8",
+        "icon": "skill_icons/Frolni le Mécanicien_A8.png",
+        "description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion for 2 turns.\n\nPlaces a [Shield] buff on all allies whose current HP is below 50% for 2 turns. The value of the [Shield] is proportional to this Champion's DEF.",
+        "cooldown": 5,
+        "upgrades": [
+          "Lvl. 2 Cooldown -1",
+          "Lvl. 3 Cooldown -1"
+        ]
+      },
+      {
+        "name": "Metamorph",
+        "type": "A9",
+        "icon": "skill_icons/Frolni le Mécanicien_A9.png",
+        "description": "Transforms this Champion into their Base Form. Then grants an Extra Turn.",
+        "cooldown": 4,
         "upgrades": []
       },
       {
@@ -100256,31 +100256,10 @@ const champions = [
         ]
       },
       {
-        "name": "Fulminous Screech",
-        "type": "A1",
-        "icon": "skill_icons/Galleus Crête-sang_A1.png",
-        "description": "Attacks 1 enemy. Places an extra hit on all enemies under [Decrease DEF] debuffs.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +20%"
-        ]
-      },
-      {
         "name": "Cutting Jibe",
         "type": "A2",
         "icon": "skill_icons/Galleus Crête-sang_A2.png",
         "description": "Attacks all enemies.\n\nPlaces a [Provoke] debuff for 1 turn. If the target is a Boss, places a [Provoke] debuff for 2 turns instead.\n\nAlso places an [Unkillable] buff on this Champion for 1 turn and a [Counterattack] buff on them for 2 turns.",
-        "cooldown": 3,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
-        "name": "Sundered Sky",
-        "type": "A2",
-        "icon": "skill_icons/Galleus Crête-sang_A2.png",
-        "description": "Attacks all enemies.\n\nBefore attacking, places a 60% [Decrease DEF] debuff for 2 turns. This effect cannot be resisted.\n\nDamage increases by 10% for each enemy under a [Decrease DEF] debuff. Also steals 20% of the Turn Meter from each enemy.",
         "cooldown": 3,
         "upgrades": [
           "Lvl. 2 Damage +20%",
@@ -100298,23 +100277,52 @@ const champions = [
         ]
       },
       {
-        "name": "Sonic Torture",
-        "type": "A3",
-        "icon": "skill_icons/Galleus Crête-sang_A3.png",
-        "description": "Attacks all enemies.\n\nWill ignore 20% of each target’s DEF if they have no buffs. Ignores [Block Damage] buffs.\n\nDamage increases by 15% for each buff on each target.\n\nDecreases the duration of all enemy buffs by 2 turns.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +20%",
-          "Lvl. 3 Ignore RES +20%"
-        ]
-      },
-      {
         "name": "Rule the Roost",
         "type": "Passif",
         "icon": "skill_icons/Galleus Crête-sang_Passif.png",
         "description": "Reflects 50% of the damage this Champion receives back to the attacker.\n\nIf the attacker is a Boss, reflects 100% of the damage this Champion receives.\n\nAlso heals this Champion by 50% of the damage received.",
         "cooldown": 0,
         "upgrades": []
+      },
+      {
+        "name": "Metamorph",
+        "type": "A4",
+        "icon": "skill_icons/Galleus Crête-sang_A4.png",
+        "description": "Transforms this Champion into the Alternate Form. Then grants an Extra Turn.",
+        "cooldown": 4,
+        "upgrades": []
+      },
+      {
+        "name": "Fulminous Screech",
+        "type": "A6",
+        "icon": "skill_icons/Galleus Crête-sang_A6.png",
+        "description": "Attacks 1 enemy. Places an extra hit on all enemies under [Decrease DEF] debuffs.",
+        "cooldown": 0,
+        "upgrades": [
+          "Lvl. 2 Damage +20%"
+        ]
+      },
+      {
+        "name": "Sundered Sky",
+        "type": "A7",
+        "icon": "skill_icons/Galleus Crête-sang_A7.png",
+        "description": "Attacks all enemies.\n\nBefore attacking, places a 60% [Decrease DEF] debuff for 2 turns. This effect cannot be resisted.\n\nDamage increases by 10% for each enemy under a [Decrease DEF] debuff. Also steals 20% of the Turn Meter from each enemy.",
+        "cooldown": 3,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
+      },
+      {
+        "name": "Sonic Torture",
+        "type": "A8",
+        "icon": "skill_icons/Galleus Crête-sang_A8.png",
+        "description": "Attacks all enemies.\n\nWill ignore 20% of each target’s DEF if they have no buffs. Ignores [Block Damage] buffs.\n\nDamage increases by 15% for each buff on each target.\n\nDecreases the duration of all enemy buffs by 2 turns.",
+        "cooldown": 4,
+        "upgrades": [
+          "Lvl. 2 Damage +20%",
+          "Lvl. 3 Ignore RES +20%"
+        ]
       },
       {
         "name": "Unholy Experiment",
@@ -100326,16 +100334,8 @@ const champions = [
       },
       {
         "name": "Metamorph",
-        "type": "A5",
-        "icon": "skill_icons/Galleus Crête-sang_A5.png",
-        "description": "Transforms this Champion into the Alternate Form. Then grants an Extra Turn.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
-        "name": "Metamorph",
-        "type": "A5",
-        "icon": "skill_icons/Galleus Crête-sang_A5.png",
+        "type": "A9",
+        "icon": "skill_icons/Galleus Crête-sang_A9.png",
         "description": "Transforms this Champion into the Base Form. Then grants an Extra Turn.",
         "cooldown": 4,
         "upgrades": []

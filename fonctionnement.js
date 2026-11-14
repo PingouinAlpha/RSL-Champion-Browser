@@ -417,6 +417,11 @@ function openChampionDetail(name) {
     const hasSkills = form1.length || form2.length;
 
     const skillsHtml = hasSkills ? `
+        ${form2.length ? `
+            <div class="detail-form-divider">
+                <span>Forme de base</span>
+            </div>
+        ` : ''}
         <div class="detail-skills-grid">${form1.map(renderDetailSkill).join('')}</div>
         ${form2.length ? `
             <div class="detail-form-divider">
