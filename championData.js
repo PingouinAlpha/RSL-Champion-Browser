@@ -76520,12 +76520,6 @@ const champions = [
     "element": "Force"
   },
   {
-    "name": "Peaulivide",
-    "rarity": "Épique",
-    "rank": "C",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-peaulivide-artefact-et-maitrise/"
-  },
-  {
     "name": "Fouilleuse",
     "faction": "Dark Elves",
     "rarity": "Épique",
