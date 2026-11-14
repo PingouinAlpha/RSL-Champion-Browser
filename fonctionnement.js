@@ -25,10 +25,18 @@ function typeSlug(type) {
 
 function injectEffectIcons(html) {
     if (!html || typeof effectIcons === 'undefined') return html || '';
-    return html.replace(/<span class="(fx-buff|fx-debuff)">\[([^\]]+)\]<\/span>/g, (match, cls, name) => {
-        const icon = effectIcons[name.trim()];
+    return html.replace(/<span class="(fx-buff|fx-debuff)">\[([^\]]+)\]<\/span>|\[([^\]]+)\]/g, (match, cls, nameSpan, nameBare) => {
+        if (cls) {
+            const icon = effectIcons[nameSpan.trim()];
+            if (!icon) return match;
+            return `<img class="fx-icon" src="${icon}" alt="${nameSpan}" onerror="this.style.display='none';">${match}`;
+        }
+        const name = (nameBare || '').trim();
+        const icon = effectIcons[name];
         if (!icon) return match;
-        return `<img class="fx-icon" src="${icon}" alt="${name}" onerror="this.style.display='none';">${match}`;
+        const isDebuff = typeof knownDebuffNames !== 'undefined' && knownDebuffNames.has(name);
+        const spanCls = isDebuff ? 'fx-debuff' : 'fx-buff';
+        return `<img class="fx-icon" src="${icon}" alt="${name}" onerror="this.style.display='none';"><span class="${spanCls}">[${name}]</span>`;
     });
 }
 
@@ -259,6 +267,7 @@ const FACTION_COLORS = {
     'Banner Lords': '#d4af37',
     'High Elves': '#7fd8e8',
     'Sacred Order': '#f4e285',
+    'Coven of Magi': '#9c27b0',
     'Ogryn Tribes': '#c97b3d',
     'Lizardmen': '#4caf50',
     'Skinwalkers': '#8b4513',
@@ -268,9 +277,10 @@ const FACTION_COLORS = {
     'Dark Elves': '#4a148c',
     'Knights Revenant': '#455a64',
     'Barbarians': '#a1887f',
-    'Dwarves': '#607d8b',
-    'Shadowkin': '#263238',
     'Sylvan Watchers': '#2e7d32',
+    'Samurai': '#263238',
+    'Dwarves': '#607d8b',
+    'Olympians': '#1e88e5',
 };
 
 const RARITY_COLORS = {
@@ -282,14 +292,75 @@ const RARITY_COLORS = {
     'Commun': 'linear-gradient(135deg, #94a3b8 0%, #cbd5e1 100%)',
 };
 
+const ELEMENT_COLORS = {
+    'Force': '#ef5350',
+    'Magic': '#42a5f5',
+    'Spirit': '#66bb6a',
+    'Void': '#ab47bc',
+};
+
+const ROLE_LABELS = {
+    'Attack': 'Attaque',
+    'Defense': 'Défense',
+    'Health': 'Soutien PV',
+    'Support': 'Support',
+    'Evolve': 'Évolution',
+    'Xp': 'XP',
+};
+
+function getFactionIconPath(faction) {
+    return faction ? `faction_icons/${faction}.png` : null;
+}
+
 function findChampionByName(name) {
     return champions.find(c => c.name === name);
+}
+
+// Separe les competences d'un champion en : bonus d'aura, competences de la
+// forme de base, et (pour les mythiques) competences de la forme alternative.
+// Gere les deux formats presents dans nos donnees :
+//  - "nested" (skills hand-authored) : chaque sort actif/passif porte un champ
+//    .altForm avec la version "forme 2" du meme sort.
+//  - "flat" (synthetise depuis Gestal) : les sorts de la forme 2 sont des
+//    entrees separees typees A6-A9 (+ un 2e Passif), a la suite des A1-A4+Passif.
+function flattenSkillsByForm(skills) {
+    const aura = [];
+    const form1 = [];
+    const form2 = [];
+    let passifSeen = 0;
+
+    (skills || []).forEach(skill => {
+        const type = skill.type || '';
+        if (/aura/i.test(type)) {
+            aura.push(skill);
+            if (skill.altForm) aura.push(skill.altForm);
+            return;
+        }
+        let isForm1 = true;
+        const activeMatch = /^A(\d+)$/.exec(type);
+        if (activeMatch) {
+            isForm1 = parseInt(activeMatch[1], 10) <= 4;
+        } else if (/passif/i.test(type)) {
+            passifSeen++;
+            isForm1 = passifSeen === 1;
+        }
+        (isForm1 ? form1 : form2).push(skill);
+
+        if (skill.altForm) {
+            form2.push(Object.assign({}, skill.altForm, { type: skill.altForm.type || skill.type }));
+        }
+    });
+
+    return { aura, form1, form2 };
 }
 
 function renderDetailSkill(skill) {
     const slug = typeSlug(skill.type);
     const upgradesHtml = skill.upgrades && skill.upgrades.length
-        ? `<ul class="detail-skill-upgrades">${skill.upgrades.map(u => `<li>${u}</li>`).join('')}</ul>`
+        ? `<ul class="detail-skill-upgrades">${skill.upgrades.map(u => `<li>${injectEffectIcons(u)}</li>`).join('')}</ul>`
+        : '';
+    const damageHtml = skill.damageBase
+        ? `<div class="detail-skill-damage">Dégâts basés sur : <strong>${skill.damageBase}</strong></div>`
         : '';
     return `
         <div class="detail-skill">
@@ -303,8 +374,23 @@ function renderDetailSkill(skill) {
                     ${skill.cooldown ? `<span class="detail-skill-cd">⏱ ${skill.cooldown} tours</span>` : ''}
                 </div>
                 <div class="detail-skill-desc">${injectEffectIcons(skill.description)}</div>
+                ${damageHtml}
                 ${upgradesHtml}
             </div>
+        </div>
+    `;
+}
+
+function renderAuraBox(auraSkills) {
+    if (!auraSkills.length) return '';
+    return `
+        <div class="detail-aura-box">
+            ${auraSkills.map(a => `
+                <div class="detail-aura-line">
+                    <span class="detail-aura-icon">${a.icon ? `<img src="${a.icon}" alt="" onerror="this.style.display='none';">` : '✦'}</span>
+                    <span class="detail-aura-text">${injectEffectIcons(a.description || a.name || '')}</span>
+                </div>
+            `).join('')}
         </div>
     `;
 }
@@ -316,32 +402,53 @@ function openChampionDetail(name) {
     const imagePath = getChampionImagePath(champ.name);
     const factionColor = FACTION_COLORS[champ.faction] || '#888';
     const rarityGradient = RARITY_COLORS[champ.rarity] || 'linear-gradient(135deg, #888 0%, #aaa 100%)';
+    const factionIcon = getFactionIconPath(champ.faction);
+    const elementColor = ELEMENT_COLORS[champ.element] || '#999';
+    const roleLabel = ROLE_LABELS[champ.role] || champ.role;
 
-    const skillsHtml = champ.skills && champ.skills.length
-        ? champ.skills.map(renderDetailSkill).join('')
-        : '<div class="skills-coming">Compétences à venir</div>';
+    const { aura, form1, form2 } = flattenSkillsByForm(champ.skills);
+    const hasSkills = form1.length || form2.length;
+
+    const skillsHtml = hasSkills ? `
+        <div class="detail-skills-grid">${form1.map(renderDetailSkill).join('')}</div>
+        ${form2.length ? `
+            <div class="detail-form-divider">
+                <span>Forme alternative</span>
+            </div>
+            <div class="detail-skills-grid">${form2.map(renderDetailSkill).join('')}</div>
+        ` : ''}
+    ` : '<div class="skills-coming">Compétences à venir</div>';
 
     overlay.innerHTML = `
         <div class="detail-backdrop" style="background: radial-gradient(circle at 50% 0%, ${factionColor}33 0%, transparent 60%), var(--bg-dark);"></div>
         <div class="detail-panel">
             <button class="detail-close" onclick="closeChampionDetail()">&times;</button>
-            <div class="detail-hero" style="background: linear-gradient(180deg, ${factionColor}55 0%, transparent 100%);">
-                <div class="detail-portrait-frame" style="border-image: ${rarityGradient} 1;">
-                    <img src="${imagePath}" alt="${champ.name}" class="detail-portrait" onerror="this.style.display='none';">
-                </div>
-                <div class="detail-identity">
-                    <h2 class="detail-name">${champ.name}</h2>
-                    <div class="detail-badges">
-                        <span class="champion-rarity rarity-${rarityClass(champ.rarity)}">${champ.rarity || ''}</span>
-                        ${champ.rank ? `<span class="champion-rank rank-badge-${champ.rank}">Rang ${champ.rank}</span>` : ''}
+            <div class="detail-hero" style="background: linear-gradient(135deg, ${factionColor}40 0%, rgba(10,14,39,0.85) 55%);">
+                <div class="detail-hero-bg" style="background-image: url('${imagePath}');"></div>
+                <div class="detail-hero-content">
+                    <div class="detail-portrait-frame" style="border-image: ${rarityGradient} 1;">
+                        <img src="${imagePath}" alt="${champ.name}" class="detail-portrait" onerror="this.style.display='none';">
                     </div>
-                    <div class="detail-faction" style="color: ${factionColor};">${champ.faction || 'Faction inconnue'}</div>
-                    ${champ.url ? `<a class="btn-details detail-guide-link" href="${champ.url}" target="_blank">Voir le guide complet</a>` : ''}
+                    <div class="detail-identity">
+                        <h2 class="detail-name">${champ.name}</h2>
+                        <div class="detail-badges">
+                            <span class="champion-rarity rarity-${rarityClass(champ.rarity)}">${champ.rarity || ''}</span>
+                            ${champ.rank ? `<span class="champion-rank rank-badge-${champ.rank}">Rang ${champ.rank}</span>` : ''}
+                            ${roleLabel ? `<span class="detail-role-badge">${roleLabel}</span>` : ''}
+                            ${champ.element ? `<span class="detail-element-badge" style="color:${elementColor}; border-color:${elementColor}66;">${champ.element}</span>` : ''}
+                        </div>
+                        <div class="detail-faction" style="color: ${factionColor};">
+                            ${factionIcon ? `<img class="detail-faction-icon" src="${factionIcon}" alt="" onerror="this.style.display='none';">` : ''}
+                            <span>${champ.faction || 'Faction inconnue'}</span>
+                        </div>
+                        ${renderAuraBox(aura)}
+                        ${champ.url ? `<a class="btn-details detail-guide-link" href="${champ.url}" target="_blank">Voir le guide complet</a>` : ''}
+                    </div>
                 </div>
             </div>
             <div class="detail-skills-section">
                 <h3 class="detail-section-title">Compétences</h3>
-                <div class="detail-skills-list">${skillsHtml}</div>
+                ${skillsHtml}
             </div>
         </div>
     `;

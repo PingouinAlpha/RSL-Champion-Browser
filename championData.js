@@ -1,4 +1,3 @@
-// championData.js - Base de donnees COMPLETE des champions RSL (dedupliquee)
 const champions = [
   {
     "name": "Alaz Porte-soleil",
@@ -206,7 +205,9 @@ const champions = [
         "multiplier": null,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Arne le Blanc",
@@ -419,11 +420,13 @@ const champions = [
         "cooldown": 2,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Dame Mikage",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Mythique",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-dame-mikage-artefact-et-maitrise/",
@@ -634,7 +637,9 @@ const champions = [
           "Lvl. 2 Ignore RES +20%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Hiérophante Lazarius",
@@ -847,7 +852,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Nell Dents-noires",
@@ -1056,7 +1063,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Polara Cœur-de-feu",
@@ -1269,7 +1278,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Siegfrund le Nephel",
@@ -1480,7 +1491,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Théodosia Disgraciée",
@@ -1693,7 +1706,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Sabraël la Distante",
@@ -1906,7 +1921,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Jeanne la Lumineuse",
@@ -2115,7 +2132,9 @@ const champions = [
         "multiplier": null,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Anaxia la Réincarnée",
@@ -2328,7 +2347,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Arachoa Tourne-lune",
@@ -2541,7 +2562,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Ash’nar Âme-dragon",
@@ -2756,7 +2779,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Arbais Pierrépine",
@@ -2969,7 +2994,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Embrys l’Anomalie",
@@ -3184,7 +3211,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Fjorad Cœur-de-loup",
@@ -3397,7 +3426,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Galathir Sage-astral",
@@ -3610,7 +3641,8 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "element": "Force"
   },
   {
     "name": "Gharol Masse-Sang",
@@ -3821,7 +3853,9 @@ const champions = [
         "cooldown": 2,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Gizmak le Terrible",
@@ -4034,7 +4068,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Krixia Reine de Nuit",
@@ -4249,7 +4285,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Kurosa l’Envieuse",
@@ -4460,7 +4498,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Naïs Voleur d’ombres",
@@ -4669,7 +4709,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Mina Marquise de sang",
@@ -4880,11 +4922,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Toshiro le sanglant",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Mythique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-toshiro-le-sanglant-artefact-et-maitrise/",
@@ -5093,7 +5137,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Cinda Forgecœur",
@@ -5304,7 +5350,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Heinrik Tue-démons",
@@ -5515,7 +5563,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Galleuss Crête-sang",
@@ -5736,7 +5786,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Komidus Rictus",
@@ -5953,7 +6005,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Le calamitus",
@@ -6168,7 +6222,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Mezomel Croc-Loup",
@@ -6364,7 +6420,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Androc le Glorieux",
@@ -6574,7 +6632,9 @@ const champions = [
         "multiplier": null,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Aphidus Maître-ruche",
@@ -6791,7 +6851,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Frolni le Mécanicien",
@@ -7004,7 +7066,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Acrizia",
@@ -7113,7 +7177,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Amiral Défense-noire",
@@ -7216,7 +7282,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Arbitre",
@@ -7321,7 +7389,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Artak",
@@ -7430,7 +7500,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Authoratrix Lamasu",
@@ -7533,7 +7605,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Bad-el-Kazar",
@@ -7613,7 +7687,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Ba Satha",
@@ -7728,7 +7804,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Cécilia Rouge espoir",
@@ -7837,7 +7915,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Candraphon",
@@ -7938,7 +8018,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Cardiel",
@@ -8049,7 +8131,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Choriste-lame Caldor",
@@ -8152,11 +8236,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Dame Kimi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-dame-kimi-artefact-et-maitrise/",
@@ -8263,7 +8349,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Diacre Brogni",
@@ -8372,7 +8460,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Donatello",
@@ -8481,7 +8571,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Dracomorphe",
@@ -8569,7 +8661,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Duchesse Lilitu",
@@ -8670,7 +8764,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Elva l’Automnale",
@@ -8775,7 +8871,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Énorme Ukko",
@@ -8880,7 +8978,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Ezio Auditore",
@@ -9006,7 +9106,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Firrol le Cornécorce",
@@ -9113,7 +9215,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Gaïus le joyeux",
@@ -9218,7 +9322,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Gaspard le maudit",
@@ -9340,7 +9446,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Georgid le Casseur",
@@ -9447,7 +9555,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Glaicad l’Eau-fondue",
@@ -9552,11 +9662,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Glorieuse Pallas",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-glorieuse-pallas-artefact-et-maitrise/",
@@ -9655,7 +9767,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Gnut",
@@ -9764,7 +9878,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Graazur ventrefer",
@@ -9871,7 +9987,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Gracchos Viré-drake",
@@ -9978,7 +10096,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Helicath",
@@ -10085,7 +10205,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Héphraak",
@@ -10192,11 +10314,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Héraut-orage Hekaton",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-heraut-orage-hekaton-artefact-et-maitrise/",
@@ -10295,7 +10419,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Hilvi la Givrée",
@@ -10396,7 +10522,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Hurndig",
@@ -10511,11 +10639,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jintoro",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jintoro-artefact-et-maitrise/",
@@ -10620,7 +10750,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Kael Suprême",
@@ -10735,7 +10867,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Klaazag Géants-clés",
@@ -10831,7 +10965,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Krisk l'Éternel",
@@ -10946,7 +11082,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Kro'khad Coupe-gorge",
@@ -11051,11 +11189,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Kyoku",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kyoku-artefact-et-maitrise/",
@@ -11160,7 +11300,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Légat Téox",
@@ -11263,11 +11405,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Leonardo",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-leonardo-artefact-et-maitrise/",
@@ -11366,7 +11510,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Léorius le fier",
@@ -11471,7 +11617,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Lydia Sirène de Mort",
@@ -11588,7 +11736,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Marichka la Robuste",
@@ -11693,7 +11843,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Marius le Vaillant",
@@ -11789,7 +11941,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Ma'Shalled",
@@ -11875,7 +12029,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Mère supérieure Maud",
@@ -11982,7 +12138,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Mithrala Fléaudevie",
@@ -12083,7 +12241,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Nekhret le Terrible",
@@ -12197,7 +12357,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Nekmo Thaar",
@@ -12304,7 +12466,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Nergigante l’Archère",
@@ -12413,7 +12577,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Nethril",
@@ -12501,7 +12667,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Niamhe, Lance de Nyresa",
@@ -12604,11 +12772,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Ninja",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ninja-artefact-et-maitrise/",
@@ -12715,7 +12885,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Othorion le Maître",
@@ -12812,7 +12984,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Pheidi Crête-Bleue",
@@ -12921,7 +13095,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Prince Kymar",
@@ -13007,7 +13183,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Pythion",
@@ -13112,7 +13290,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Quintus le Triomphal",
@@ -13223,7 +13403,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Ragash",
@@ -13328,7 +13510,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Raglin",
@@ -13431,7 +13615,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Ramantu Sang-Drake",
@@ -13538,7 +13724,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Reine de Cœur",
@@ -13641,7 +13829,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Rotos le Marié Egaré",
@@ -13752,7 +13942,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Scyl des Drakes",
@@ -13859,7 +14051,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Solanar l’étincelant",
@@ -13964,7 +14158,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Seigneur de guerre",
@@ -14052,7 +14248,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Seigneur Tombeau",
@@ -14144,7 +14342,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Sicia Languefeu",
@@ -14257,7 +14457,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Sieur Nicolas",
@@ -14362,7 +14564,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Siphi Mariée Égarée",
@@ -14469,7 +14673,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Sire amuseur Fabian",
@@ -14574,7 +14780,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Staltus Fléau-dragon",
@@ -14681,7 +14889,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Sulfuryion",
@@ -14786,7 +14996,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Taras le Farouche",
@@ -14908,7 +15120,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Téodor le Savant",
@@ -15011,11 +15225,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Tetsuya le Sauveur",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tetsuya-le-sauveur-artefact-et-maitrise/",
@@ -15116,7 +15332,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Teumesia",
@@ -15227,7 +15445,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Titus Plume-noire",
@@ -15332,7 +15552,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Tormin le Froid",
@@ -15441,7 +15663,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Trunda MailletDoré",
@@ -15546,7 +15770,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Turvold",
@@ -15636,7 +15862,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Urost Capturâme",
@@ -15753,7 +15981,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Ursuga Hurleguerre",
@@ -15860,7 +16090,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Valkyrie",
@@ -15948,7 +16180,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Vénus",
@@ -16055,7 +16289,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Vulkanos Fumor",
@@ -16162,7 +16398,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Yncensa Porte-graal",
@@ -16267,11 +16505,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Yumeko",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yumeko-artefact-et-maitrise/",
@@ -16368,7 +16608,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Zavia",
@@ -16473,7 +16715,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bûcheron en fer-blanc",
@@ -16578,7 +16822,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Celendiel Garde-opale",
@@ -16685,7 +16931,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Mavara la Voyante",
@@ -16786,7 +17034,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Sydax Tueur-de-roi",
@@ -16893,7 +17143,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Talenna Divine-âme",
@@ -17002,11 +17254,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Tektéon Chair-fendue",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "S",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tekteon-chair-fendue-artefact-et-maitrise/",
@@ -17103,7 +17357,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Abbesse",
@@ -17212,7 +17468,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Acelin le Vaillant",
@@ -17317,7 +17575,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Ailil",
@@ -17422,7 +17682,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Alatreon l’Épéiste",
@@ -17527,7 +17789,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Alice la Flâneuse",
@@ -17636,7 +17900,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Alsgor Corne-Pourpre",
@@ -17743,7 +18009,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Altan",
@@ -17827,7 +18095,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Amoch la Satrape",
@@ -17932,7 +18202,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Angar",
@@ -18018,7 +18290,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Aragaz Roi-sauvage",
@@ -18119,11 +18393,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Arashi le Ressac",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-arashi-le-ressac-equipement-et-maitrise/",
@@ -18234,7 +18510,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Arathéia Fleur-corps",
@@ -18341,7 +18619,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Archevêque Pinthroy",
@@ -18446,7 +18726,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Armanz le Sublime",
@@ -18553,7 +18835,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Arnorn l’Éclatant",
@@ -18662,7 +18946,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Astralon",
@@ -18773,7 +19059,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Baron",
@@ -18882,7 +19170,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Basim Ibn Ishaq",
@@ -19008,7 +19298,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bayek",
@@ -19126,7 +19418,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Bélanor",
@@ -19229,7 +19523,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Belletar Tue-mages",
@@ -19338,7 +19634,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Belz le Vengeur",
@@ -19447,7 +19745,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Bivald de l’Épine",
@@ -19554,7 +19854,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Blizaar le Braillard",
@@ -19663,7 +19965,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Bolint l’Affranchi",
@@ -19764,7 +20068,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Boragar l’Ancien",
@@ -19871,7 +20177,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Brago d’Acier",
@@ -19988,7 +20296,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Brakus le métamorphe",
@@ -20107,7 +20417,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Caoilte Flèchecendre",
@@ -20212,7 +20524,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Chaagur",
@@ -20319,7 +20633,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Chalco l’Aveugle",
@@ -20420,7 +20736,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Chantre-dune Zaharis",
@@ -20527,7 +20845,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Chapelier fou",
@@ -20634,7 +20954,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Chasseur Royal",
@@ -20722,7 +21044,9 @@ const champions = [
           "Lvl. 4 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Chat du Cheshire",
@@ -20823,7 +21147,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Chevalier Suprême",
@@ -20945,7 +21271,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Claidna",
@@ -21054,7 +21382,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Cléoptérix",
@@ -21165,7 +21495,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Comtesse Lix",
@@ -21293,7 +21625,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Corvis Le Corrupteur",
@@ -21402,7 +21736,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Crohnam",
@@ -21511,7 +21847,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Cruetraxa",
@@ -21593,7 +21931,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Cupidon",
@@ -21698,7 +22038,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Dame Ireth",
@@ -21809,7 +22151,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Danag Fauchecrâne",
@@ -21920,7 +22264,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Diamant Pièce-cuivre",
@@ -22025,7 +22371,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Dreng La Tombe",
@@ -22132,7 +22480,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Drexthar Doublesang",
@@ -22222,7 +22572,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Edward Kenway",
@@ -22344,7 +22696,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Elhain Suprême",
@@ -22455,7 +22809,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Emic Coeur-Tronc",
@@ -22568,7 +22924,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Falmond Lamedeuil",
@@ -22671,7 +23029,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Foli",
@@ -22782,7 +23142,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Fortus",
@@ -22889,7 +23251,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Freyja du Destin",
@@ -22992,7 +23356,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Fu-Shan",
@@ -23082,7 +23448,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Fyna, lame d’Aravia",
@@ -23183,11 +23551,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Gamuran",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gamuran-artefact-et-maitrise/",
@@ -23290,7 +23660,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Wixwell Garde-Caveau",
@@ -23397,7 +23769,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Garde-bière Jéroboam",
@@ -23510,11 +23884,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Genzin",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-genzin-artefact-et-maitrise/",
@@ -23621,7 +23997,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Giath Écu de vérité",
@@ -23726,7 +24104,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Gliseah Guidâme",
@@ -23831,7 +24211,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Gnishak Roi-souris",
@@ -23940,7 +24322,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Goffred Porte-cuivre",
@@ -24053,7 +24437,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Gorgédesang",
@@ -24145,7 +24531,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gardien Prysma",
@@ -24258,7 +24646,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Gretel Fléau-Harpie",
@@ -24363,7 +24753,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gros Bill",
@@ -24455,7 +24847,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Gurgoth l'Augure",
@@ -24562,7 +24956,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Gwyndolin la Muette",
@@ -24671,7 +25067,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Hansel le Chasseur",
@@ -24776,11 +25174,13 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Harima",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-harima-artefact-et-maitrise/",
@@ -24883,7 +25283,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Hégémon",
@@ -24967,7 +25369,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Helior",
@@ -25074,7 +25478,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Ignatius",
@@ -25164,7 +25570,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Inithwe Doublesang",
@@ -25271,7 +25679,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Ithos",
@@ -25365,7 +25775,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Jagg Scie d’os",
@@ -25470,7 +25882,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Jetni la Géante",
@@ -25567,7 +25981,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Kaja l’Ironique",
@@ -25668,7 +26084,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Kantra le Cyclone",
@@ -25754,11 +26172,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Kassandra",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kassandra-artefact-et-maitrise/",
@@ -25872,11 +26292,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Keberon le Sous-flamme",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-keberon-le-sous-flamme-artefact-et-maitrise/",
@@ -25981,11 +26403,13 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Karato le Chasseur",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-karato-le-chasseur-artefact-et-maitrise/",
@@ -26090,7 +26514,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Karilon le Sonneur",
@@ -26195,7 +26621,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Keeyra L'Observateur",
@@ -26310,7 +26738,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Khoronar",
@@ -26547,7 +26977,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Konstantin le Diurne",
@@ -26656,7 +27088,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Korugar Clochemort",
@@ -26761,7 +27195,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Krok’mar le Dévoreur",
@@ -26864,7 +27300,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Lanakis l’Élue",
@@ -26952,7 +27390,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Balar le Perdu",
@@ -27063,7 +27503,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Loki le Trompeur",
@@ -27168,7 +27610,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Longuebarbe",
@@ -27252,7 +27696,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Losan K’Leth",
@@ -27355,7 +27801,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Lysanthir Tue-bêtes",
@@ -27464,7 +27912,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Lyssandra",
@@ -27552,7 +28002,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Maranix",
@@ -27661,7 +28113,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Matriarche Zarguna",
@@ -27762,7 +28216,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Maulie Chope",
@@ -27867,7 +28323,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Mère Cybèle",
@@ -27976,7 +28434,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Michelangelo",
@@ -28073,11 +28533,13 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Michinaki",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-michinaki-artefact-et-maitrise/",
@@ -28180,7 +28642,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Modo du Carillon",
@@ -28289,7 +28753,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Morrigaine",
@@ -28394,7 +28860,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Musclor",
@@ -28497,7 +28965,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Nari le chanceux",
@@ -28608,7 +29078,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Narma la ressuscitée",
@@ -28725,7 +29197,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Narses Roi Spectre",
@@ -28830,7 +29304,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Néspectre",
@@ -28918,7 +29394,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Noldua du Crépuscule",
@@ -29021,7 +29499,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Odin Patriarche",
@@ -29124,7 +29604,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Oella",
@@ -29229,7 +29711,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Onryo leyasu",
@@ -29338,7 +29822,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Padraig Grand Chène",
@@ -29439,7 +29925,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Pontife Augustin",
@@ -29542,7 +30030,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Prophétesse Aveugle",
@@ -29634,7 +30124,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Raé",
@@ -29726,7 +30218,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Raf-Matab",
@@ -29827,7 +30321,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Rakka Vilevague",
@@ -29934,7 +30430,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Raphael",
@@ -30039,7 +30537,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Rathalos l’Épéiste",
@@ -30148,7 +30648,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Rhazin Peaumarquée",
@@ -30240,11 +30742,13 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Riho Lance d’Os",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-riho-lance-dos-artefact-et-maitrise/",
@@ -30353,7 +30857,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Robar",
@@ -30462,7 +30968,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Roi Gallcobar",
@@ -30567,7 +31075,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Ronda",
@@ -30672,7 +31182,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Roshcard la tour",
@@ -30756,7 +31268,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Roxam",
@@ -30869,7 +31383,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ruarc Gardienvert",
@@ -30976,7 +31492,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Ruel Maître-Chasseur",
@@ -31083,7 +31601,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Saito",
@@ -31194,7 +31714,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sanguine Maria",
@@ -31295,7 +31817,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Sans âme",
@@ -31404,7 +31928,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Searsha la Calcinée",
@@ -31509,7 +32035,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Senna Cœur d’ambre",
@@ -31610,7 +32138,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Septimus",
@@ -31692,7 +32222,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Séthallia",
@@ -31786,7 +32318,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Shemnath",
@@ -31893,11 +32427,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Shredder",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-shredder-artefact-et-maitrise/",
@@ -31998,11 +32534,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Shu-Zhen la Brave",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-shu-zhen-la-brave-artefact-et-maitrise/",
@@ -32101,7 +32639,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Sigmund le bouclier",
@@ -32204,7 +32744,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Sniktraak",
@@ -32309,7 +32851,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Stokk le Brisé",
@@ -32422,7 +32966,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Strategos Islin",
@@ -32527,7 +33073,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Sun Wukong",
@@ -32634,7 +33182,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Suzerain Katonn",
@@ -32720,7 +33270,9 @@ const champions = [
           "Lvl. 4 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Tatura Peau de Givre",
@@ -32823,7 +33375,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Thor au Marteau",
@@ -32928,7 +33482,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Togron le Siamois",
@@ -33029,7 +33585,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Tholin Barbe-infâme",
@@ -33134,7 +33692,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Tribun Héraklétès",
@@ -33237,7 +33797,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Truath",
@@ -33346,7 +33908,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Tuhanarak",
@@ -33453,7 +34017,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Tyran Ixlimor",
@@ -33556,7 +34122,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Ugir Mange-dragon",
@@ -33665,7 +34233,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Uzol du Jade",
@@ -33772,7 +34342,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Valkanen",
@@ -33898,7 +34470,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Vasal du sceau",
@@ -34007,7 +34581,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Venalicia Mère-serfs",
@@ -34112,7 +34688,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Versulf Le Lugubre",
@@ -34219,7 +34797,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Vestele épine-fleuve",
@@ -34326,7 +34906,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Vitrius l’Oint",
@@ -34431,7 +35013,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Vizir Ovelis",
@@ -34540,7 +35124,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Vizug le Toxique",
@@ -34645,7 +35231,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Vlad le nocturne",
@@ -34758,7 +35346,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Wythir la couronnée",
@@ -34859,7 +35449,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Xena: Princesse Guerrière",
@@ -35073,7 +35665,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Yannica",
@@ -35161,11 +35755,13 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Yukimasa Démon glacé",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yukimasa-demon-glace-artefact-et-maitrise/",
@@ -35270,11 +35866,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Zinogre l’Épéiste",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-zinogre-lepeiste-artefact-et-maitrise/",
@@ -35377,7 +35975,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Baerd le Trapu",
@@ -35484,7 +36084,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Dorothy Gale",
@@ -35591,7 +36193,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Folan Cerf-argent",
@@ -35700,7 +36304,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Iudex Artor",
@@ -35805,7 +36411,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Khamir Oeil-brûlé",
@@ -35916,7 +36524,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "L’Épouvantail",
@@ -36021,7 +36631,9 @@ const champions = [
           "Lvl.2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Lion Poltron",
@@ -36132,11 +36744,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Phemo le Pâtre",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-phemo-le-patre-artefact-et-maitrise/",
@@ -36239,7 +36853,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Rhaïa la Pleurée",
@@ -36346,7 +36962,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Tusskor Prime-hache",
@@ -36455,7 +37073,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Xalgaze Mur-de-crocs",
@@ -36560,7 +37180,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Xiloco l’Incrusté",
@@ -36661,7 +37283,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Vallaryn le Niveleur",
@@ -36770,7 +37394,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Aleksandr Tireur d'élite",
@@ -36862,7 +37488,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ankora Reine Spectre",
@@ -36969,7 +37597,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Annaliste Adelyn",
@@ -37076,7 +37706,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "April O'Neil",
@@ -37185,7 +37817,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Arix",
@@ -37292,7 +37926,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Astralithe",
@@ -37380,7 +38016,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Athel Suprême",
@@ -37493,7 +38131,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Basileus Roanas",
@@ -37583,7 +38223,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bystophus",
@@ -37673,7 +38315,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Chefdeguerre",
@@ -37761,7 +38405,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Chef de meute Shy’ek",
@@ -37864,7 +38510,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Chevalier noir",
@@ -37967,7 +38615,9 @@ const champions = [
         "cooldown": 2,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Cillian le Chanceux",
@@ -38088,7 +38738,9 @@ const champions = [
         "multiplier": null,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Craklin le Noirci",
@@ -38201,7 +38853,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Cromax Sanglune",
@@ -38314,7 +38968,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Damoiselle Annie",
@@ -38442,7 +39098,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Déliana",
@@ -38551,7 +39209,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Drokgul le Hâvre",
@@ -38669,7 +39329,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Elénaril",
@@ -38757,7 +39419,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Errol",
@@ -38849,7 +39513,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Fatalis l’Épéiste",
@@ -38975,7 +39641,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Galek Ultime",
@@ -39084,11 +39752,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Ginro la Cigogne",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ginro-la-cigogne-artefact-et-maitrise/",
@@ -39191,7 +39861,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Graal Roi de Crypte",
@@ -39283,7 +39955,9 @@ const champions = [
           "Lvl. 4 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Greggor Lord de lune",
@@ -39398,7 +40072,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Hakkorhn Fracapacha",
@@ -39484,7 +40160,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Holsring",
@@ -39591,7 +40269,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jack le Moissonneur",
@@ -39704,7 +40384,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Kawn Brise-branche",
@@ -39807,7 +40489,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Leminisi Aile-dorée",
@@ -39914,7 +40598,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "L’Incarnée",
@@ -40038,7 +40724,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Lonatharil",
@@ -40143,7 +40831,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Lord Champfort",
@@ -40233,7 +40923,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Lord Shazar",
@@ -40371,7 +41063,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Loriaca Beau-Sabot",
@@ -40474,7 +41168,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Lugan l'Inébranlable",
@@ -40581,7 +41277,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Mathias Fléau-noir",
@@ -40684,7 +41382,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Mère de Guerre",
@@ -40770,7 +41470,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Minaya",
@@ -40889,11 +41591,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Nobel",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-nobel-artefact-et-maitrise/",
@@ -41002,7 +41706,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Noct le Paralyseur",
@@ -41109,7 +41815,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Norog",
@@ -41189,7 +41897,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Opardin chef de clan",
@@ -41296,7 +42006,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Parle-nuées Zyclic",
@@ -41399,11 +42111,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pelops le vainqueur",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-pelops-le-vainqueur-artefact-et-maitrise/",
@@ -41504,7 +42218,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Praeva l’Ondulante",
@@ -41605,7 +42321,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Pyxniel",
@@ -41728,7 +42446,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Razelvarg",
@@ -41837,7 +42557,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Reine éva",
@@ -41929,7 +42651,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Richtoff l'Effronté",
@@ -42011,7 +42735,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Roi de la montagne",
@@ -42118,7 +42844,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Roi Garog",
@@ -42230,7 +42958,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Roric Poison-dragon",
@@ -42339,7 +43069,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Samar Maudigemme",
@@ -42453,7 +43185,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Samson le Pilon",
@@ -42557,7 +43291,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Shirimani",
@@ -42645,7 +43381,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Skarg l'Ancien",
@@ -42746,7 +43484,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Skartorsis",
@@ -42836,7 +43576,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Skeletor",
@@ -42946,7 +43688,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Skorid Semi-engendré",
@@ -43050,7 +43794,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Tatsu",
@@ -43156,7 +43902,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Teela Toisongore",
@@ -43250,7 +43998,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Théa Ange Tombal",
@@ -43349,7 +44099,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Timit le Bouffon",
@@ -43449,7 +44201,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Tramaria",
@@ -43553,7 +44307,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Trèfle",
@@ -43641,7 +44397,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Ultan la Carapace",
@@ -43745,7 +44503,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Valet de Cœur",
@@ -43851,7 +44611,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Varl le destructeur",
@@ -43962,7 +44724,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Visix l’Insoumise",
@@ -44050,7 +44814,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Wurlim Roi du Gel",
@@ -44142,11 +44908,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Yoshi l’Ivrogne",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-yoshi-livrogne-artefact-et-maitrise/",
@@ -44255,7 +45023,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Grugtha Sombre médium",
@@ -44355,7 +45125,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Haggibah Fille-nid",
@@ -44461,7 +45233,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Holguk Vues-saintes",
@@ -44565,11 +45339,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Knosson Taureau de Bronze",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-knosson-taureau-de-bronze-artefact-et-maitrise/",
@@ -44672,7 +45448,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Masahiro Moine-cloche",
@@ -44780,7 +45558,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Xanthé Fleur-marine",
@@ -44886,11 +45666,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Aria l’Espoir doré",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-aria-lespoir-dore-artefact-et-maitrise/",
@@ -44993,7 +45775,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Gomlok Peau Céleste",
@@ -45108,7 +45892,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Grohak l'Ensanglanté",
@@ -45198,7 +45984,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Guurda Brassemarais",
@@ -45304,7 +46092,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Lord crâne var-Gall",
@@ -45430,7 +46220,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Mortu-Macaab",
@@ -45549,7 +46341,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Nogdar Chasse-têtes",
@@ -45654,7 +46448,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Vergumkaar",
@@ -45765,7 +46561,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Pelagus Marchevagues",
@@ -45869,7 +46667,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Jingwon",
@@ -45979,7 +46779,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Xenomorphe",
@@ -46086,7 +46888,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Predator",
@@ -46189,7 +46993,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Gaellut Fils du Pacte",
@@ -46401,11 +47207,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Ishiyama le Tenace",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ishiyama-le-tenace-artefact-et-maitrise/",
@@ -46510,7 +47318,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Orynyx Ronge-esprit",
@@ -46619,7 +47429,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Vott Tranche-têtes",
@@ -46724,11 +47536,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Tartarus le Rameur",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "Non classé",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tartarus-le-rameur-artefact-et-maitrise/",
@@ -46831,11 +47645,13 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Theimios l’Alcoolique",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Légendaire",
     "rank": "Non classé",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-theimios-lalcoolique-artefact-et-maitrise/",
@@ -46936,7 +47752,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Thayla Corne-marteau",
@@ -47041,7 +47859,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Thraila la Résistante",
@@ -47051,7 +47871,7 @@ const champions = [
   },
   {
     "name": "Miyoko Fleur de Yakai",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "rank": "Non classé",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-miyoko-fleur-de-yakai-artefact-et-maitrise/",
@@ -47257,7 +48077,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Chevalier Cerf",
@@ -47347,7 +48169,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "CouronneCrâne",
@@ -47458,7 +48282,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Dhukk le Percé",
@@ -47550,7 +48376,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Diacre Armstrong",
@@ -47644,7 +48472,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "ÉcraseCrâne",
@@ -47720,7 +48550,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Géomancien",
@@ -47835,7 +48667,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gorgorab",
@@ -47974,7 +48808,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Madame Serris",
@@ -48079,7 +48915,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Mage de Mausolée",
@@ -48165,7 +49003,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Mangeur d'Homme",
@@ -48277,7 +49117,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Prophétesse",
@@ -48359,7 +49201,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Rian l’Illusionniste",
@@ -48453,7 +49297,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Sombre Kael",
@@ -48560,7 +49406,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Tayrel",
@@ -48652,7 +49500,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Urogrim",
@@ -48746,7 +49596,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Achak le Wendarin",
@@ -48861,7 +49713,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Akemtum",
@@ -48955,7 +49809,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Akoth le Brûlé",
@@ -49078,7 +49934,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Aniri Prie-Dieu",
@@ -49199,7 +50057,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Aothar",
@@ -49297,7 +50157,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Aox le mémorieux",
@@ -49412,7 +50274,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Archimage Hellmut",
@@ -49523,7 +50387,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Armina",
@@ -49638,7 +50504,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Arndulf",
@@ -49730,7 +50598,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Arrière-garde",
@@ -49824,7 +50694,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Bowf le Rance",
@@ -49931,7 +50803,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Cardinale",
@@ -50017,7 +50891,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Ceez",
@@ -50124,7 +51000,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Cerbère Sépulcral",
@@ -50212,7 +51090,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Charme",
@@ -50304,7 +51184,9 @@ const champions = [
           "Lvl. 3 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Chercheur",
@@ -50439,11 +51321,13 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Chonoru",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-chonoru-artefact-et-maitrise/",
@@ -50533,7 +51417,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Cogneur",
@@ -50623,7 +51509,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Crânedacier",
@@ -50713,7 +51601,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Criodan Bleu",
@@ -50807,7 +51697,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Démytha",
@@ -50905,7 +51797,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Dévot de Lumière",
@@ -50991,7 +51885,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Djamarsa",
@@ -51108,7 +52004,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Fahrakin le Gras",
@@ -51217,7 +52115,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Faucheuse Dorée",
@@ -51309,7 +52209,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Fayne",
@@ -51407,11 +52309,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Fenshi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-fenshi-artefact-et-maitrise/",
@@ -51505,7 +52409,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Fodbor le Barde",
@@ -51599,7 +52505,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Galek Suprême",
@@ -51712,7 +52620,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Garde Royal",
@@ -51804,11 +52714,13 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Genbo le déshonoré",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-genbo-le-deshonore-artefact-et-maitrise/",
@@ -51919,7 +52831,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Ghomm Main-jaune",
@@ -52026,7 +52940,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Giscard au Sceau",
@@ -52135,7 +53051,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Grush le Massacreur",
@@ -52233,7 +53151,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Hoskarul",
@@ -52336,7 +53256,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Inquisiteur Shamaêl",
@@ -52422,7 +53344,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Isbeil le Fusyl",
@@ -52535,7 +53459,9 @@ const champions = [
         "cooldown": 6,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Jareg",
@@ -52617,7 +53543,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Kaiden",
@@ -52707,11 +53635,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Kinagashi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kinagashi-artefact-et-maitrise/",
@@ -52791,7 +53721,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Klodd Gave-Bêtes",
@@ -52896,11 +53828,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Kunoichi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kunoichi-artefact-et-maitrise/",
@@ -53005,7 +53939,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Largegueule",
@@ -53095,7 +54031,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Lodric Cœur-Faucon",
@@ -53189,11 +54127,13 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Long-crochet Nagis",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-long-crochet-nagis-artefact-et-maitrise/",
@@ -53302,7 +54242,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Lua",
@@ -53396,7 +54338,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Magnarr",
@@ -53515,7 +54459,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Malabar de Siège",
@@ -53609,7 +54555,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Melga Gainacier",
@@ -53707,7 +54655,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Mordecaï",
@@ -53801,7 +54751,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Nazana",
@@ -53895,7 +54847,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Neldor Lamegelée",
@@ -54008,7 +54962,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Nia Dryade blanche",
@@ -54119,7 +55075,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Orn Prêtre Mycélium",
@@ -54230,7 +55188,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Ostrox Glaive d’os",
@@ -54339,7 +55299,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Peydma",
@@ -54435,7 +55397,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Prêtresse de ruine",
@@ -54511,7 +55475,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Psylar",
@@ -54601,7 +55567,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Rectrice Drath",
@@ -54708,7 +55676,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Renne Bestial",
@@ -54796,7 +55766,9 @@ const champions = [
           "Lvl. 4 Shield +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Roméro",
@@ -54901,7 +55873,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Ruella",
@@ -54995,7 +55969,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Rugnor Orluisant",
@@ -55102,7 +56078,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Sabitha de l’Aube",
@@ -55203,11 +56181,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Sachi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-sachi-artefact-et-maitrise/",
@@ -55318,7 +56298,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Sageguerre",
@@ -55400,7 +56382,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Sinesha",
@@ -55494,7 +56478,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Skathix",
@@ -55601,7 +56587,9 @@ const champions = [
         "cooldown": 6,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Skraank",
@@ -55714,7 +56702,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Sombre Elhain",
@@ -55883,7 +56873,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sombre Enchanteresse",
@@ -55977,7 +56969,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Thénasil",
@@ -56071,7 +57065,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Thylessia",
@@ -56182,7 +57178,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Ursala la Pleureuse",
@@ -56278,7 +57276,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Uugo",
@@ -56395,7 +57395,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Vieil Ermite Jorrg",
@@ -56479,7 +57481,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Vieux Ghrukkus",
@@ -56569,7 +57573,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Visionnaire",
@@ -56657,7 +57663,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Vogoth",
@@ -56770,7 +57778,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Vrask",
@@ -56852,7 +57862,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Zargala",
@@ -56950,7 +57962,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Zelotah",
@@ -57046,7 +58060,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Suwaï l'Aînée",
@@ -57144,7 +58160,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Yaga l'Insatiable",
@@ -57242,7 +58260,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Adriel",
@@ -57336,7 +58356,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Aeshma",
@@ -57447,7 +58469,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Aeila Tressevie",
@@ -57556,7 +58580,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Alaric l’Encagoulé",
@@ -57652,7 +58678,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Ambassadeur Lethelin",
@@ -57746,7 +58774,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Anax",
@@ -57861,7 +58891,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Andryssia",
@@ -57970,7 +59002,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Araignée",
@@ -58066,7 +59100,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Archétype",
@@ -58160,7 +59196,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Azur",
@@ -58254,7 +59292,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Baerdal Marteaucruel",
@@ -58338,7 +59378,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Balthus Drauglord",
@@ -58453,7 +59495,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Baronne Infernale",
@@ -58541,7 +59585,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Basilic",
@@ -58629,7 +59675,9 @@ const champions = [
           "Lvl. 3: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bergoth le Malformé",
@@ -58715,7 +59763,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Bovos Cornevive",
@@ -58820,7 +59870,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Brisecage",
@@ -58914,7 +59966,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Brise-pierre",
@@ -59004,7 +60058,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Brisos",
@@ -59094,11 +60150,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Burangiri",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-burangiri-artefact-et-maitrise/",
@@ -59205,7 +60263,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Buveur d'âme",
@@ -59314,7 +60374,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Capitaine Témila",
@@ -59402,7 +60464,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Carlinia",
@@ -59513,7 +60577,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Chamane Cieltouché",
@@ -59603,7 +60669,9 @@ const champions = [
           "Lvl. 5 Heal +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Chancelière Jasmine",
@@ -59695,11 +60763,13 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Chani",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-chani-artefact-et-maitrise/",
@@ -59810,7 +60880,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Chasse-Grelot",
@@ -59906,7 +60978,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Chevalier Errant",
@@ -59998,7 +61072,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +20%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Conellia",
@@ -60088,7 +61164,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Cormac le Hautpic",
@@ -60178,7 +61256,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Cosse",
@@ -60323,7 +61403,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Dame Annabelle",
@@ -60430,7 +61512,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Dame Quilen",
@@ -60522,7 +61606,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Dazdurk Garderunes",
@@ -60610,7 +61696,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Déchire-Chair",
@@ -60700,7 +61788,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Delaaja",
@@ -60813,11 +61903,13 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Dexikos des Marées",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-dexikos-des-marees-artefact-et-maitrise/",
@@ -60918,7 +62010,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Duedan le Runique",
@@ -61006,7 +62100,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Duhr l’Affameur",
@@ -61090,7 +62186,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Dyana Perce-pénombre",
@@ -61197,7 +62295,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Enda Rayon-lune",
@@ -61308,7 +62408,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Endalia",
@@ -61404,7 +62506,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Eolfrig",
@@ -61511,7 +62615,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Épouvanteur Masqué",
@@ -61624,7 +62730,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Erinye",
@@ -61722,7 +62830,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Ethlen le Doré",
@@ -61835,7 +62945,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Fenax",
@@ -61929,7 +63041,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Fren'zi la Ricaneuse",
@@ -62040,7 +63154,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Fylja",
@@ -62149,7 +63265,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Gala Longuenattes",
@@ -62239,11 +63357,13 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Galatée Garde-Lion",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-galatee-garde-lion-artefact-et-maitrise/",
@@ -62352,7 +63472,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Galkut",
@@ -62444,7 +63566,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Garderelique",
@@ -62528,7 +63652,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gardien",
@@ -62634,7 +63760,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Gnarox Corne-noire",
@@ -62747,7 +63875,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Golem Epines",
@@ -62757,7 +63887,7 @@ const champions = [
   },
   {
     "name": "Gore",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-gore-artefact-et-maitrise/",
@@ -62866,7 +63996,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Gorlos Gouffrenfer",
@@ -62962,7 +64094,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Gronjarr",
@@ -63075,7 +64209,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Gwynneth",
@@ -63175,7 +64311,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Haarken Terriblelame",
@@ -63265,7 +64403,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Haute Khatun",
@@ -63355,7 +64495,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Heaume incarnat",
@@ -63445,7 +64587,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Hilda Arnorndottr",
@@ -63554,7 +64698,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Hoforées la Défense",
@@ -63640,7 +64786,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Hordin",
@@ -63726,11 +64874,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Hotatsu",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-hotatsu-artefact-et-maitrise/",
@@ -63841,7 +64991,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Ilysinya",
@@ -63948,7 +65100,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Immense Titan",
@@ -64061,7 +65215,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Immortelle",
@@ -64157,7 +65313,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Jarang",
@@ -64251,7 +65409,9 @@ const champions = [
           "Lvl. 5: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jarl Grisonnant",
@@ -64345,7 +65505,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Juliana",
@@ -64439,11 +65601,13 @@ const champions = [
           "Lvl. 8 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jurojin",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-jurojin-artefact-et-maitrise/",
@@ -64554,7 +65718,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Kallia",
@@ -64648,7 +65814,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Karam",
@@ -64789,7 +65957,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Kellan la Pie",
@@ -64900,7 +66070,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Khafru le Garde-mort",
@@ -65005,7 +66177,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Krakarth",
@@ -65112,7 +66286,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Lance-guerre",
@@ -65200,7 +66376,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Liburga",
@@ -65307,7 +66485,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Liche",
@@ -65395,7 +66575,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Lié par serment",
@@ -65489,7 +66671,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Locwain",
@@ -65600,7 +66784,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Lorn le Mutilateur",
@@ -65696,7 +66882,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Luria",
@@ -65794,7 +66982,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Luthiéa",
@@ -65890,7 +67080,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Maddak Yeux de fer céleste",
@@ -66091,7 +67283,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Malkith Afflux-Sang",
@@ -66181,11 +67375,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Masamoto",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-masamoto-artefact-et-maitrise/",
@@ -66279,7 +67475,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Merouka",
@@ -66382,7 +67580,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Nécrochasseur",
@@ -66476,11 +67676,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Oboro",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-oboro-artefact-et-maitrise/",
@@ -66591,7 +67793,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Ours Peaudefer",
@@ -66712,7 +67916,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +20%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Pann le Corne-arc",
@@ -66804,7 +68010,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pécheur Souillé",
@@ -66896,7 +68104,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pestilus",
@@ -66994,7 +68204,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Pharsalas Terretombe",
@@ -67101,7 +68313,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Plumesang",
@@ -67191,7 +68405,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Prêtre Croc",
@@ -67283,7 +68499,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Quargan le Couronné",
@@ -67375,7 +68593,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Ramasse-Cadavres",
@@ -67473,7 +68693,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Rowan",
@@ -67565,7 +68787,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Sanguinia",
@@ -67657,7 +68881,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Scabrius",
@@ -67770,7 +68996,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Siendra la Pupille",
@@ -67879,7 +69107,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Signy du Bouclier",
@@ -67988,7 +69218,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Sikara",
@@ -68109,7 +69341,9 @@ const champions = [
         "cooldown": 7,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Sir Artimage",
@@ -68193,7 +69427,9 @@ const champions = [
           "Lvl. 3 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Skeuramis",
@@ -68291,7 +69527,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Skimfos le Ravagé",
@@ -68404,7 +69642,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Slixus Peau-zébrée",
@@ -68513,7 +69753,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Sombre Athel",
@@ -68658,7 +69900,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sorcière de Crypte",
@@ -68752,11 +69996,13 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Suiren",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-suiren-artefact-et-maitrise/",
@@ -68850,7 +70096,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Survivante au Sable",
@@ -68938,7 +70186,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Tagoar",
@@ -69043,7 +70293,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Tainix Haïfleur",
@@ -69129,7 +70381,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Tallia",
@@ -69221,7 +70475,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Tarshon",
@@ -69326,11 +70582,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Taya",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-taya-artefact-et-maitrise/",
@@ -69422,7 +70680,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Théresc",
@@ -69537,11 +70797,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Tomoe",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tomoe-artefact-et-maitrise/",
@@ -69638,11 +70900,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Toragi la Grenouille",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-toragi-la-grenouille-artefact-et-maitrise/",
@@ -69751,7 +71015,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Tortureur",
@@ -69835,7 +71101,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Trumborr",
@@ -69944,7 +71212,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Tuhak le vagabond",
@@ -70059,11 +71329,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Umetogi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-umetogi-artefact-et-maitrise/",
@@ -70172,7 +71444,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Urticata",
@@ -70289,7 +71563,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Valla",
@@ -70394,7 +71670,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Venimage",
@@ -70503,7 +71781,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Vergis",
@@ -70585,7 +71865,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Vildrax",
@@ -70706,7 +71988,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Weregren le Maudit",
@@ -70813,11 +72097,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Wuji",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-wuji-artefact-et-maitrise/",
@@ -70907,7 +72193,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Wuzgar",
@@ -71012,7 +72300,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Wyrennon la Soyeuse",
@@ -71102,7 +72392,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Wysteri Garde-vigne",
@@ -71207,7 +72499,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Yelagirna",
@@ -71316,7 +72610,9 @@ const champions = [
         "cooldown": 2,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Yuzan le Naufragé",
@@ -71423,7 +72719,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Aina",
@@ -71515,7 +72813,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Alika",
@@ -71640,7 +72940,9 @@ const champions = [
         "cooldown": 7,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bushi",
@@ -71728,7 +73030,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Chanoinesse",
@@ -71820,7 +73124,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Drake",
@@ -71912,7 +73218,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Jotun",
@@ -72006,7 +73314,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Maève",
@@ -72098,7 +73408,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Mirenfer",
@@ -72184,7 +73496,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Missionnaire",
@@ -72278,7 +73592,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Perceneige",
@@ -72368,7 +73684,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Phranox",
@@ -72466,7 +73784,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Prundar",
@@ -72593,7 +73913,9 @@ const champions = [
           "Lvl. 6 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Seigneur de Nichée",
@@ -72710,7 +74032,9 @@ const champions = [
           "Lvl. 4: Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Sénéchal",
@@ -72802,7 +74126,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Taurus",
@@ -72894,11 +74220,13 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Thisbe de Pierre",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thisbe-de-pierre-artefact-et-maitrise/",
@@ -73005,7 +74333,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Zii Ixchi",
@@ -73110,11 +74440,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Antigone la Tueuse",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Épique",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-antigone-la-tueuse-artefact-et-maitrise/",
@@ -73219,7 +74551,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Anchorite",
@@ -73301,7 +74635,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Archer d'élite",
@@ -73393,7 +74729,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Arwydd des herbes",
@@ -73502,7 +74840,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Atur",
@@ -73607,7 +74947,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Baroth l’Ensanglanté",
@@ -73699,7 +75041,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Bêteffroyable",
@@ -73793,7 +75137,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Castagneur Occulte",
@@ -73877,7 +75223,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Chamane",
@@ -73965,7 +75313,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Conseiller Catacombe",
@@ -74104,7 +75454,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Dame Eresh",
@@ -74209,7 +75561,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Dame Etessa",
@@ -74301,7 +75655,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Dirandil",
@@ -74389,7 +75745,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Espoir",
@@ -74481,7 +75839,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Gardiendos",
@@ -74575,7 +75935,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gerhard la Pierre",
@@ -74663,7 +76025,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Grunch Rabat-joie",
@@ -74784,7 +76148,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Hexia",
@@ -74872,7 +76238,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Impitoyable",
@@ -74956,7 +76324,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jizoh",
@@ -75048,7 +76418,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Kytis",
@@ -75142,7 +76514,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Noble Légionnaire",
@@ -75170,7 +76544,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Morag Bouclairin",
@@ -75273,7 +76649,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Murmure",
@@ -75382,11 +76760,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Nogoryo",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Épique",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-nogoryo-artefact-et-maitrise/",
@@ -75489,7 +76869,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ours Pile-Glace",
@@ -75579,7 +76961,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Peaulivide",
@@ -75677,7 +77061,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Galapo le Reclus",
@@ -75778,7 +77164,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Brute Bougonne",
@@ -75868,7 +77256,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Eventreur",
@@ -75960,7 +77350,9 @@ const champions = [
           "Lvl. 4 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Guède-Peinte",
@@ -76048,7 +77440,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Heaumetorture",
@@ -76130,7 +77524,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Peausombre",
@@ -76226,7 +77622,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Scion",
@@ -76331,7 +77729,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Teshada",
@@ -76423,7 +77823,9 @@ const champions = [
           "Lvl. 4 Heal +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Tolf l’Estropié",
@@ -76509,7 +77911,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Sans visage",
@@ -76601,7 +78005,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Primat Atalact",
@@ -76680,7 +78086,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Impassible",
@@ -76785,7 +78193,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Parangon",
@@ -76872,7 +78282,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Apothicaire",
@@ -76960,7 +78372,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Beugleur",
@@ -77052,7 +78466,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "CoeurFroid",
@@ -77148,7 +78564,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Kael",
@@ -77244,7 +78662,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Renégate",
@@ -77332,7 +78752,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Vierge guerrière",
@@ -77426,7 +78848,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Athel",
@@ -77518,11 +78942,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Acolyte du Rampant",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Rare",
     "rank": "A",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-acolyte-du-rampant-artefact-et-maitrise/",
@@ -77608,7 +79034,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Banshee Gelée",
@@ -77706,7 +79134,9 @@ const champions = [
           "Level 6: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Bourreau",
@@ -77798,7 +79228,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Chien Cruel",
@@ -77880,7 +79312,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Crisseruine",
@@ -77970,7 +79404,9 @@ const champions = [
           "Level 5: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Diaboliste",
@@ -78058,7 +79494,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Écrase-Cercueil",
@@ -78152,7 +79590,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Elhain",
@@ -78246,7 +79686,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Garde-Douleur",
@@ -78344,7 +79786,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Hôtesprit",
@@ -78424,7 +79868,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Rempart",
@@ -78516,7 +79962,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Séducteur",
@@ -78625,7 +80073,9 @@ const champions = [
           "Level 2: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Âme de Tigre",
@@ -78729,7 +80179,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Arcaniste",
@@ -78813,7 +80265,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Archer Chaînâme",
@@ -78913,11 +80367,13 @@ const champions = [
           "Lvl. 9 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Assassin",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-assassin-clan-de-lombre-artefact-et-maitrise/",
@@ -79013,7 +80469,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Avant-garde",
@@ -79097,7 +80555,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Avir l’Archimage",
@@ -79191,7 +80651,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Bagarreur",
@@ -79289,7 +80751,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Berserker",
@@ -79379,7 +80843,9 @@ const champions = [
           "Lvl. 4 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Boorn Suture-peau",
@@ -79467,7 +80933,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Broyeur de Rouages",
@@ -79561,7 +81029,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Cait l’Éclaireuse",
@@ -79645,7 +81115,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Caverneux",
@@ -79737,7 +81209,9 @@ const champions = [
           "Level 5: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Charcutier",
@@ -79831,7 +81305,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Chevalier d'Os",
@@ -79925,7 +81401,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Conquérant",
@@ -80021,7 +81499,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Dague",
@@ -80121,7 +81601,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Dilgol",
@@ -80219,7 +81701,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Domestique",
@@ -80313,7 +81797,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Encagé",
@@ -80403,7 +81889,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Escarmoucheuse",
@@ -80499,11 +81987,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Fanatique",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-fanatique-artefact-et-maitrise/",
@@ -80585,11 +82075,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Fauche-vie",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-fauche-vie-artefact-et-maitrise/",
@@ -80671,7 +82163,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Flannan Forge-bois",
@@ -80784,7 +82278,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Galek",
@@ -80878,7 +82374,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Gator",
@@ -80958,7 +82456,9 @@ const champions = [
           "Level 1: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Gladiateur",
@@ -81052,7 +82552,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Haruspex",
@@ -81138,7 +82640,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Héritière",
@@ -81220,7 +82724,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Hyrie",
@@ -81308,7 +82814,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Juge",
@@ -81390,7 +82898,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Knott Arbre-bouclier",
@@ -81486,7 +82996,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Kurzad Grand Coeur",
@@ -81580,7 +83092,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Lasair Arme-branche",
@@ -81668,7 +83182,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Loup de clairière",
@@ -81777,7 +83293,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Main Mystique",
@@ -81869,7 +83387,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Marchemarais",
@@ -81965,7 +83485,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Marcheur de jour",
@@ -82041,7 +83563,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Marquée",
@@ -82133,7 +83657,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Marquis",
@@ -82223,7 +83749,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Médicus",
@@ -82315,7 +83843,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Médium",
@@ -82405,7 +83935,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Mère Supérieur",
@@ -82498,7 +84030,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Moissonneuse",
@@ -82594,7 +84128,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Nomade du Tertre",
@@ -82682,11 +84218,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Odachi",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "B",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-odachi-artefact-et-maitrise/",
@@ -82772,7 +84310,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Oint",
@@ -82858,7 +84398,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Ordonnateur",
@@ -82944,7 +84486,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pousserage",
@@ -83038,7 +84582,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Préservatrice",
@@ -83132,7 +84678,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Prêtresse de Guerre",
@@ -83222,7 +84770,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Punisseur",
@@ -83304,7 +84854,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Rictus",
@@ -83400,7 +84952,9 @@ const champions = [
           "Level 4: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Selinia Capenuit",
@@ -83513,7 +85067,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Sculptemétal",
@@ -83607,7 +85163,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "SoutierFurieux",
@@ -83689,7 +85247,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Teryx l’Agité",
@@ -83779,7 +85339,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Tirlac Arc d’Ombre",
@@ -83886,7 +85448,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Tissesortilège",
@@ -83976,7 +85540,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Tueur Glacetombe",
@@ -84072,7 +85638,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Tueuse Incarnate",
@@ -84178,7 +85746,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Vagabond",
@@ -84270,7 +85840,9 @@ const champions = [
           "Lvl. 5 Shield +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Vétéran",
@@ -84368,7 +85940,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Abyssal",
@@ -84458,7 +86032,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Adjudicatrice",
@@ -84560,7 +86136,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ancien",
@@ -84640,7 +86218,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Assommeur",
@@ -84722,7 +86302,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Aumônière",
@@ -84810,7 +86392,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Banshee",
@@ -84906,7 +86490,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Barbegrise",
@@ -85004,7 +86590,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Baroudeur",
@@ -85100,7 +86688,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Bâtonneur",
@@ -85194,7 +86784,9 @@ const champions = [
           "Lvl. 6 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Bête Infernale",
@@ -85292,7 +86884,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Brisesiège",
@@ -85388,7 +86982,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Brutondulante",
@@ -85478,7 +87074,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Bûcheron",
@@ -85572,7 +87170,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Cadavre Corpulent",
@@ -85670,7 +87270,9 @@ const champions = [
           "Level 8: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Chantemort",
@@ -85772,7 +87374,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Chevalier",
@@ -85858,11 +87462,13 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Chevauche-lame",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-chevauche-lame-artefact-et-maitrise/",
@@ -85950,7 +87556,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Colwyn Tridaim",
@@ -86040,7 +87648,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Confesseuse",
@@ -86138,7 +87748,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Cornenoueuse",
@@ -86220,7 +87832,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Courtisan",
@@ -86314,7 +87928,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Cuirassé",
@@ -86390,7 +88006,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Denid aux Défenses",
@@ -86474,7 +88092,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Dentpierre",
@@ -86570,7 +88190,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Disciple Deuxgriffes",
@@ -86666,7 +88288,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Dolor Gardelore",
@@ -86758,7 +88382,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Draconis",
@@ -86852,7 +88478,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Escrimeuse",
@@ -86958,7 +88586,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Eviscératrice",
@@ -87044,7 +88674,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Fendeur Robuste",
@@ -87126,7 +88758,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Fléau",
@@ -87216,7 +88850,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Forge-Carreau",
@@ -87306,7 +88942,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Garde-Chandelle",
@@ -87398,7 +89036,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Gardien Runique",
@@ -87486,7 +89126,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Géôlier Ogryn",
@@ -87582,7 +89224,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Gloril Fléaubrutal",
@@ -87674,7 +89318,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Hacheur",
@@ -87770,7 +89416,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Hallebardier",
@@ -87854,11 +89502,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Vipère cornue",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vipere-cornue-artefact-et-maitrise/",
@@ -87946,7 +89596,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Hurleur",
@@ -88036,7 +89688,9 @@ const champions = [
           "Level 3: Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Ifrit",
@@ -88120,7 +89774,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Ingid Bâton-tordu",
@@ -88214,11 +89870,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Itinérant",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-itinerant-artefact-et-maitrise/",
@@ -88306,7 +89964,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Lamibur",
@@ -88394,7 +90054,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Lanceur",
@@ -88488,7 +90150,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Mage Ensorceleuse",
@@ -88582,7 +90246,9 @@ const champions = [
           "Level 7: Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Magicienne",
@@ -88674,7 +90340,9 @@ const champions = [
           "Level 3: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Magister",
@@ -88768,7 +90436,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Mailles",
@@ -88850,7 +90520,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Maître Boucher",
@@ -88953,7 +90625,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Maître espion",
@@ -89049,7 +90723,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Marche-cendre",
@@ -89151,7 +90827,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Margrave Fauconvert",
@@ -89245,11 +90923,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Maraudeur",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-maraudeur-artefact-et-maitrise/",
@@ -89341,11 +91021,13 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Masque de sang",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-masque-de-sang-artefact-et-maitrise/",
@@ -89433,7 +91115,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Myrmidon",
@@ -89535,7 +91219,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Nattesang",
@@ -89631,7 +91317,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Panthère",
@@ -89733,7 +91421,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Pauvre Hère",
@@ -89825,11 +91515,13 @@ const champions = [
           "Level 5: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pegason Pourpre",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-pegason-pourpre-artefact-et-maitrise/",
@@ -89913,7 +91605,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Peintresang",
@@ -90007,7 +91701,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pénitente",
@@ -90095,7 +91791,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Petrifya Racineroc",
@@ -90191,7 +91889,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Pierre Hirsute",
@@ -90285,7 +91985,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Pillarde",
@@ -90379,7 +92081,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +20%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Pique Porc",
@@ -90473,7 +92177,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Poing Eventreur",
@@ -90565,7 +92271,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Portecrâne",
@@ -90651,7 +92359,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Procureure",
@@ -90747,7 +92457,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Protège-sanctuaire",
@@ -90843,7 +92555,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Râleur",
@@ -90933,7 +92647,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Riab Lame-Solitaire",
@@ -91025,7 +92741,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Riscarm",
@@ -91113,7 +92831,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Sage-vallon Cithrel",
@@ -91203,7 +92923,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Scinque",
@@ -91297,7 +93019,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sentinelle",
@@ -91381,11 +93105,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Sentinelle engloutie",
-    "faction": "Argonites",
+    "faction": "Olympians",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-sentinelle-engloutie-artefact-et-maitrise/",
@@ -91473,7 +93199,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Spectrenflé Noyé",
@@ -91559,7 +93287,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Squelette pourpre",
@@ -91657,7 +93387,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Solaris",
@@ -91755,7 +93487,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Sylvain l’Amant",
@@ -91843,11 +93577,13 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Taneko Cape-rouge",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "rank": "C",
     "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-taneko-cape-rouge-artefact-et-maitrise/",
@@ -91937,7 +93673,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Témoin",
@@ -92029,7 +93767,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Templier",
@@ -92115,7 +93855,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Tentatrice",
@@ -92205,7 +93947,9 @@ const champions = [
           "Level 1: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Théurge",
@@ -92295,7 +94039,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Tolog Tailleviande",
@@ -92396,7 +94142,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Torrux Longuépée",
@@ -92492,7 +94240,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Totem",
@@ -92584,7 +94334,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Trugorr",
@@ -92680,7 +94432,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Veilleur",
@@ -92772,7 +94526,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Vengeresse",
@@ -92868,7 +94624,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Vouivre du Fléau",
@@ -92968,7 +94726,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Voyageur",
@@ -93064,7 +94824,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Wagon du Fléau",
@@ -93166,7 +94928,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Yak",
@@ -93258,7 +95022,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Abatarbre",
@@ -93354,7 +95120,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Abjureur",
@@ -93452,7 +95220,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Acolyte",
@@ -93544,7 +95314,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Arbalétrière",
@@ -93636,7 +95408,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Arbaletrier",
@@ -93720,7 +95494,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Archere d'Acier",
@@ -93824,7 +95600,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Meurtrier barbares",
@@ -93917,7 +95695,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Bête suturée",
@@ -94015,7 +95795,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Bombardier",
@@ -94111,7 +95893,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Cataphractaire",
@@ -94193,7 +95977,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Centurion",
@@ -94279,7 +96065,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Chasseresse",
@@ -94371,7 +96159,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Cornesang",
@@ -94449,7 +96239,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Croc infernal",
@@ -94551,7 +96343,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Désaxé",
@@ -94643,7 +96437,9 @@ const champions = [
           "Lvl. 4 Damage +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Dompte-Betes",
@@ -94729,7 +96525,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Exécuteur",
@@ -94815,7 +96613,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Forgedouleur",
@@ -94911,7 +96711,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Garde d’Honneur",
@@ -95013,7 +96815,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Grand-maitre",
@@ -95105,7 +96909,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Harrier",
@@ -95218,7 +97024,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Hospitaliere",
@@ -95323,7 +97131,9 @@ const champions = [
         "cooldown": 5,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Infernale génie",
@@ -95413,7 +97223,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Intercepteur",
@@ -95503,7 +97315,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Jouvencelle",
@@ -95597,7 +97411,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Justicier",
@@ -95681,7 +97497,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Lance-hachettes",
@@ -95777,7 +97595,9 @@ const champions = [
           "Lvl. 4 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Magistrat",
@@ -95873,7 +97693,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Malbranche",
@@ -95969,7 +97791,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Mangechair",
@@ -96055,7 +97879,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Marquise",
@@ -96153,7 +97979,9 @@ const champions = [
           "Lvl. 8 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Masquegore",
@@ -96255,7 +98083,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Mycolus",
@@ -96339,7 +98169,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Void"
   },
   {
     "name": "Peaupierre",
@@ -96433,7 +98265,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Persecuteur",
@@ -96529,7 +98363,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Pistegadoue",
@@ -96617,7 +98453,9 @@ const champions = [
         "cooldown": 2,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Prévôt inébranlable",
@@ -96697,7 +98535,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Purgateur",
@@ -96795,7 +98635,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Questeur",
@@ -96895,7 +98737,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Ranger Macabre",
@@ -96993,7 +98837,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Rejeton de Cabot",
@@ -97091,7 +98937,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Sangmagma",
@@ -97187,7 +99035,9 @@ const champions = [
           "Lvl. 6 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Sbire de Forteresse",
@@ -97279,7 +99129,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Tetepic",
@@ -97369,7 +99221,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Drokgul le Hâve",
@@ -97457,7 +99311,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Mangeur d'hommes",
@@ -97545,7 +99401,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Ensorceleuse",
@@ -97639,7 +99497,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Mère Supérieure",
@@ -97725,7 +99585,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Elhain Ultime",
@@ -97830,7 +99692,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Marche-cendres",
@@ -97930,11 +99794,13 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Vagabonde",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Rare",
     "skillsGestal": [
       {
@@ -98020,7 +99886,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Dame d’Ireth",
@@ -98123,7 +99991,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Emic Cœur-Tronc",
@@ -98230,7 +100100,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Athel Ultime",
@@ -98337,7 +100209,9 @@ const champions = [
           "Lvl. 3 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Grand Gardien Prysma",
@@ -98440,7 +100314,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Greggor Lord de dune",
@@ -98541,7 +100417,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Tuskkor Prime-hache",
@@ -98644,7 +100522,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Klaazag Géant-clés",
@@ -98749,7 +100629,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Galleus Crête-sang",
@@ -98960,7 +100842,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Marius le Galant",
@@ -99061,7 +100945,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Kael Ultime",
@@ -99168,7 +101054,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Keeyra l'Observatrice",
@@ -99273,11 +101161,13 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Onryo Ieyasu",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Légendaire",
     "skillsGestal": [
       {
@@ -99376,7 +101266,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Golem Épine",
@@ -99481,7 +101373,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Void"
   },
   {
     "name": "Criodan le Bleu",
@@ -99584,7 +101478,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Meurtrier",
@@ -99678,7 +101574,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Bête de Roc",
@@ -99768,7 +101666,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Void"
   },
   {
     "name": "Cœurfroid",
@@ -99858,7 +101758,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Lanceval",
@@ -99923,7 +101825,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Tisse-branche",
@@ -99988,11 +101892,13 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Infiltré",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Peu Commun",
     "skillsGestal": [
       {
@@ -100057,11 +101963,13 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Conscrit",
-    "faction": "Shadowkin",
+    "faction": "Samurai",
     "rarity": "Peu Commun",
     "skillsGestal": [
       {
@@ -100126,7 +102034,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Kurzad Grand Cœur",
@@ -100210,7 +102120,9 @@ const champions = [
         "cooldown": 3,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Void"
   },
   {
     "name": "Chimiste",
@@ -100281,7 +102193,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Infanterie de Ligne",
@@ -100354,7 +102268,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Chercheur des Glaces",
@@ -100421,7 +102337,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Trancheur",
@@ -100490,7 +102408,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Intendant de Tunnel",
@@ -100563,7 +102483,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Sectateur",
@@ -100628,7 +102550,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Surveillant",
@@ -100691,7 +102615,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Héraut",
@@ -100752,7 +102678,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Spirit"
   },
   {
     "name": "Vassal",
@@ -100792,7 +102720,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sniper",
@@ -100861,7 +102791,9 @@ const champions = [
           "Level 7: Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Rédemptrice",
@@ -100926,7 +102858,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Perce-cœur",
@@ -100991,7 +102925,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Rôdeur",
@@ -101031,7 +102967,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ranger",
@@ -101094,7 +103032,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Tueuse de Mage",
@@ -101130,7 +103070,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Crânécuyer",
@@ -101197,7 +103139,9 @@ const champions = [
           "Level 5: Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Squelette",
@@ -101266,7 +103210,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Vulpin",
@@ -101323,7 +103269,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Croisé Mort",
@@ -101390,7 +103338,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Dhampire",
@@ -101453,7 +103403,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Chevalier de la Mort",
@@ -101512,7 +103464,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Chien du Trépas",
@@ -101575,7 +103529,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Chien de l'enfer",
@@ -101613,7 +103569,9 @@ const champions = [
           "Lvl. 6 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Armorié",
@@ -101678,7 +103636,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Lémur",
@@ -101739,7 +103699,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Incube",
@@ -101806,7 +103768,9 @@ const champions = [
           "Lvl. 6 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Bâtard d'Arène",
@@ -101867,7 +103831,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Frai de Mine",
@@ -101932,7 +103898,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Vil Rejeton",
@@ -102003,7 +103971,9 @@ const champions = [
           "Lvl. 6 Heal +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Garçon guerrier",
@@ -102039,7 +104009,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Chanteguerre",
@@ -102106,7 +104078,9 @@ const champions = [
           "Lvl. 7 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Tribu du soleil",
@@ -102169,7 +104143,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Traqueur",
@@ -102242,7 +104218,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Coupegorge",
@@ -102309,7 +104287,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Parlevent",
@@ -102378,7 +104358,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Satyre",
@@ -102447,7 +104429,9 @@ const champions = [
           "Lvl. 6 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Troglodyte",
@@ -102483,7 +104467,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Saurus",
@@ -102544,7 +104530,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Harceleur",
@@ -102609,7 +104597,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Durécaille",
@@ -102678,7 +104668,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Écorcheur",
@@ -102743,7 +104735,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Bastonneur",
@@ -102806,7 +104800,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Affameur",
@@ -102869,7 +104865,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Vieillebarbe",
@@ -102936,7 +104934,9 @@ const champions = [
           "Lvl. 6 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Peau de givre",
@@ -102997,7 +104997,9 @@ const champions = [
           "Lvl. 4 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Brute",
@@ -103062,7 +105064,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Despote",
@@ -103102,7 +105106,9 @@ const champions = [
           "Lvl. 7 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Arc de sable",
@@ -103173,7 +105179,9 @@ const champions = [
           "Lvl. 8 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Sniper Zéphyr",
@@ -103230,7 +105238,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Broyeuse",
@@ -103293,7 +105303,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Guide",
@@ -103387,7 +105399,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Gardebouclier",
@@ -103473,7 +105487,9 @@ const champions = [
         "cooldown": 1,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Étranger",
@@ -103542,7 +105558,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Guerrier d’Arène",
@@ -103609,7 +105627,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Marchesprit",
@@ -103670,7 +105690,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Preneuse de Tête",
@@ -103737,7 +105759,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Derviche",
@@ -103802,7 +105826,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Ritualiste",
@@ -103867,7 +105893,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Instructeur",
@@ -103930,7 +105958,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sœur de Combat",
@@ -103997,7 +106027,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Moine Hors-la-loi",
@@ -104054,7 +106086,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Épéiste",
@@ -104090,7 +106124,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Piquier",
@@ -104132,7 +106168,9 @@ const champions = [
           "Lvl. 8 Buff/Debuff Chance +15%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Fendeur",
@@ -104168,7 +106206,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Bandit",
@@ -104208,7 +106248,9 @@ const champions = [
           "Lvl. 7 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Archère",
@@ -104277,7 +106319,9 @@ const champions = [
           "Lvl. 8 Buff/Debuff Chance +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Partisan",
@@ -104340,7 +106384,9 @@ const champions = [
           "Lvl. 5 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   },
   {
     "name": "Porte-Parole",
@@ -104407,7 +106453,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Duelliste",
@@ -104480,7 +106528,9 @@ const champions = [
           "Lvl. 8 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Commandeur",
@@ -104553,7 +106603,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Écuyer",
@@ -104618,7 +106670,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Force"
   },
   {
     "name": "Lamardente",
@@ -104685,7 +106739,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Guerrier de Front",
@@ -104740,7 +106796,9 @@ const champions = [
           "Level 1: Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Sergent",
@@ -104805,7 +106863,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Intercesseuse",
@@ -104868,7 +106928,9 @@ const champions = [
           "Lvl. 3 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Pèlerin",
@@ -104927,7 +106989,9 @@ const champions = [
           "Lvl. 2 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Force"
   },
   {
     "name": "Croisé",
@@ -104992,7 +107056,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Milice",
@@ -105055,7 +107121,9 @@ const champions = [
           "Lvl. 5 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Vigile",
@@ -105122,7 +107190,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Spirit"
   },
   {
     "name": "Ribaud",
@@ -105158,7 +107228,9 @@ const champions = [
           "Lvl. 5 Buff/Debuff Chance +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Sœur Militante",
@@ -105194,7 +107266,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Force"
   },
   {
     "name": "Prédicatrice",
@@ -105232,7 +107306,9 @@ const champions = [
           "Lvl. 6 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Force"
   },
   {
     "name": "Serviteur",
@@ -105268,7 +107344,9 @@ const champions = [
           "Lvl. 5 Damage +5%"
         ]
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Spirit"
   },
   {
     "name": "Novice",
@@ -105308,7 +107386,9 @@ const champions = [
           "Lvl. 7 Damage +10%"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Aristocrate",
@@ -105375,7 +107455,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Magic"
   },
   {
     "name": "Jaeger",
@@ -105442,7 +107524,9 @@ const champions = [
           "Lvl. 7 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Gardelfe",
@@ -105507,7 +107591,9 @@ const champions = [
           "Lvl. 6 Cooldown -1"
         ]
       }
-    ]
+    ],
+    "role": "Attack",
+    "element": "Spirit"
   },
   {
     "name": "Khamir Œil-brûlé",
@@ -105606,7 +107692,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Support",
+    "element": "Magic"
   },
   {
     "name": "Le Lion Poltron",
@@ -105709,7 +107797,9 @@ const champions = [
         "cooldown": 4,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "Defense",
+    "element": "Magic"
   },
   {
     "name": "Thralia la Résistante",
@@ -105810,7 +107900,9 @@ const champions = [
         "cooldown": 0,
         "upgrades": []
       }
-    ]
+    ],
+    "role": "HP",
+    "element": "Magic"
   }
 ];
 

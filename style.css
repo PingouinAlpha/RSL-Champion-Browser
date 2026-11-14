@@ -478,7 +478,7 @@ h1 {
 .detail-panel {
     position: relative;
     z-index: 1;
-    max-width: 820px;
+    max-width: 1100px;
     margin: 40px auto;
     background: var(--bg-card);
     border-radius: 20px;
@@ -515,20 +515,38 @@ h1 {
 }
 
 .detail-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 48px 40px 36px 40px;
+    min-height: 280px;
+}
+
+.detail-hero-bg {
+    position: absolute;
+    inset: -20px;
+    background-size: cover;
+    background-position: center 15%;
+    filter: blur(32px) brightness(0.45) saturate(1.3);
+    transform: scale(1.15);
+    z-index: 0;
+}
+
+.detail-hero-content {
+    position: relative;
+    z-index: 1;
     display: flex;
-    align-items: center;
-    gap: 28px;
-    padding: 48px 40px 32px 40px;
+    align-items: flex-start;
+    gap: 32px;
 }
 
 .detail-portrait-frame {
     flex-shrink: 0;
-    width: 160px;
-    height: 208px;
+    width: 180px;
+    height: 234px;
     border-radius: 16px;
     padding: 4px;
     border: 4px solid;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
 }
 
 .detail-portrait {
@@ -537,31 +555,102 @@ h1 {
     object-fit: cover;
     border-radius: 12px;
     display: block;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .detail-identity {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 4px;
 }
 
 .detail-name {
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 800;
     letter-spacing: 0.01em;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
 
 .detail-badges {
     display: flex;
     gap: 10px;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-role-badge,
+.detail-element-badge {
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.detail-role-badge {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--text-primary);
+}
+
+.detail-element-badge {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1.5px solid;
 }
 
 .detail-faction {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-weight: 700;
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+.detail-faction-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.detail-aura-box {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 480px;
+}
+
+.detail-aura-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.85em;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.detail-aura-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffd700;
+}
+
+.detail-aura-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .detail-guide-link {
@@ -585,25 +674,45 @@ h1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.detail-skills-list {
-    display: flex;
-    flex-direction: column;
+.detail-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 16px;
+}
+
+.detail-form-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 28px 0 16px 0;
+    color: #d8b4fe;
+    font-weight: 700;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.detail-form-divider::before,
+.detail-form-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.4), transparent);
 }
 
 .detail-skill {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
-    padding: 16px;
+    padding: 14px;
 }
 
 .detail-skill-icon {
     flex-shrink: 0;
-    width: 56px;
-    height: 56px;
+    width: 48px;
+    height: 48px;
     border-radius: 10px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.06);
@@ -675,6 +784,24 @@ h1 {
     margin-right: 2px;
 }
 
+.detail-skill-desc .fx-buff,
+.detail-aura-text .fx-buff {
+    color: #4ade80;
+    font-weight: 700;
+}
+
+.detail-skill-desc .fx-debuff,
+.detail-aura-text .fx-debuff {
+    color: #f87171;
+    font-weight: 700;
+}
+
+.detail-skill-damage {
+    margin-top: 8px;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+}
+
 .detail-skill-upgrades {
     margin-top: 8px;
     padding-left: 18px;
@@ -683,16 +810,28 @@ h1 {
 }
 
 @media (max-width: 640px) {
-    .detail-hero {
+    .detail-hero-content {
         flex-direction: column;
+        align-items: center;
         text-align: center;
-        padding: 40px 20px 24px 20px;
+    }
+    .detail-hero {
+        padding: 36px 20px 24px 20px;
     }
     .detail-identity {
         align-items: center;
     }
+    .detail-aura-box {
+        max-width: 100%;
+    }
+    .detail-faction {
+        justify-content: center;
+    }
     .detail-skills-section {
         padding: 8px 20px 32px 20px;
+    }
+    .detail-skills-grid {
+        grid-template-columns: 1fr;
     }
     .detail-panel {
         margin: 0;
