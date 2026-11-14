@@ -5568,12 +5568,6 @@ const champions = [
     "element": "Spirit"
   },
   {
-    "name": "Galleuss Crête-sang",
-    "rarity": "Mythique",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-galeuss-crete-sang-artefact-et-maitrise/"
-  },
-  {
     "name": "Karnage l’Anarque",
     "faction": "Demonspawn",
     "rarity": "Mythique",
@@ -10755,12 +10749,6 @@ const champions = [
     "element": "Magic"
   },
   {
-    "name": "Kael Suprême",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kael-supreme-artefact-et-maitrise/"
-  },
-  {
     "name": "Kalvalax",
     "faction": "Knights Revenant",
     "rarity": "Légendaire",
@@ -10870,12 +10858,6 @@ const champions = [
     ],
     "role": "Attack",
     "element": "Spirit"
-  },
-  {
-    "name": "Klaazag Géants-clés",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-klaazag-geants-cles-artefact-et-maitrise/"
   },
   {
     "name": "Kreela Bras-Sorcière",
@@ -11846,12 +11828,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Void"
-  },
-  {
-    "name": "Marius le Vaillant",
-    "rarity": "Légendaire",
-    "rank": "S",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-marius-le-vaillant-artefact-et-maitrise/"
   },
   {
     "name": "Martyre",
@@ -22043,12 +22019,6 @@ const champions = [
     "element": "Spirit"
   },
   {
-    "name": "Dame Ireth",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-dame-ireth-artefact-et-maitrise/"
-  },
-  {
     "name": "Dame Noëlle",
     "faction": "Sacred Order",
     "rarity": "Légendaire",
@@ -22701,12 +22671,6 @@ const champions = [
     "element": "Force"
   },
   {
-    "name": "Elhain Suprême",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-elhain-supreme-artefact-et-maitrise/"
-  },
-  {
     "name": "Esmé la Danseuse",
     "faction": "Barbarians",
     "rarity": "Légendaire",
@@ -22812,12 +22776,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Force"
-  },
-  {
-    "name": "Emic Coeur-Tronc",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-emic-coeur-tronc-artefact-et-maitrise/"
   },
   {
     "name": "Eostrid chant-rêve",
@@ -24534,12 +24492,6 @@ const champions = [
     ],
     "role": "Attack",
     "element": "Force"
-  },
-  {
-    "name": "Gardien Prysma",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-grand-gardien-prysma-artefact-et-maitrise/"
   },
   {
     "name": "Granyt Garde-porte",
@@ -26624,12 +26576,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Void"
-  },
-  {
-    "name": "Keeyra L'Observateur",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-keeyra-lobservateur-artefact-et-maitrise/"
   },
   {
     "name": "Kerin le Moissonneur",
@@ -29660,12 +29606,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Magic"
-  },
-  {
-    "name": "Onryo leyasu",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-onryo-leyasu-artefact-et-maitrise/"
   },
   {
     "name": "Osgrun le Corrupteur",
@@ -36362,12 +36302,6 @@ const champions = [
     "element": "Spirit"
   },
   {
-    "name": "Khamir Oeil-brûlé",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-khamir-oeil-brule-artefact-et-maitrise/"
-  },
-  {
     "name": "Kosk Deux Peaux",
     "faction": "Lizardmen",
     "rarity": "Légendaire",
@@ -36580,12 +36514,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Spirit"
-  },
-  {
-    "name": "Lion Poltron",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-le-lion-poltron-artefact-et-maitrise/"
   },
   {
     "name": "Ozilda la méchante",
@@ -36911,12 +36839,6 @@ const champions = [
     ],
     "role": "Attack",
     "element": "Void"
-  },
-  {
-    "name": "Tusskor Prime-hache",
-    "rarity": "Légendaire",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-tusskor-prime-hache-equipement-et-maitrise/"
   },
   {
     "name": "Varkos Fend-têtes",
@@ -37965,12 +37887,6 @@ const champions = [
     ],
     "role": "Attack",
     "element": "Spirit"
-  },
-  {
-    "name": "Athel Suprême",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-athel-supreme-artefact-et-maitrise/"
   },
   {
     "name": "Bambus Trèfle",
@@ -39160,13 +39076,6 @@ const champions = [
     "element": "Force"
   },
   {
-    "name": "Drokgul le Hâvre",
-    "faction": "Ogryn Tribes",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-drokgul-le-have-artefact-et-maitrise/"
-  },
-  {
     "name": "Elegaius",
     "faction": "Undead Hordes",
     "rarity": "Légendaire",
@@ -39904,12 +39813,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Magic"
-  },
-  {
-    "name": "Greggor Lord de lune",
-    "rarity": "Légendaire",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-greggor-lord-de-lune-artefact-et-maitrise/"
   },
   {
     "name": "Gurptuk Barbe-Mousse",
@@ -47810,12 +47713,6 @@ const champions = [
     "element": "Magic"
   },
   {
-    "name": "Thraila la Résistante",
-    "rarity": "Légendaire",
-    "rank": "Non classé",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-thraila-la-resistante-artefact-et-maitrise/"
-  },
-  {
     "name": "Miyoko Fleur de Yakai",
     "faction": "Samurai",
     "rarity": "Légendaire",
@@ -48915,13 +48812,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Force"
-  },
-  {
-    "name": "Mangeur d'Homme",
-    "faction": "Ogryn Tribes",
-    "rarity": "Épique",
-    "rank": "S",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-mangeur-dhomme-artefact-et-maitrise/"
   },
   {
     "name": "Monstre Mal créé",
@@ -51478,12 +51368,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Spirit"
-  },
-  {
-    "name": "Criodan Bleu",
-    "rarity": "Épique",
-    "rank": "A",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-criodan-le-bleu-artefact-et-maitrise/"
   },
   {
     "name": "Daithi le Brumeux",
@@ -63669,12 +63553,6 @@ const champions = [
     ],
     "role": "Defense",
     "element": "Magic"
-  },
-  {
-    "name": "Golem Epines",
-    "rarity": "Épique",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-golem-epines-artefact-et-maitrise/"
   },
   {
     "name": "Gore",
@@ -78147,12 +78025,6 @@ const champions = [
     "element": "Void"
   },
   {
-    "name": "CoeurFroid",
-    "rarity": "Rare",
-    "rank": "S",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-coeurfroid-artefact-et-maitrise/"
-  },
-  {
     "name": "Garde-Reliquaire",
     "faction": "High Elves",
     "rarity": "Rare",
@@ -82677,12 +82549,6 @@ const champions = [
     "element": "Void"
   },
   {
-    "name": "Kurzad Grand Coeur",
-    "rarity": "Rare",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-kurzad-grand-coeur-artefact-et-maitrise/"
-  },
-  {
     "name": "Lance-côte Fionn",
     "faction": "Sylvan Watchers",
     "rarity": "Rare",
@@ -83614,13 +83480,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Spirit"
-  },
-  {
-    "name": "Mère Supérieur",
-    "faction": "Sacred Order",
-    "rarity": "Rare",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-mere-superieure-artefact-et-maitrise/"
   },
   {
     "name": "Miséricorde",
@@ -85425,12 +85284,6 @@ const champions = [
     ],
     "role": "Attack",
     "element": "Spirit"
-  },
-  {
-    "name": "Vagabond",
-    "rarity": "Rare",
-    "rank": "B",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-vagabond-clan-de-lombre-artefact-et-maitrise/"
   },
   {
     "name": "Valérie",
@@ -89831,12 +89684,6 @@ const champions = [
     "element": "Spirit"
   },
   {
-    "name": "Mage Ensorceleuse",
-    "rarity": "Rare",
-    "rank": "C",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-ensorceleuse-artefact-et-maitrise/"
-  },
-  {
     "name": "Mage Pourrissant",
     "faction": "Undead Hordes",
     "rarity": "Rare",
@@ -90402,12 +90249,6 @@ const champions = [
     ],
     "role": "HP",
     "element": "Force"
-  },
-  {
-    "name": "Marche-cendre",
-    "rarity": "Rare",
-    "rank": "C",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-marche-cendres-artefact-et-maitrise/"
   },
   {
     "name": "Marchedune",
@@ -95281,13 +95122,6 @@ const champions = [
     "element": "Force"
   },
   {
-    "name": "Meurtrier barbares",
-    "faction": "Barbarians",
-    "rarity": "Rare",
-    "rank": "D",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-meurtrier-barbares-artefact-et-maitrise/"
-  },
-  {
     "name": "Balafreur",
     "faction": "Lizardmen",
     "rarity": "Rare",
@@ -97848,12 +97682,6 @@ const champions = [
     ],
     "role": "Support",
     "element": "Void"
-  },
-  {
-    "name": "Peaupierre",
-    "rarity": "Rare",
-    "rank": "D",
-    "url": "https://www.alucare.fr/wiki/guide-raid-shadow-legend/guide-sur-bete-de-roc-artefact-et-maitrise/"
   },
   {
     "name": "Perforateur",
