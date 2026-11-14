@@ -85,6 +85,10 @@ function positionTooltip(tooltip, anchor) {
     tooltip.style.top = `${top}px`;
 }
 
+function rarityClass(rarity) {
+    return (rarity || '').replace(/\s+/g, '');
+}
+
 function normalizeText(text) {
     return text.toLowerCase()
         .normalize("NFD")
@@ -169,7 +173,7 @@ function renderChampions() {
         return;
     }
 
-    const rarityOrder = ['Mythique', 'Légendaire', 'Épique'];
+    const rarityOrder = ['Mythique', 'Légendaire', 'Épique', 'Rare', 'Peu Commun', 'Commun'];
     let html = '';
 
     rarityOrder.forEach(rarity => {
@@ -178,7 +182,7 @@ function renderChampions() {
         const champs = grouped[rarity];
         
         html += `
-            <div class="rarity-section ${rarity.toLowerCase()}">
+            <div class="rarity-section ${rarityClass(rarity).toLowerCase()}">
                 <div class="rarity-header">
                     <h2>${rarity}</h2>
                     <span class="champion-count">${champs.length} champions</span>
@@ -191,7 +195,7 @@ function renderChampions() {
             const hasAltForm = champ.skills && champ.skills.some(s => s.altForm);
 
             html += `
-                <div class="champion-card" data-rarity="${champ.rarity}">
+                <div class="champion-card" data-rarity="${champ.rarity}" data-name="${champ.name.replace(/"/g, '&quot;')}">
                     <div class="champion-icon">
                         <img src="${imagePath}"
                              alt="${champ.name}"
@@ -202,8 +206,8 @@ function renderChampions() {
                         <div class="champion-faction">${champ.faction || 'Faction inconnue'}</div>
                     </div>
                     <div class="champion-info">
-                        <span class="champion-rarity rarity-${champ.rarity}">${champ.rarity}</span>
-                        <span class="champion-rank rank-badge-${champ.rank}">${champ.rank}</span>
+                        <span class="champion-rarity rarity-${rarityClass(champ.rarity)}">${champ.rarity}</span>
+                        ${champ.rank ? `<span class="champion-rank rank-badge-${champ.rank}">${champ.rank}</span>` : ''}
                     </div>
                     <div class="champion-skills">
                         ${champ.skills && champ.skills.length > 0 ?
@@ -246,6 +250,127 @@ function updateStats() {
     const epicEl = document.getElementById('epicCount');
     if (epicEl) epicEl.textContent = epicCount;
 }
+
+// ============================================
+// CHAMPION DETAIL VIEW (presentation page)
+// ============================================
+
+const FACTION_COLORS = {
+    'Banner Lords': '#d4af37',
+    'High Elves': '#7fd8e8',
+    'Sacred Order': '#f4e285',
+    'Ogryn Tribes': '#c97b3d',
+    'Lizardmen': '#4caf50',
+    'Skinwalkers': '#8b4513',
+    'Orcs': '#6b8e23',
+    'Demonspawn': '#b71c1c',
+    'Undead Hordes': '#6a5acd',
+    'Dark Elves': '#4a148c',
+    'Knights Revenant': '#455a64',
+    'Barbarians': '#a1887f',
+    'Dwarves': '#607d8b',
+    'Shadowkin': '#263238',
+    'Sylvan Watchers': '#2e7d32',
+};
+
+const RARITY_COLORS = {
+    'Mythique': 'linear-gradient(135deg, #dc143c 0%, #ff4757 100%)',
+    'Légendaire': 'linear-gradient(135deg, #ffa500 0%, #ffd700 100%)',
+    'Épique': 'linear-gradient(135deg, #a855f7 0%, #d946ef 100%)',
+    'Rare': 'linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%)',
+    'Peu Commun': 'linear-gradient(135deg, #22c55e 0%, #4ade80 100%)',
+    'Commun': 'linear-gradient(135deg, #94a3b8 0%, #cbd5e1 100%)',
+};
+
+function findChampionByName(name) {
+    return champions.find(c => c.name === name);
+}
+
+function renderDetailSkill(skill) {
+    const slug = typeSlug(skill.type);
+    const upgradesHtml = skill.upgrades && skill.upgrades.length
+        ? `<ul class="detail-skill-upgrades">${skill.upgrades.map(u => `<li>${u}</li>`).join('')}</ul>`
+        : '';
+    return `
+        <div class="detail-skill">
+            <div class="detail-skill-icon">
+                ${skill.icon ? `<img src="${skill.icon}" alt="${skill.name || ''}" onerror="this.style.display='none';">` : '<span>?</span>'}
+            </div>
+            <div class="detail-skill-body">
+                <div class="detail-skill-head">
+                    <span class="detail-skill-type type-${slug}">${skill.type || 'Sort'}</span>
+                    <span class="detail-skill-name">${skill.name || 'Compétence'}</span>
+                    ${skill.cooldown ? `<span class="detail-skill-cd">⏱ ${skill.cooldown} tours</span>` : ''}
+                </div>
+                <div class="detail-skill-desc">${injectEffectIcons(skill.description)}</div>
+                ${upgradesHtml}
+            </div>
+        </div>
+    `;
+}
+
+function openChampionDetail(name) {
+    const champ = findChampionByName(name);
+    if (!champ) return;
+    const overlay = document.getElementById('championDetailOverlay');
+    const imagePath = getChampionImagePath(champ.name);
+    const factionColor = FACTION_COLORS[champ.faction] || '#888';
+    const rarityGradient = RARITY_COLORS[champ.rarity] || 'linear-gradient(135deg, #888 0%, #aaa 100%)';
+
+    const skillsHtml = champ.skills && champ.skills.length
+        ? champ.skills.map(renderDetailSkill).join('')
+        : '<div class="skills-coming">Compétences à venir</div>';
+
+    overlay.innerHTML = `
+        <div class="detail-backdrop" style="background: radial-gradient(circle at 50% 0%, ${factionColor}33 0%, transparent 60%), var(--bg-dark);"></div>
+        <div class="detail-panel">
+            <button class="detail-close" onclick="closeChampionDetail()">&times;</button>
+            <div class="detail-hero" style="background: linear-gradient(180deg, ${factionColor}55 0%, transparent 100%);">
+                <div class="detail-portrait-frame" style="border-image: ${rarityGradient} 1;">
+                    <img src="${imagePath}" alt="${champ.name}" class="detail-portrait" onerror="this.style.display='none';">
+                </div>
+                <div class="detail-identity">
+                    <h2 class="detail-name">${champ.name}</h2>
+                    <div class="detail-badges">
+                        <span class="champion-rarity rarity-${rarityClass(champ.rarity)}">${champ.rarity || ''}</span>
+                        ${champ.rank ? `<span class="champion-rank rank-badge-${champ.rank}">Rang ${champ.rank}</span>` : ''}
+                    </div>
+                    <div class="detail-faction" style="color: ${factionColor};">${champ.faction || 'Faction inconnue'}</div>
+                    ${champ.url ? `<a class="btn-details detail-guide-link" href="${champ.url}" target="_blank">Voir le guide complet</a>` : ''}
+                </div>
+            </div>
+            <div class="detail-skills-section">
+                <h3 class="detail-section-title">Compétences</h3>
+                <div class="detail-skills-list">${skillsHtml}</div>
+            </div>
+        </div>
+    `;
+    overlay.classList.add('visible');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeChampionDetail() {
+    const overlay = document.getElementById('championDetailOverlay');
+    overlay.classList.remove('visible');
+    document.body.style.overflow = '';
+}
+
+document.getElementById('championsContainer').addEventListener('click', (e) => {
+    if (e.target.closest('.champion-actions')) return;
+    const card = e.target.closest('.champion-card');
+    if (!card) return;
+    openChampionDetail(card.dataset.name);
+});
+
+document.getElementById('championDetailOverlay').addEventListener('click', (e) => {
+    if (e.target.id === 'championDetailOverlay' || e.target.classList.contains('detail-backdrop')) {
+        closeChampionDetail();
+    }
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeChampionDetail();
+});
 
 // Event listeners
 document.getElementById('searchInput').addEventListener('input', (e) => {
