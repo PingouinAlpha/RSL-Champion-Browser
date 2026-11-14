@@ -415,7 +415,7 @@ const champions = [
       {
         "name": "Bear-Heart",
         "type": "Passif",
-        "icon": "skill_icons/Arne le Blanc_Passif.png",
+        "icon": "skill_icons/Arne le Blanc_Passif_formeAlt.png",
         "description": "[Passive Effect]\n\nEvery time a Champion is killed, increases this Champion’s HP and DEF by 20% (stacks up to 100%). Immune to [Freeze], [Stun] and [Provoke] debuffs.\n\n[Active Effect]\n\nWhenever an enemy attempts to place a [Freeze], [Stun] or [Provoke] debuff on this Champion, instantly activates the Glacial Rupture skill. This will not put the Glacial Rupture skill on cooldown.",
         "cooldown": 2,
         "upgrades": []
@@ -630,7 +630,7 @@ const champions = [
       {
         "name": "Demonic Glower",
         "type": "Passif",
-        "icon": "skill_icons/Dame Mikage_Passif.png",
+        "icon": "skill_icons/Dame Mikage_Passif_formeAlt.png",
         "description": "At the start of this Champion's turn, decreases the Turn Meter of the enemy with the highest ATK by 15%.",
         "cooldown": 0,
         "upgrades": [
@@ -847,7 +847,7 @@ const champions = [
       {
         "name": "Overwhelming Power",
         "type": "Passif",
-        "icon": "skill_icons/Hiérophante Lazarius_Passif.png",
+        "icon": "skill_icons/Hiérophante Lazarius_Passif_formeAlt.png",
         "description": "[Passive Effect]\n\nAt the start of this Champion's turn, places a 50% [Increase ATK] buff and a 30% [Increase C. DMG] buff on them for 2 turns.\n\n[Active Effect]\n\nIncreases the cooldown of all enemy skills by 2 turns whenever this Champion kills an enemy.\n\nIf this Champion kills two or more enemies in a single attack, this effect will only activate once. This effect cannot be resisted.",
         "cooldown": 3,
         "upgrades": []
@@ -1058,7 +1058,7 @@ const champions = [
       {
         "name": "Ravenous Hunger",
         "type": "Passif",
-        "icon": "skill_icons/Nell Dents-noires_Passif.png",
+        "icon": "skill_icons/Nell Dents-noires_Passif_formeAlt.png",
         "description": "Whenever this Champion kills an enemy using an active skill, grants this Champion an Extra Turn.\n\nEach debuff placed by this Champion in either Form increases this Champion’s HP, ATK and DEF by 2% [stacks up to 50%] and SPD by 2 [stacks up to 50] in their Alternate Form.",
         "cooldown": 0,
         "upgrades": []
@@ -1273,7 +1273,7 @@ const champions = [
       {
         "name": "Cryomantic Revival",
         "type": "Passif",
-        "icon": "skill_icons/Polara Cœur-de-feu_Passif.png",
+        "icon": "skill_icons/Polara Cœur-de-feu_Passif_formeAlt.png",
         "description": "[Passive Effect]\n\nAllies under a [Freeze] debuff receive 90% less damage. If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.\n\nWhenever this Champion is attacked, places a [HP Burn] debuff on the attacker for 2 turns. This debuff cannot be resisted.\n\nRemoves any [Freeze] debuffs from each ally before the start of their turn.\n\n[Active Effect]\n\nOnce per Round, revives each ally, including this Champion, with 100% HP. Places a [Freeze] debuff on the revived ally for 1 turn. This debuff cannot be resisted or blocked.",
         "cooldown": 0,
         "upgrades": []
@@ -1478,7 +1478,7 @@ const champions = [
       {
         "name": "Stay the Blade",
         "type": "Passif",
-        "icon": "skill_icons/Siegfrund le Nephel_Passif.png",
+        "icon": "skill_icons/Siegfrund le Nephel_Passif_formeAlt.png",
         "description": "If this Champion is about to get killed by a fatal hit, blocks incoming damage and places a [Block Damage] buff on this Champion for 2 turns.\n\nThen, heals this Champion by 50% of their MAX HP and fills their Turn Meter by 100%.",
         "cooldown": 3,
         "upgrades": []
@@ -1701,7 +1701,7 @@ const champions = [
       {
         "name": "They Are Beneath Me",
         "type": "Passif",
-        "icon": "skill_icons/Théodosia Disgraciée_Passif.png",
+        "icon": "skill_icons/Théodosia Disgraciée_Passif_formeAlt.png",
         "description": "This Champion is immune to [Block Active Skills] debuffs.\n\nWhen allies attack, their damage is increased by 25% of their target's current Turn Meter. If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
         "cooldown": 0,
         "upgrades": []
@@ -1916,7 +1916,7 @@ const champions = [
       {
         "name": "Behold My Majesty",
         "type": "Passif",
-        "icon": "skill_icons/Sabraël la Distante_Passif.png",
+        "icon": "skill_icons/Sabraël la Distante_Passif_formeAlt.png",
         "description": "This Champion’s attacks are always critical against enemies that have any skills on cooldown.\n\nThis Champion’s skills deal 3% more damage for each turn of cooldown remaining on all enemy skills.",
         "cooldown": 0,
         "upgrades": []
@@ -2342,7 +2342,7 @@ const champions = [
       {
         "name": "Rage Nexus",
         "type": "Passif",
-        "icon": "skill_icons/Anaxia la Réincarnée_Passif.png",
+        "icon": "skill_icons/Anaxia la Réincarnée_Passif_formeAlt.png",
         "description": "Will ignore 15% of a target’s DEF if the target's HP is lower than this Champion's. Will also ignore 15% of the target’s DEF if the target is under a [Leech] debuff.\n\nEvery third skill this Champion uses will attack all enemies instead.\n\nThis Champion joins every third attacking skill used by allies. This Champion will use their default skill when joining in that skill.",
         "cooldown": 0,
         "upgrades": []
@@ -2557,7 +2557,7 @@ const champions = [
       {
         "name": "Great Web Mistress",
         "type": "Passif",
-        "icon": "skill_icons/Arachoa Tourne-lune_Passif.png",
+        "icon": "skill_icons/Arachoa Tourne-lune_Passif_formeAlt.png",
         "description": "This Champion is immune to [Stun], [Sleep], [Fear], [True Fear], [Provoke], [Freeze], and [Petrification] debuffs while under a [Veil] or [Perfect Veil] buff.\n\nThis Champion also cannot receive critical hits while under a [Veil] or [Perfect Veil] buff.",
         "cooldown": 0,
         "upgrades": []
@@ -2774,7 +2774,7 @@ const champions = [
       {
         "name": "By Fire Be Broken",
         "type": "Passif",
-        "icon": "skill_icons/Ash’nar Âme-dragon_Passif.png",
+        "icon": "skill_icons/Ash’nar Âme-dragon_Passif_formeAlt.png",
         "description": "Each [HP Burn] debuff placed by this Champion's Base Form increases this Champion's MAX HP and DEF by 5% (stacks up to 25% across both Forms and will not reset).\n\nAll of this Champion's skills will ignore 20% of the enemy's DEF if they are under a [HP Burn] debuff.\n\n[HP Burn] debuffs placed on allies heal them instead of damaging them.",
         "cooldown": 0,
         "upgrades": []
@@ -2989,7 +2989,7 @@ const champions = [
       {
         "name": "Tanglethorn",
         "type": "Passif",
-        "icon": "skill_icons/Arbais Pierrépine_Passif.png",
+        "icon": "skill_icons/Arbais Pierrépine_Passif_formeAlt.png",
         "description": "When attacked, places a 30% [Decrease SPD] debuff on the attacker for 2 turns. Occurs once per hit.\n\nAlso decreases the damage taken by all allies from skills by 20%. This Champion will receive that damage instead.",
         "cooldown": 0,
         "upgrades": []
@@ -3206,7 +3206,7 @@ const champions = [
       {
         "name": "Degenerator",
         "type": "Passif",
-        "icon": "skill_icons/Embrys l’Anomalie_Passif.png",
+        "icon": "skill_icons/Embrys l’Anomalie_Passif_formeAlt.png",
         "description": "[Passive Effect]\n\nWhen this Champion dies, reflects damage equal to 50% of the fatal hit back to the attacker, including any surplus damage.\n\nWhenever an enemy is killed, places one [Necrosis] stack on all other enemies. [Necrosis] stacks cannot be resisted or blocked. [Necrosis] stacks can only be removed by reviving dead allies. This effect does not apply against Bosses and their minions.\n\nIf there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.\n\n[Active Effect]\n\nIf this Champion is about to get killed by a fatal hit, preempts that hit and instantly places a [Revive On Death] buff on them for 1 turn before the damage is taken.",
         "cooldown": 5,
         "upgrades": []
@@ -3421,7 +3421,7 @@ const champions = [
       {
         "name": "Frosty Resolve",
         "type": "Passif",
-        "icon": "skill_icons/Fjorad Cœur-de-loup_Passif.png",
+        "icon": "skill_icons/Fjorad Cœur-de-loup_Passif_formeAlt.png",
         "description": "Counterattacks with the {Rimecleave} skill whenever an enemy increases the cooldown of any of this Champion's skills.\n\nWhenever an ally is killed, has a 50% chance of placing a [Freeze] debuff on all enemies for 1 turn. This chance increases to 100% and cannot be blocked or resisted by enemies from the Gaellen Pact.",
         "cooldown": 0,
         "upgrades": []
@@ -3636,7 +3636,7 @@ const champions = [
       {
         "name": "Starlight Reflect",
         "type": "Passif",
-        "icon": "skill_icons/Galathir Sage-astral_Passif.png",
+        "icon": "skill_icons/Galathir Sage-astral_Passif_formeAlt.png",
         "description": "[Passive Effect]\n\nIncreases this Champion's ACC equal to 75% of their RES when placing debuffs or activating instant effects.\n\n[Active Effect]\n\nIf an enemy’s ACC is higher than this Champion’s RES, has a 50% chance of transferring any [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], or [Petrification] debuffs back to the enemy when placing these debuffs on this Champion.",
         "cooldown": 3,
         "upgrades": []
@@ -3840,7 +3840,7 @@ const champions = [
       {
         "name": "Kill or Cure",
         "type": "Passif",
-        "icon": "skill_icons/Gharol Masse-sang_Passif.png",
+        "icon": "skill_icons/Gharol Masse-sang_Passif_formeAlt.png",
         "description": "When attacked, decreases the duration of all buffs on the attacker by 1 turn. Occurs once per hit.\n\nAlso heals all allies except this Champion by 50% of the damage taken, and heals this Champion by 25% of the damage taken, whenever this Champion is hit. Occurs once per hit.",
         "cooldown": 0,
         "upgrades": []
@@ -4063,7 +4063,7 @@ const champions = [
       {
         "name": "Burning Juggernaut",
         "type": "Passif",
-        "icon": "skill_icons/Gizmak le Terrible_Passif.png",
+        "icon": "skill_icons/Gizmak le Terrible_Passif_formeAlt.png",
         "description": "Will ignore 15% of a target’s DEF if this Champion’s HP or the target’s HP is equal to or greater than 50%. If this Champion’s HP or the target’s HP is less than 50%, will ignore 25% of the target’s DEF instead.\n\nWill also ignore [Block Damage] and [Shield] buffs when attacking enemies under [HP Burn] debuffs.\n\nInflicts 20% more damage to enemies not under a [HP Burn] debuff.",
         "cooldown": 0,
         "upgrades": []
@@ -4280,7 +4280,7 @@ const champions = [
       {
         "name": "Queen of the Dark",
         "type": "Passif",
-        "icon": "skill_icons/Krixia Reine de Nuit_Passif.png",
+        "icon": "skill_icons/Krixia Reine de Nuit_Passif_formeAlt.png",
         "description": "Immune to [Sleep] debuffs. Increases this Champion’s SPD by 1 for every 10 RES they have (stacks up to 50).",
         "cooldown": 0,
         "upgrades": []
@@ -4704,7 +4704,7 @@ const champions = [
       {
         "name": "Fae Intervention",
         "type": "Passif",
-        "icon": "skill_icons/Naïs Voleur d’ombres_Passif.png",
+        "icon": "skill_icons/Naïs Voleur d’ombres_Passif_formeAlt.png",
         "description": "Increases this Champion’s MAX HP, DEF, SPD, RES, and ACC by 15% for every dead enemy and ally, including Bosses and their minions, in battle (stacks up to 100%).\n\nAlso revives 1 random ally with 50% HP and 50% Turn Meter each time this Champion kills an enemy.",
         "cooldown": 0,
         "upgrades": []
@@ -4870,7 +4870,7 @@ const champions = [
       {
         "name": "Engine of Murder",
         "type": "Passif",
-        "icon": "skill_icons/Mina Marquise de sang_Passif.png",
+        "icon": "skill_icons/Mina Marquise de sang_Passif_formeAlt.png",
         "description": "Whenever an enemy has their Turn Meter filled, this Champion inflicts pure damage on that enemy equal to 3% of their MAX HP for every 10% Turn Meter filled. Will inflict 6% of their MAX HP as pure damage instead, if the enemy is under a [Leech] debuff. This damage cannot be critical and will ignore [Stone Skin], [Ally Protection], [Shield], [Strengthen], and [Fervor] buffs, [Bone Armor] stacks, and any damage modifying skills or effects. If the enemy is a Boss, the damage cannot exceed 50,000 HP per hit.\n\nWhenever an enemy has their Turn Meter filled, also destroys their SPD by 3 for every 10% Turn Meter filled (stacks up to 100). Will destroy 6 SPD for every 10% Turn Meter filled instead, if the enemy is under a [Leech] debuff. This effect does not work against Bosses.\n\nRevives this Champion with 100% HP every 2 turns if at least one ally is alive. Once per Round, instantly revives this Champion with 100% HP if all allies are dead.",
         "cooldown": 0,
         "upgrades": []
@@ -5132,7 +5132,7 @@ const champions = [
       {
         "name": "Enrobed in Gore",
         "type": "Passif",
-        "icon": "skill_icons/Toshiro le Sanglant_Passif.png",
+        "icon": "skill_icons/Toshiro le Sanglant_Passif_formeAlt.png",
         "description": "Doubles the amount of healing this Champion receives when attacking enemies under a [Leech] debuff.\n\nAlso decreases the damage taken from enemies under [Leech] debuffs by 50%.",
         "cooldown": 0,
         "upgrades": []
@@ -5345,7 +5345,7 @@ const champions = [
       {
         "name": "Fire Incarnate",
         "type": "Passif",
-        "icon": "skill_icons/Cinda Forgecœur_Passif.png",
+        "icon": "skill_icons/Cinda Forgecœur_Passif_formeAlt.png",
         "description": "[Active Effect]\n\nWhen hit by an enemy under a [HP Burn] debuff, places a [Magma Shield] buff equal to 300% of this Champion’s ATK on this Champion for 1 turn.\n\n[Passive Effect]\n\nThe damage enemies receive from [HP Burn] debuffs will ignore [Block Damage] and [Unkillable] buffs.\n\nThis Champion & their allies deal 15% more damage against enemies under [HP Burn] debuffs. If there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
         "cooldown": 0,
         "upgrades": []
@@ -5781,7 +5781,7 @@ const champions = [
       {
         "name": "Unending Karnage",
         "type": "Passif",
-        "icon": "skill_icons/Karnage l’Anarque_Passif.png",
+        "icon": "skill_icons/Karnage l’Anarque_Passif_formeAlt.png",
         "description": "This Champion's C.DMG increases by 1% for every 3 points of ACC they have.\n\nIgnores 10% of the target's DEF for each debuff they are under.",
         "cooldown": 4,
         "upgrades": []
@@ -6217,7 +6217,7 @@ const champions = [
       {
         "name": "Banquet of Death",
         "type": "Passif",
-        "icon": "skill_icons/Le Calamitus_Passif.png",
+        "icon": "skill_icons/Le Calamitus_Passif_formeAlt.png",
         "description": "Whenever this Champion attacks an enemy under a [Hex] debuff, heals this Champion by 30% of the damage inflicted.\n\nAlso increases this Champion’s ATK by 20% for each enemy under a [Hex] debuff.",
         "cooldown": 0,
         "upgrades": []
@@ -6415,7 +6415,7 @@ const champions = [
       {
         "name": "Relentless Hunt",
         "type": "Passif",
-        "icon": "skill_icons/Mezomel Croc-Loup_Passif.png",
+        "icon": "skill_icons/Mezomel Croc-Loup_Passif_formeAlt.png",
         "description": "Heals this Champion by 20% of the damage inflicted. Places a [Revive On Death] buff on this Champion for 2 turns every time they kill an enemy.",
         "cooldown": 0,
         "upgrades": []
@@ -6846,7 +6846,7 @@ const champions = [
       {
         "name": "Entomophobia",
         "type": "Passif",
-        "icon": "skill_icons/Aphidus Maître-ruche_Passif.png",
+        "icon": "skill_icons/Aphidus Maître-ruche_Passif_formeAlt.png",
         "description": "When attacked, has a 100% chance of placing a 25% [Weaken] debuff, and a 40% chance of placing a [Stun] debuff on the attacker for 1 turn.\n\nIncreases this Champion's DEF by 1 point for every 2 points of ATK when in their Alternate Form.",
         "cooldown": 0,
         "upgrades": []
@@ -7061,7 +7061,7 @@ const champions = [
       {
         "name": "Ensorcelled Plate",
         "type": "Passif",
-        "icon": "skill_icons/Frolni le Mécanicien_Passif.png",
+        "icon": "skill_icons/Frolni le Mécanicien_Passif_formeAlt.png",
         "description": "Passive Effect\nWhen attacked, reflects 80% of the damage this Champion receives back to the attacker. Debuffs placed on this Champion decrease their producer's ACC by 10% (stacks up to 50%).",
         "cooldown": 0,
         "upgrades": []
@@ -9441,7 +9441,7 @@ const champions = [
       {
         "name": "Master Wills It",
         "type": "Passif",
-        "icon": "skill_icons/Gaspard le maudit_Passif.png",
+        "icon": "skill_icons/Gaspard le maudit_Passif_formeAlt.png",
         "description": "Whenever an enemy is revived, instantly activates the {You Stand Accused} skill against that enemy. If multiple enemies are revived, the initial target of the revive will be targeted by the {You Stand Accused} skill. Will not put the {You Stand Accused} skill on cooldown.\n\nHas a 50% chance of activating the {You Stand Accused} skill on an enemy whenever an ally is killed. Occurs once per turn.\n\nInstantly activates the {You Stand Accused} skill against a Hydra Head whenever an ally is consumed by that Head. Will not put the {You Stand Accused} skill on cooldown.\n\nIf there are multiple Champions on the team with this skill, only one will activate. This skill will not activate on duplicate copies of this Champion, if this particular Champion is dead.",
         "cooldown": 0,
         "upgrades": []
@@ -12352,7 +12352,7 @@ const champions = [
       {
         "name": "Arise My Minions",
         "type": "Passif",
-        "icon": "skill_icons/Nekhret le Terrible_Passif.png",
+        "icon": "skill_icons/Nekhret le Terrible_Passif_formeAlt.png",
         "description": "Places a [Block Debuffs] buff and a 25% [Strengthen] buff for 3 turns on the ally with the lowest MAX HP at the start of each Round. Also places a 50% [Ally Protection] buff on them for 6 turns.\n\nThe [Ally Protection] buff cannot be removed.",
         "cooldown": 0,
         "upgrades": []
@@ -15115,7 +15115,7 @@ const champions = [
       {
         "name": "Poise",
         "type": "Passif",
-        "icon": "skill_icons/Taras le Farouche_Passif.png",
+        "icon": "skill_icons/Taras le Farouche_Passif_formeAlt.png",
         "description": "All incoming damage from skills is reduced by 50%.\n\nWhen attacked, this Champion's MAX HP will be decreased by 25% of the attack's initial damage (before the damage reduction).",
         "cooldown": 0,
         "upgrades": []
@@ -19413,7 +19413,7 @@ const champions = [
       {
         "name": "Everything Is Permitted",
         "type": "Passif",
-        "icon": "skill_icons/Bayek_Passif.png",
+        "icon": "skill_icons/Bayek_Passif_formeAlt.png",
         "description": "Whenever an enemy’s HP drops below 25% after receiving damage from any Assassin, they receive additional bonus damage proportional to this Champion’s DEF. This bonus damage will ignore 100% of the target’s DEF and cannot be critical.",
         "cooldown": 0,
         "upgrades": []
@@ -21266,7 +21266,7 @@ const champions = [
       {
         "name": "Didn't Need 'Em",
         "type": "Passif",
-        "icon": "skill_icons/Chevalier Suprême_Passif.png",
+        "icon": "skill_icons/Chevalier Suprême_Passif_formeAlt.png",
         "description": "Increases this Champion’s HP, DEF, and SPD by 10% for each dead ally.",
         "cooldown": 0,
         "upgrades": []
@@ -21620,7 +21620,7 @@ const champions = [
       {
         "name": "Channel Woe",
         "type": "Passif",
-        "icon": "skill_icons/Comtesse Lix_Passif.png",
+        "icon": "skill_icons/Comtesse Lix_Passif_formeAlt.png",
         "description": "Fills this champion's Turn Meter by 5% each time an ally receives a debuff.",
         "cooldown": 0,
         "upgrades": []
@@ -22691,7 +22691,7 @@ const champions = [
       {
         "name": "Everything Is Permitted",
         "type": "Passif",
-        "icon": "skill_icons/Edward Kenway_Passif.png",
+        "icon": "skill_icons/Edward Kenway_Passif_formeAlt.png",
         "description": "Whenever an enemy’s HP drops below 25% after receiving damage from any Assassin, they receive additional bonus damage proportional to this Champion’s ATK. This bonus damage will ignore 100% of the target’s DEF and cannot be critical.",
         "cooldown": 0,
         "upgrades": []
@@ -26287,7 +26287,7 @@ const champions = [
       {
         "name": "Everything Is Permitted",
         "type": "Passif",
-        "icon": "skill_icons/Kassandra_Passif.png",
+        "icon": "skill_icons/Kassandra_Passif_formeAlt.png",
         "description": "Whenever an enemy’s HP drops below 25% after receiving damage from any Assassin, they receive additional bonus damage proportional to this Champion’s ATK. This bonus damage will ignore 100% of the target’s DEF and cannot be critical.",
         "cooldown": 0,
         "upgrades": []
@@ -26883,35 +26883,10 @@ const champions = [
         ]
       },
       {
-        "name": "Flourish of Slaughter",
-        "type": "A1",
-        "icon": "skill_icons/Khoronar_A1.png",
-        "description": "Attacks all enemies. Has a 50% chance of decreasing each target's Turn Meter by 10%.\n\nIf {{Minaya}} is on the same team, attacks all enemies 2 times and the chance to decrease each target's Turn Meter becomes 100% instead. The damage of each hit will be decreased by 50%.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +5%",
-          "Lvl. 5 Damage +5%"
-        ]
-      },
-      {
         "name": "Beastly Bellow",
         "type": "A2",
         "icon": "skill_icons/Khoronar_A2.png",
         "description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Also places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns. Removes all debuffs from this Champion before placing the [Block Debuffs] and [Increase DEF] buffs if Minaya is on the same team.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Buff/Debuff Chance +10%",
-          "Lvl. 3 Buff/Debuff Chance +15%",
-          "Lvl. 4 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Beastly Bellow",
-        "type": "A2",
-        "icon": "skill_icons/Khoronar_A2.png",
-        "description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Also places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns.\n\nIf {{Minaya}} is on the same team, the [Provoke] debuff placed by this Champion cannot be resisted.\n\nIf {{Minaya}} is on the same team, also removes all debuffs from all allies and then places a [Block Debuffs] buff and [Increase DEF] buff on all allies for 2 turns.",
         "cooldown": 4,
         "upgrades": [
           "Lvl. 2 Buff/Debuff Chance +10%",
@@ -26933,39 +26908,10 @@ const champions = [
         ]
       },
       {
-        "name": "Battle Waltz",
-        "type": "A3",
-        "icon": "skill_icons/Khoronar_A3.png",
-        "description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 2 turns.\n\nIf {{Minaya}} is on the team, these debuffs cannot be resisted.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +10%",
-          "Lvl. 5 Cooldown -1"
-        ]
-      },
-      {
         "name": "Ferocious Guard",
         "type": "Passif",
         "icon": "skill_icons/Khoronar_Passif.png",
         "description": "Counterattacks when hit by enemies under [Decrease ATK], [Decrease DEF], or [Decrease SPD] debuffs. Always counterattacks when hit if Minaya is on the same team.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
-        "name": "Ferocious Guard",
-        "type": "Passif",
-        "icon": "skill_icons/Khoronar_Passif.png",
-        "description": "Counterattacks when hit by enemies under [Decrease ATK], [Decrease DEF], or [Decrease SPD] debuffs.\n\nAlways counterattacks when hit if {{Minaya}} is on the same team.",
-        "cooldown": 0,
-        "upgrades": []
-      },
-      {
-        "name": "Spectacle",
-        "type": "Passif",
-        "icon": "skill_icons/Khoronar_Passif.png",
-        "description": "Places a 60% [Increase DEF] buff on all allies for 2 turns if this Champion kills an enemy.",
         "cooldown": 0,
         "upgrades": []
       },
@@ -39093,7 +39039,7 @@ const champions = [
       {
         "name": "Magical Heart",
         "type": "Passif",
-        "icon": "skill_icons/Damoiselle Annie_Passif.png",
+        "icon": "skill_icons/Damoiselle Annie_Passif_formeAlt.png",
         "description": "Each hit has a 50% chance of decreasing the target's Turn Meter by 10% and a 100% chance of destroying the target's MAX HP by 10% of the damage inflicted when attacking enemies under [Heal Reduction] or [Decrease DEF] debuffs.\n\nAlso heals this Champion by 10% of the damage inflicted when attacking enemies under [Heal Reduction] or [Decrease DEF] debuffs.\n\n[Will not heal from damage inflicted by Masteries.]",
         "cooldown": 0,
         "upgrades": []
@@ -40719,7 +40665,7 @@ const champions = [
       {
         "name": "Ultimate Purpose",
         "type": "Passif",
-        "icon": "skill_icons/L’Incarnée_Passif.png",
+        "icon": "skill_icons/L’Incarnée_Passif_formeAlt.png",
         "description": "Increases this Champion’s RES by 20 for each ally under an [Ally Protection] buff.\n\nThis Champion will also receive 20% of the damage of any ally {{Arbiter}}s. If there are multiple Champions on the team with this skill, this effect will only activate once.\n\nIf any ally {{Arbiter}} is about to get killed by a fatal hit, places an [Unkillable] buff on her for 1 turn. If there are multiple Champions on the team with this skill, this effect will only activate once.",
         "cooldown": 4,
         "upgrades": []
@@ -46215,7 +46161,7 @@ const champions = [
       {
         "name": "Skull Brood",
         "type": "Passif",
-        "icon": "skill_icons/Lord Crâne Var-Gall_Passif.png",
+        "icon": "skill_icons/Lord Crâne Var-Gall_Passif_formeAlt.png",
         "description": "At the start of this Champion's turn, revives a random ally from the Lizardmen Faction with 50% HP and 50% Turn Meter.",
         "cooldown": 0,
         "upgrades": []
@@ -48274,7 +48220,7 @@ const champions = [
       {
         "name": "From Beyond",
         "type": "Passif",
-        "icon": "skill_icons/Couronnecrâne_Passif.png",
+        "icon": "skill_icons/Couronnecrâne_Passif_formeAlt.png",
         "description": "Revives this Champion with 30% HP. [Only available when Sinesha is on the same team.]",
         "cooldown": 8,
         "upgrades": [
@@ -48756,36 +48702,12 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Misfortune",
-        "type": "A1",
-        "icon": "skill_icons/Gorgorab_A1.png",
-        "description": "Attacks 1 enemy. Has a 50% chance of removing 1 random buff.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Buff/Debuff Chance +5%",
-          "Lvl. 4 Damage +10%",
-          "Lvl. 5 Buff/Debuff Chance +10%",
-          "Lvl. 6 Buff/Debuff Chance +10%"
-        ]
-      },
-      {
         "name": "Resurge",
         "type": "A2",
         "icon": "skill_icons/Gorgorab_A2.png",
         "description": "Fills the Turn Meter of all allies by 15%. Places a 50% [Increase ATK] buff on all allies for 2 turns.",
         "cooldown": 4,
         "upgrades": []
-      },
-      {
-        "name": "Resurge",
-        "type": "A2",
-        "icon": "skill_icons/Gorgorab_A2.png",
-        "description": "Fills the Turn Meter of all allies by 15%. Places a 50% [Increase ATK] buff on all allies for 2 turns.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
-        ]
       },
       {
         "name": "Animate",
@@ -48794,19 +48716,6 @@ const champions = [
         "description": "Revives any dead allies with 25% HP, then heals all allies by 25%.",
         "cooldown": 6,
         "upgrades": []
-      },
-      {
-        "name": "Animate",
-        "type": "A3",
-        "icon": "skill_icons/Gorgorab_A3.png",
-        "description": "Revives any dead allies with 25% HP, then heals all allies by 25%. The heal will happen even if there are no dead allies.",
-        "cooldown": 6,
-        "upgrades": [
-          "Lvl. 2 Heal +5%",
-          "Lvl. 3 Heal +5%",
-          "Lvl. 4 Heal +10%",
-          "Lvl. 5 Cooldown -1"
-        ]
       }
     ],
     "role": "Support",
@@ -51271,45 +51180,10 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Devour",
-        "type": "A1",
-        "icon": "skill_icons/Chercheur_A1.png",
-        "description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a [Provoke] debuff for 1 turn.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Buff/Debuff Chance +5%",
-          "Lvl. 4 Damage +5%",
-          "Lvl. 5 Buff/Debuff Chance +10%",
-          "Lvl. 6 Damage +10%",
-          "Lvl. 7 Buff/Debuff Chance +10%",
-          "Lvl. 8 Damage +10%"
-        ]
-      },
-      {
         "name": "Tailwind",
         "type": "A2",
         "icon": "skill_icons/Chercheur_A2.png",
         "description": "Fills the Turn Meter of all allies by 30%. Places a 50% [Increase ATK] buff on all allies for 2 turns. Grants an Extra Turn.",
-        "cooldown": 5,
-        "upgrades": []
-      },
-      {
-        "name": "Tailwind",
-        "type": "A2",
-        "icon": "skill_icons/Chercheur_A2.png",
-        "description": "Fills the Turn Meter of all allies by 30%. Places a 50% [Increase ATK] buff on all allies for 2 turns. Grants an Extra Turn.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1",
-          "Lvl. 3 Cooldown -1"
-        ]
-      },
-      {
-        "name": "Dark Blood",
-        "type": "Passif",
-        "icon": "skill_icons/Chercheur_Passif.png",
-        "description": "When critically hit, heals this Champion by 20% HP and places a 60% [Increase DEF] buff on all allies for 2 turns.",
         "cooldown": 5,
         "upgrades": []
       },
@@ -51317,7 +51191,7 @@ const champions = [
         "name": "Dark Blood",
         "type": "Passif",
         "icon": "skill_icons/Chercheur_Passif.png",
-        "description": "Heals this Champion by 20% HP and places a 60% [Increase DEF] buff on all allies for 2 turns when hit with a critical hit.",
+        "description": "When critically hit, heals this Champion by 20% HP and places a 60% [Increase DEF] buff on all allies for 2 turns.",
         "cooldown": 5,
         "upgrades": []
       }
@@ -56807,61 +56681,18 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Necrotic Bolt",
-        "type": "A1",
-        "icon": "skill_icons/Sombre Elhain_A1.png",
-        "description": "Attacks 1 enemy. Destroys the target's MAX HP by 30% of the damage inflicted.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +5%",
-          "Lvl. 5 Damage +5%"
-        ]
-      },
-      {
-        "name": "Death's Majesty",
-        "type": "A2",
-        "icon": null,
-        "description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
-        "cooldown": 4,
-        "upgrades": []
-      },
-      {
         "name": "Death's Majesty",
         "type": "A2",
         "icon": "skill_icons/Sombre Elhain_A2.png",
         "description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
         "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +10%",
-          "Lvl. 4 Buff/Debuff Chance +10%",
-          "Lvl. 5 Buff/Debuff Chance +15%",
-          "Lvl. 6 Cooldown -1"
-        ]
+        "upgrades": []
       },
       {
         "name": "Lethal Winter",
         "type": "Passif",
         "icon": "skill_icons/Sombre Elhain_Passif.png",
         "description": "Fills this Champion's Turn Meter by 25% and instantly activates the Death's Majesty Skill whenever this Champion or an ally receives a [Freeze] debuff.",
-        "cooldown": 1,
-        "upgrades": []
-      },
-      {
-        "name": "Lethal Winter",
-        "type": "Passif",
-        "icon": "skill_icons/Sombre Elhain_Passif.png",
-        "description": "Fills this Champion's Turn Meter by 25% and instantly activates the {Death's Majesty} skill whenever this Champion or an ally receives a [Freeze] debuff.",
-        "cooldown": 1,
-        "upgrades": []
-      },
-      {
-        "name": "Veins of Ice",
-        "type": "Passif",
-        "icon": "skill_icons/Sombre Elhain_Passif.png",
-        "description": "Instantly removes any [Freeze] debuffs on this Champion and replaces them with a 30% [Increase C. RATE] buff, a 30% [Increase C. DMG] buff, and a 15% [Strengthen] buff whenever an enemy places a [Freeze] debuff on this Champion.",
         "cooldown": 1,
         "upgrades": []
       },
@@ -57769,7 +57600,7 @@ const champions = [
       {
         "name": "Eerie Presence",
         "type": "Passif",
-        "icon": "skill_icons/Vogoth_Passif.png",
+        "icon": "skill_icons/Vogoth_Passif_formeAlt.png",
         "description": "When attacked, places a [Leech] debuff on the attacker for 2 turns.\n\nIf the attacker is under a [Provoke] debuff placed by this Champion, also has a 70% chance of increasing the cooldown of a random skill on the attacker by 2 turns.",
         "cooldown": 0,
         "upgrades": [
@@ -61348,20 +61179,6 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Burning Iron",
-        "type": "A1",
-        "icon": "skill_icons/Cosse_A1.png",
-        "description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a [Provoke] debuff for 1 turn.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Buff/Debuff Chance +5%",
-          "Lvl. 4 Buff/Debuff Chance +5%",
-          "Lvl. 5 Damage +5%",
-          "Lvl. 6 Buff/Debuff Chance +10%"
-        ]
-      },
-      {
         "name": "Despair",
         "type": "A2",
         "icon": "skill_icons/Cosse_A2.png",
@@ -61370,38 +61187,12 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Despair",
-        "type": "A2",
-        "icon": "skill_icons/Cosse_A2.png",
-        "description": "Attacks all enemies. Has a 35% chance of placing a [Stun] debuff for 1 turn. Damage inflicted is proportional to enemy MAX HP.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Buff/Debuff Chance +5%",
-          "Lvl. 4 Buff/Debuff Chance +10%",
-          "Lvl. 5 Buff/Debuff Chance +10%",
-          "Lvl. 6 Cooldown -1"
-        ]
-      },
-      {
         "name": "Retaliate",
         "type": "A3",
         "icon": "skill_icons/Cosse_A3.png",
         "description": "Attacks 1 enemy. Damage increases according to this Champion's current HP.",
         "cooldown": 4,
         "upgrades": []
-      },
-      {
-        "name": "Retaliate",
-        "type": "A3",
-        "icon": "skill_icons/Cosse_A3.png",
-        "description": "Attacks 1 enemy. Damage increases according to this Champion's current HP.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +10%",
-          "Lvl. 3 Damage +10%",
-          "Lvl. 4 Cooldown -1"
-        ]
       }
     ],
     "role": "HP",
@@ -65904,18 +65695,6 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Bloodstained Swords",
-        "type": "A1",
-        "icon": "skill_icons/Karam_A1.png",
-        "description": "Attacks 1 enemy. Has a 50% chance of placing a 5% [Poison] debuff for 2 turns.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Buff/Debuff Chance +5%",
-          "Lvl. 3 Buff/Debuff Chance +5%",
-          "Lvl. 4 Buff/Debuff Chance +10%"
-        ]
-      },
-      {
         "name": "Fit of Rage",
         "type": "A2",
         "icon": "skill_icons/Karam_A2.png",
@@ -65924,38 +65703,12 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Fit of Rage",
-        "type": "A2",
-        "icon": "skill_icons/Karam_A2.png",
-        "description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Damage increases by 50% if this Champion has more than 50% HP.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +10%",
-          "Lvl. 5 Cooldown -1"
-        ]
-      },
-      {
         "name": "Rot Away",
         "type": "A3",
         "icon": "skill_icons/Karam_A3.png",
         "description": "Attacks 1 enemy. Deals damage from all [Poison] debuffs on the target instantly.",
         "cooldown": 6,
         "upgrades": []
-      },
-      {
-        "name": "Rot Away",
-        "type": "A3",
-        "icon": "skill_icons/Karam_A3.png",
-        "description": "Attacks 1 enemy. Instantly activates all [Poison] debuffs on the target.",
-        "cooldown": 6,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Cooldown -1",
-          "Lvl. 5 Cooldown -1"
-        ]
       }
     ],
     "role": "Attack",
@@ -69845,39 +69598,12 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Profane Glaive",
-        "type": "A1",
-        "icon": "skill_icons/Sombre Athel_A1.png",
-        "description": "Attacks 1 enemy 2 times. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +10%",
-          "Lvl. 5 Buff/Debuff Chance +10%"
-        ]
-      },
-      {
         "name": "Blades of Blood",
         "type": "A2",
         "icon": "skill_icons/Sombre Athel_A2.png",
         "description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
         "cooldown": 5,
         "upgrades": []
-      },
-      {
-        "name": "Blades of Blood",
-        "type": "A2",
-        "icon": "skill_icons/Sombre Athel_A2.png",
-        "description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +10%",
-          "Lvl. 4 Buff/Debuff Chance +10%",
-          "Lvl. 5 Buff/Debuff Chance +15%",
-          "Lvl. 6 Cooldown -1"
-        ]
       },
       {
         "name": "Harvest of Despair",
@@ -69886,19 +69612,6 @@ const champions = [
         "description": "Attacks all enemies. Places a 30% [Increase SPD] buff on this Champion for 3 turns if this attack kills 4 or more enemies. Heals this Champion by 50% of their MAX HP if this attack kills 6 or more enemies. Grants an Extra Turn if this attack kills 10 or more enemies.",
         "cooldown": 5,
         "upgrades": []
-      },
-      {
-        "name": "Harvest of Despair",
-        "type": "A3",
-        "icon": "skill_icons/Sombre Athel_A3.png",
-        "description": "Attacks all enemies. Places a 30% [Increase SPD] buff on this Champion for 3 turns if this attack kills 4 or more enemies.\n\nHeals this Champion by 50% of their MAX HP if this attack kills 6 or more enemies.\n\nGrants an Extra Turn if this attack kills 10 or more enemies.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +10%",
-          "Lvl. 5 Cooldown -1"
-        ]
       }
     ],
     "role": "Attack",
@@ -74942,7 +74655,7 @@ const champions = [
       {
         "name": "Vigilant Partner",
         "type": "Passif",
-        "icon": "skill_icons/Atur_Passif.png",
+        "icon": "skill_icons/Atur_Passif_formeAlt.png",
         "description": "Immune to [Stun], [Freeze], and [Sleep] debuffs. [Only available when Kallia is on the same team.]",
         "cooldown": 0,
         "upgrades": []
@@ -75402,19 +75115,6 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Grotesque Strength",
-        "type": "A1",
-        "icon": "skill_icons/Conseiller Catacombe_A1.png",
-        "description": "Has a 50% chance of placing a 25% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy.",
-        "cooldown": 0,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +5%",
-          "Lvl. 5 Damage +10%"
-        ]
-      },
-      {
         "name": "Ghoulish Feeding",
         "type": "A2",
         "icon": "skill_icons/Conseiller Catacombe_A2.png",
@@ -75423,36 +75123,12 @@ const champions = [
         "upgrades": []
       },
       {
-        "name": "Ghoulish Feeding",
-        "type": "A2",
-        "icon": "skill_icons/Conseiller Catacombe_A2.png",
-        "description": "Attacks 1 enemy 3 times. Heals this Champion by 20% of the damage inflicted.",
-        "cooldown": 4,
-        "upgrades": [
-          "Lvl. 2 Damage +5%",
-          "Lvl. 3 Damage +5%",
-          "Lvl. 4 Damage +5%",
-          "Lvl. 5 Damage +10%",
-          "Lvl. 6 Cooldown -1"
-        ]
-      },
-      {
         "name": "Army of Death",
         "type": "A3",
         "icon": "skill_icons/Conseiller Catacombe_A3.png",
         "description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills.",
         "cooldown": 5,
         "upgrades": []
-      },
-      {
-        "name": "Army of Death",
-        "type": "A3",
-        "icon": "skill_icons/Conseiller Catacombe_A3.png",
-        "description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills.",
-        "cooldown": 5,
-        "upgrades": [
-          "Lvl. 2 Cooldown -1"
-        ]
       }
     ],
     "role": "Attack",
@@ -90618,7 +90294,7 @@ const champions = [
       {
         "name": "Pyre",
         "type": "Passif",
-        "icon": "skill_icons/Maître Boucher_Passif.png",
+        "icon": "skill_icons/Maître Boucher_Passif_formeAlt.png",
         "description": "Revives a random ally with full HP when this Champion is killed.",
         "cooldown": 6,
         "upgrades": [
@@ -100821,7 +100497,7 @@ const champions = [
       {
         "name": "Unholy Experiment",
         "type": "Passif",
-        "icon": "skill_icons/Galleus Crête-sang_Passif.png",
+        "icon": "skill_icons/Galleus Crête-sang_Passif_formeAlt.png",
         "description": "Immune to [Stun], [Freeze], [Sleep], [Fear], [True Fear], [Provoke], [Sheep], and [Petrification] debuffs.\n\nAlso randomly resets the cooldown of one of this Champion’s skills whenever they kill an enemy. Occurs once per skill.",
         "cooldown": 0,
         "upgrades": []

@@ -327,7 +327,7 @@ function findChampionByName(name) {
 //    .altForm avec la version "forme 2" du meme sort.
 //  - "flat" (synthetise depuis Gestal) : les sorts de la forme 2 sont des
 //    entrees separees typees A6-A9 (+ un 2e Passif), a la suite des A1-A4+Passif.
-function flattenSkillsByForm(skills) {
+function flattenSkillsByForm(skills, isMythic) {
     const aura = [];
     const form1 = [];
     const form2 = [];
@@ -341,12 +341,14 @@ function flattenSkillsByForm(skills) {
             return;
         }
         let isForm1 = true;
-        const activeMatch = /^A(\d+)$/.exec(type);
-        if (activeMatch) {
-            isForm1 = parseInt(activeMatch[1], 10) <= 4;
-        } else if (/passif/i.test(type)) {
-            passifSeen++;
-            isForm1 = passifSeen === 1;
+        if (isMythic) {
+            const activeMatch = /^A(\d+)$/.exec(type);
+            if (activeMatch) {
+                isForm1 = parseInt(activeMatch[1], 10) <= 4;
+            } else if (/passif/i.test(type)) {
+                passifSeen++;
+                isForm1 = passifSeen === 1;
+            }
         }
         (isForm1 ? form1 : form2).push(skill);
 
@@ -411,7 +413,7 @@ function openChampionDetail(name) {
     const elementColor = ELEMENT_COLORS[champ.element] || '#999';
     const roleLabel = ROLE_LABELS[champ.role] || champ.role;
 
-    const { aura, form1, form2 } = flattenSkillsByForm(champ.skills);
+    const { aura, form1, form2 } = flattenSkillsByForm(champ.skills, champ.rarity === 'Mythique');
     const hasSkills = form1.length || form2.length;
 
     const skillsHtml = hasSkills ? `
@@ -430,7 +432,8 @@ function openChampionDetail(name) {
             <button class="detail-close" onclick="closeChampionDetail()">&times;</button>
             <div class="detail-hero" style="background: linear-gradient(135deg, ${factionColor}40 0%, rgba(10,14,39,0.85) 55%);">
                 <div class="detail-hero-bg" style="background-image: url('${imagePath}');"></div>
-                <img class="detail-hero-render" src="${renderPath}" alt="" onerror="this.style.display='none';">
+                <img class="detail-hero-render" src="${renderPath}" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
+                <div class="detail-hero-scrim"></div>
                 <div class="detail-hero-content">
                     <div class="detail-portrait-frame" style="border-image: ${rarityGradient} 1;">
                         <img src="${imagePath}" alt="${champ.name}" class="detail-portrait" onerror="this.style.display='none';">

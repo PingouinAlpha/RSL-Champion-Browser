@@ -518,7 +518,7 @@ h1 {
     position: relative;
     overflow: hidden;
     padding: 48px 40px 36px 40px;
-    height: 340px;
+    height: 460px;
 }
 
 .detail-hero-bg {
@@ -531,26 +531,33 @@ h1 {
     z-index: 0;
 }
 
+.detail-hero-render {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    pointer-events: none;
+}
+
+.detail-hero-scrim {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+        linear-gradient(90deg, rgba(8, 10, 20, 0.94) 0%, rgba(8, 10, 20, 0.88) 24%, rgba(8, 10, 20, 0.4) 42%, transparent 56%),
+        linear-gradient(0deg, rgba(8, 10, 20, 0.85) 0%, transparent 35%);
+}
+
 .detail-hero-content {
     position: relative;
     z-index: 2;
     display: flex;
     align-items: flex-start;
     gap: 32px;
-}
-
-.detail-hero-render {
-    position: absolute;
-    z-index: 1;
-    right: 70px;
-    bottom: 0;
-    height: 270px;
-    width: auto;
-    aspect-ratio: 400 / 885;
-    object-fit: contain;
-    object-position: bottom;
-    pointer-events: none;
-    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.5));
 }
 
 .detail-portrait-frame {
@@ -577,6 +584,7 @@ h1 {
     flex-direction: column;
     gap: 10px;
     padding-top: 4px;
+    max-width: 420px;
 }
 
 .detail-name {
@@ -639,7 +647,6 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-width: 480px;
 }
 
 .detail-aura-line {
@@ -833,7 +840,8 @@ h1 {
         padding: 36px 20px 24px 20px;
         height: auto;
     }
-    .detail-hero-render {
+    .detail-hero-render,
+    .detail-hero-scrim {
         display: none;
     }
     .detail-identity {
