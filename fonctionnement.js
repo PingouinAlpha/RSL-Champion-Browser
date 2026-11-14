@@ -48,14 +48,27 @@ function buildTooltipHtml(type, skill) {
     const damageHtml = skill.damageBase
         ? `<div class="skill-tt-damage">Dégâts basés sur : <strong>${skill.damageBase}</strong></div>`
         : '';
+    const { main, unityTitle, unityTiers } = parseSkillDescription(skill.description);
+    const unityHtml = unityTitle ? `
+        <div class="detail-skill-unity">
+            <span class="detail-skill-unity-title">${unityTitle}</span>
+            ${unityTiers.map(t => `
+                <div class="detail-skill-unity-tier">
+                    <span class="detail-skill-unity-tier-label">${t.label}</span>
+                    ${renderParagraphs(t.text)}
+                </div>
+            `).join('')}
+        </div>
+    ` : '';
     return `
         <div class="skill-tt-header">
             <span class="skill-tt-type type-${slug}">${type || 'Sort'}</span>
             <span class="skill-tt-name">${skill.name || 'Compétence'}</span>
             ${skill.cooldown ? `<span class="skill-tt-cd">⏱ ${skill.cooldown} tours</span>` : ''}
         </div>
-        <div class="skill-tt-desc">${injectEffectIcons(skill.description)}</div>
+        <div class="skill-tt-desc">${renderParagraphs(main)}</div>
         ${upgradesHtml}
+        ${unityHtml}
         ${damageHtml}
     `;
 }
@@ -360,6 +373,49 @@ function flattenSkillsByForm(skills, isMythic) {
     return { aura, form1, form2 };
 }
 
+// Certaines competences de chef de faction ("Unity") ont un bloc de bonus
+// supplementaire selon le nombre d'allies de la meme faction dans l'equipe,
+// mis en forme par Gestal comme :
+//   <description principale>
+//   ---
+//   {Nom de l'Unite}
+//   **1 Allie de faction :**
+//   <texte>
+//   **2 Allies de faction :**
+//   <texte>
+// On separe ce bloc du reste pour l'afficher distinctement.
+function parseSkillDescription(description) {
+    if (!description) return { main: '', unityTitle: null, unityTiers: [] };
+    const parts = description.split(/\n?---\n?/);
+    const main = parts[0] || '';
+    if (parts.length < 2) return { main, unityTitle: null, unityTiers: [] };
+
+    const rest = parts.slice(1).join('\n---\n');
+    const titleMatch = rest.match(/^\{([^}]+)\}\s*/);
+    const unityTitle = titleMatch ? titleMatch[1].trim() : null;
+    const tierSource = titleMatch ? rest.slice(titleMatch[0].length) : rest;
+
+    const unityTiers = [];
+    const tierRegex = /\*\*([^*]+?)\*\*\s*\n?([\s\S]*?)(?=\*\*[^*]+?\*\*|$)/g;
+    let m;
+    while ((m = tierRegex.exec(tierSource)) !== null) {
+        const label = m[1].trim();
+        const text = m[2].trim();
+        if (label) unityTiers.push({ label, text });
+    }
+
+    return { main, unityTitle, unityTiers };
+}
+
+function renderParagraphs(text) {
+    return (text || '')
+        .split(/\n\s*\n/)
+        .map(p => p.trim())
+        .filter(Boolean)
+        .map(p => `<p>${injectEffectIcons(p)}</p>`)
+        .join('');
+}
+
 function renderDetailSkill(skill) {
     const slug = typeSlug(skill.type);
     const upgradesHtml = skill.upgrades && skill.upgrades.length
@@ -368,6 +424,20 @@ function renderDetailSkill(skill) {
     const damageHtml = skill.damageBase
         ? `<div class="detail-skill-damage">Dégâts basés sur : <strong>${skill.damageBase}</strong></div>`
         : '';
+
+    const { main, unityTitle, unityTiers } = parseSkillDescription(skill.description);
+    const unityHtml = unityTitle ? `
+        <div class="detail-skill-unity">
+            <span class="detail-skill-unity-title">${unityTitle}</span>
+            ${unityTiers.map(t => `
+                <div class="detail-skill-unity-tier">
+                    <span class="detail-skill-unity-tier-label">${t.label}</span>
+                    ${renderParagraphs(t.text)}
+                </div>
+            `).join('')}
+        </div>
+    ` : '';
+
     return `
         <div class="detail-skill">
             <div class="detail-skill-icon">
@@ -379,9 +449,10 @@ function renderDetailSkill(skill) {
                     <span class="detail-skill-name">${skill.name || 'Compétence'}</span>
                     ${skill.cooldown ? `<span class="detail-skill-cd">⏱ ${skill.cooldown} tours</span>` : ''}
                 </div>
-                <div class="detail-skill-desc">${injectEffectIcons(skill.description)}</div>
+                <div class="detail-skill-desc">${renderParagraphs(main)}</div>
                 ${damageHtml}
                 ${upgradesHtml}
+                ${unityHtml}
             </div>
         </div>
     `;
