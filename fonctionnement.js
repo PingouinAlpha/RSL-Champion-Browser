@@ -312,6 +312,10 @@ function getFactionIconPath(faction) {
     return faction ? `faction_icons/${faction}.png` : null;
 }
 
+function getChampionRenderPath(championName) {
+    return `champion_renders/${sanitizeFilename(championName)}.jpg`;
+}
+
 function findChampionByName(name) {
     return champions.find(c => c.name === name);
 }
@@ -400,6 +404,7 @@ function openChampionDetail(name) {
     if (!champ) return;
     const overlay = document.getElementById('championDetailOverlay');
     const imagePath = getChampionImagePath(champ.name);
+    const renderPath = getChampionRenderPath(champ.name);
     const factionColor = FACTION_COLORS[champ.faction] || '#888';
     const rarityGradient = RARITY_COLORS[champ.rarity] || 'linear-gradient(135deg, #888 0%, #aaa 100%)';
     const factionIcon = getFactionIconPath(champ.faction);
@@ -425,6 +430,7 @@ function openChampionDetail(name) {
             <button class="detail-close" onclick="closeChampionDetail()">&times;</button>
             <div class="detail-hero" style="background: linear-gradient(135deg, ${factionColor}40 0%, rgba(10,14,39,0.85) 55%);">
                 <div class="detail-hero-bg" style="background-image: url('${imagePath}');"></div>
+                <img class="detail-hero-render" src="${renderPath}" alt="" onerror="this.style.display='none';">
                 <div class="detail-hero-content">
                     <div class="detail-portrait-frame" style="border-image: ${rarityGradient} 1;">
                         <img src="${imagePath}" alt="${champ.name}" class="detail-portrait" onerror="this.style.display='none';">

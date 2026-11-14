@@ -518,7 +518,7 @@ h1 {
     position: relative;
     overflow: hidden;
     padding: 48px 40px 36px 40px;
-    min-height: 280px;
+    height: 340px;
 }
 
 .detail-hero-bg {
@@ -533,10 +533,24 @@ h1 {
 
 .detail-hero-content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: flex-start;
     gap: 32px;
+}
+
+.detail-hero-render {
+    position: absolute;
+    z-index: 1;
+    right: 70px;
+    bottom: 0;
+    height: 270px;
+    width: auto;
+    aspect-ratio: 400 / 885;
+    object-fit: contain;
+    object-position: bottom;
+    pointer-events: none;
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.5));
 }
 
 .detail-portrait-frame {
@@ -817,6 +831,10 @@ h1 {
     }
     .detail-hero {
         padding: 36px 20px 24px 20px;
+        height: auto;
+    }
+    .detail-hero-render {
+        display: none;
     }
     .detail-identity {
         align-items: center;
